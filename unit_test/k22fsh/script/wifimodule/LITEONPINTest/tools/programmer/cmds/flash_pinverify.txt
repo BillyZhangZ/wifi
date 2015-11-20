@@ -1,0 +1,7 @@
+unlock Kinetis
+r
+h
+erase
+loadbin tools\firmware\test_wifimodule_k22fsh.bin 0x0
+q
+

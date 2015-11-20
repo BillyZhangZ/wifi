@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\demo\aj\allseen\services\sample_apps\tcl\ACServerSample\build\iar\ACServerSample_twrk22_qca4002\ACServerSample_twrk22_qca4002.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\demo\aj\allseen\services\sample_apps\tcl\ServerSample\build\iar\ServerSample_twrk22_qca4002\ServerSample_twrk22_qca4002.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

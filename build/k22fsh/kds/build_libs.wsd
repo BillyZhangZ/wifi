@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="workingsets.xsd">
+  <projects>
+    <project>
+      <name>bsp_k22fsh</name>
+      <path>..\..\..\mqx\build\kds\bsp_k22fsh</path>
+      <open>true</open>
+      <activeconfig>Debug</activeconfig>
+      <buildreferences config="Debug">false</buildreferences>
+      <buildreferences config="Release">false</buildreferences>
+    </project>
+    <project>
+      <name>mfs_k22fsh</name>
+      <path>..\..\..\mfs\build\kds\mfs_k22fsh</path>
+      <open>true</open>
+      <activeconfig>Debug</activeconfig>
+      <buildreferences config="Debug">false</buildreferences>
+      <buildreferences config="Release">false</buildreferences>
+    </project>
+    <project>
+      <name>mux_k22fsh</name>
+      <path>..\..\..\mux\build\kds\mux_k22fsh</path>
+      <open>true</open>
+      <activeconfig>Debug</activeconfig>
+      <buildreferences config="Debug">false</buildreferences>
+      <buildreferences config="Release">false</buildreferences>
+    </project>
+    <project>
+      <name>psp_k22fsh</name>
+      <path>..\..\..\mqx\build\kds\psp_k22fsh</path>
+      <open>true</open>
+      <activeconfig>Debug</activeconfig>
+      <buildreferences config="Debug">false</buildreferences>
+      <buildreferences config="Release">false</buildreferences>
+    </project>
+    <project>
+      <name>shell_k22fsh</name>
+      <path>..\..\..\shell\build\kds\shell_k22fsh</path>
+      <open>true</open>
+      <activeconfig>Debug</activeconfig>
+      <buildreferences config="Debug">false</buildreferences>
+      <buildreferences config="Release">false</buildreferences>
+    </project>
+  </projects>
+  <workingsets>
+    <workingSet editPageId="org.eclipse.cdt.ui.CElementWorkingSetPage" id="1417153823654_1" label="build_libs" name="build_libs"> 
+      <item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/bsp_k22fsh" type="4"/>  
+      <item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/psp_k22fsh" type="4"/>  
+      <item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/mfs_k22fsh" type="4"/>  
+      <item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/mux_k22fsh" type="4"/>  
+      <item factoryID="org.eclipse.cdt.ui.PersistableCElementFactory" path="/shell_k22fsh" type="4"/> 
+    </workingSet>
+  </workingsets>
+  <cdtconfigurations/>
+</workspace>

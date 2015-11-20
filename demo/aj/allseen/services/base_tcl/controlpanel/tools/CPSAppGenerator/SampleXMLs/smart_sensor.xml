@@ -1,0 +1,277 @@
+<?xml version="1.0"?>
+   <!--
+
+        Copyright (c) 2013, AllSeen Alliance. All rights reserved.
+
+           Permission to use, copy, modify, and/or distribute this software for any
+           purpose with or without fee is hereby granted, provided that the above
+           copyright notice and this permission notice appear in all copies.
+
+           THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+           WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+           MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+           ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+           WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+           ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+           OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+  -->
+<controlPanelDevice xmlns="http://www.alljoyn.org/controlpanel/gen">
+    <name>MyDevice</name>
+    <headerCode>#include "ControlPanelProvided.h"</headerCode>
+    <languageSet name="myLanguages">
+        <language>en</language>     
+    </languageSet>
+    <controlPanels>
+        <controlPanel languageSet="myLanguages">
+            <rootContainer>
+      		      <name>rootContainer</name>
+                <secured>true</secured>
+                <enabled>true</enabled>
+                <bgcolor>0x1e90ff</bgcolor>
+                <hints>
+                    <hint>vertical_linear</hint>
+                    <hint>horizontal_linear</hint>
+                </hints>
+                <elements>
+                	<!--
+                    <container>
+						            <name>controlsPlugContainer</name>
+						            <secured>false</secured>
+						            <enabled>true</enabled>
+						            <bgcolor>0x200</bgcolor>
+						            <hints>
+							              <hint>horizontal_linear</hint>
+						            </hints>
+						            <elements>
+							              <scalarProperty dataType="UINT16">
+								                <name>plugMode</name>
+								                <getCode>getCurrentPlugMode</getCode>
+								                <setCode>setCurrentPlugMode(%s)</setCode>
+								                <secured>false</secured>
+								                <enabled>true</enabled>
+								                <writable>true</writable>
+								                <label>
+									              <value type="literal" language="en">Plug Mode</value>
+								                </label>
+								                <bgcolor>0xffd700</bgcolor>
+								                <hints>
+									              <hint>spinner</hint>
+							                 	</hints>
+								                <constraintDefs>
+									                  <constraintVals>
+										                    <constraint>
+											                      <display>
+												                        <value type="literal" language="en">OFF</value>
+											                      </display>
+											                      <value>0</value>
+										                    </constraint>
+										                    <constraint>
+											                      <display>
+												                        <value type="literal" language="en">ON</value>
+											                      </display>
+											                      <value>1</value>
+										                    </constraint>															
+									                  </constraintVals>
+								                </constraintDefs>							
+							              </scalarProperty>																		
+							              <stringProperty>
+							                  <name>plugstatusStringProperty</name>
+							                      <getCode>getPlugStatusString</getCode>
+							                      <setCode>setPlugStatusString(%s)</setCode>
+							                      <secured>false</secured>
+							                      <enabled>true</enabled>
+							                      <writable>false</writable>
+							                      <label>
+								                        <value type="literal" language="en">Status: </value>
+							                      </label>
+							                      <bgcolor>0x500</bgcolor>
+							                      <hints>
+								                    <hint>textview</hint>
+							                      </hints>
+							              </stringProperty> 																					
+						            </elements>
+					          </container>
+					          <container>
+						            <name>controlsContainer</name>
+						            <secured>false</secured>
+						            <enabled>true</enabled>
+						            <bgcolor>0x200</bgcolor>
+						            <hints>
+							              <hint>horizontal_linear</hint>
+						            </hints>
+						            <elements>
+							              <scalarProperty dataType="UINT16">
+								                <name>plugSavePowerMode</name>
+								                <getCode>getCurrentPowerSaveMode</getCode>
+								                <setCode>setCurrentPowerSaveMode(%s)</setCode>
+								                <secured>false</secured>
+								                <enabled>true</enabled>
+								                <writable>true</writable>
+								                <label>
+									              <value type="literal" language="en">Save Mode</value>
+								                </label>
+								                <bgcolor>0xffd700</bgcolor>
+								                <hints>
+									              <hint>spinner</hint>
+							                 	</hints>
+								                <constraintDefs>
+									                  <constraintVals>
+										                    <constraint>
+											                      <display>
+												                        <value type="literal" language="en">OFF</value>
+											                      </display>
+											                      <value>0</value>
+										                    </constraint>
+										                    <constraint>
+											                      <display>
+												                        <value type="literal" language="en">Auto</value>
+											                      </display>
+											                      <value>1</value>
+										                    </constraint>															
+									                  </constraintVals>
+								                </constraintDefs>							
+							              </scalarProperty>																		
+							              <stringProperty>
+							                  <name>powerSaveStatusStringProperty</name>
+							                      <getCode>getPowerSaveStatusString</getCode>
+							                      <setCode>setPowerSaveStatusString(%s)</setCode>
+							                      <secured>false</secured>
+							                      <enabled>true</enabled>
+							                      <writable>false</writable>
+							                      <label>
+								                        <value type="literal" language="en">Status: </value>
+							                      </label>
+							                      <bgcolor>0x500</bgcolor>
+							                      <hints>
+								                    <hint>textview</hint>
+							                      </hints>
+							              </stringProperty> 																					
+						            </elements>
+					          </container>
+					          -->
+					          <container>
+                        <name>SensorInfoContainer</name>
+                        <secured>false</secured>
+                        <enabled>true</enabled>
+                        <bgcolor>0x200</bgcolor>
+                        <hints>
+                            <hint>vertical_linear</hint>
+                        </hints>
+                        <elements>
+                            <stringProperty>
+                               <name>CurrentTemperatureProperty</name>
+                               <getCode>getCurrentTemperatureString</getCode>
+                               <setCode>setCurrentTemperatureString(%s)</setCode>
+                               <secured>false</secured>
+                               <enabled>true</enabled>
+                               <writable>false</writable>
+                               <label>
+                                  <value type="literal" language="en">1: Temperature: </value>
+                               </label>
+                               <bgcolor>0x500</bgcolor>
+                               <hints>
+                                  <hint>textview</hint>
+                               </hints>
+                            </stringProperty>
+                            <stringProperty>
+                               <name>CurrentHumidityProperty</name>
+                               <getCode>getCurrentHumidityString</getCode>
+                               <setCode>setCurrentHumidityString(%s)</setCode>
+                               <secured>false</secured>
+                               <enabled>true</enabled>
+                               <writable>false</writable>
+                               <label>
+                                  <value type="literal" language="en">2: Humidity: </value>
+                               </label>
+                               <bgcolor>0x500</bgcolor>
+                               <hints>
+                                  <hint>textview</hint>
+                               </hints>
+                            </stringProperty>
+                            <stringProperty>
+                               <name>CurrentPM2_5Property</name>
+                               <getCode>getCurrentPM2_5String</getCode>
+                               <setCode>setCurrentPM2_5String(%s)</setCode>
+                               <secured>false</secured>
+                               <enabled>true</enabled>
+                               <writable>false</writable>
+                               <label>
+                                  <value type="literal" language="en">3: PM2.5: </value>
+                               </label>
+                               <bgcolor>0x500</bgcolor>
+                               <hints>
+                                  <hint>textview</hint>
+                               </hints>
+                            </stringProperty>
+                            <!--
+                            <stringProperty>
+                               <name>CurrentAccelerationProperty</name>
+                               <getCode>getCurrentAccelerationString</getCode>
+                               <setCode>setCurrentAccelerationString(%s)</setCode>
+                               <secured>false</secured>
+                               <enabled>true</enabled>
+                               <writable>false</writable>
+                               <label>
+                                  <value type="literal" language="en">4: Acceleration: </value>
+                               </label>
+                               <bgcolor>0x500</bgcolor>
+                               <hints>
+                                  <hint>textview</hint>
+                               </hints>
+                            </stringProperty>
+                            <stringProperty>
+                               <name>CurrentRotationProperty</name>
+                               <getCode>getCurrentRotationString</getCode>
+                               <setCode>setCurrentRotationString(%s)</setCode>
+                               <secured>false</secured>
+                               <enabled>true</enabled>
+                               <writable>false</writable>
+                               <label>
+                                  <value type="literal" language="en">5: Rotation: </value>
+                               </label>
+                               <bgcolor>0x500</bgcolor>
+                               <hints>
+                                  <hint>textview</hint>
+                               </hints>
+                            </stringProperty>
+                            <stringProperty>
+                               <name>CurrentMagneticProperty</name>
+                               <getCode>getCurrentMagneticString</getCode>
+                               <setCode>setCurrentMagneticString(%s)</setCode>
+                               <secured>false</secured>
+                               <enabled>true</enabled>
+                               <writable>false</writable>
+                               <label>
+                                  <value type="literal" language="en">6: Magnetic: </value>
+                               </label>
+                               <bgcolor>0x500</bgcolor>
+                               <hints>
+                                  <hint>textview</hint>
+                               </hints>
+                            </stringProperty>
+                            -->
+                        </elements>
+                    </container>
+                    <!--
+                    <action>
+                        <name>plugAction</name>
+                        <onAction>
+                            <executeCode>AJ_InfoPrintf(("Starting the Oven. Execute was called\n"));</executeCode>
+                        </onAction>
+                        <secured>true</secured>
+                        <enabled>true</enabled>
+                        <label>
+                            <value type="literal" language="en">Get Power</value>
+                        </label>
+                        <bgcolor>0x400</bgcolor>
+                        <hints>
+                            <hint>actionButton</hint>
+                        </hints>
+                    </action>  
+                    -->                                                            
+      		      </elements>
+            </rootContainer>
+        </controlPanel>
+    </controlPanels>
+</controlPanelDevice>

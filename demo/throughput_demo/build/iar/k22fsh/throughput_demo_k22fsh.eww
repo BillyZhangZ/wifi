@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\throughput_demo_k22fsh.ewp</path>
+  </project>
+   <project>
+    <path>$WS_DIR$\..\..\..\..\..\mqx\build\iar\bsp_k22fsh\bsp_k22fsh.ewp</path>
+  </project>
+    <project>
+    <path>$WS_DIR$\..\..\..\..\..\mqx\build\iar\psp_k22fsh\psp_k22fsh.ewp</path>
+  </project>
+    <project>
+    <path>$WS_DIR$\..\..\..\..\..\mux\build\iar\mux_k22fsh\mux_k22fsh.ewp</path>
+  </project>
+    <project>
+    <path>$WS_DIR$\..\..\..\..\..\rtcs\build\iar\rtcs_k22fsh\rtcs_k22fsh.ewp</path>
+  </project>
+    <project>
+    <path>$WS_DIR$\..\..\..\..\..\shell\build\iar\shell_k22fsh\shell_k22fsh.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

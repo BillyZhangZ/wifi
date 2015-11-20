@@ -1,0 +1,213 @@
+/******************************************************************************
+ * Copyright (c) 2013 - 2014, AllSeen Alliance. All rights reserved.
+ *
+ *    Permission to use, copy, modify, and/or distribute this software for any
+ *    purpose with or without fee is hereby granted, provided that the above
+ *    copyright notice and this permission notice appear in all copies.
+ *
+ *    THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ *    WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ *    MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ *    ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ *    WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ *    ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ *    OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+ ******************************************************************************/
+
+#ifndef CONTROL_GENERATED_H_
+#define CONTROL_GENERATED_H_
+
+#include <alljoyn.h>
+#include <alljoyn/controlpanel/Widgets/ActionWidget.h>
+#include <alljoyn/controlpanel/Widgets/PropertyWidget.h>
+#include <alljoyn/controlpanel/Widgets/ContainerWidget.h>
+#include <alljoyn/controlpanel/Widgets/LabelWidget.h>
+#include <alljoyn/controlpanel/Widgets/DialogWidget.h>
+#include <alljoyn/controlpanel/Common/HttpControl.h>
+#include <alljoyn/services_common/ServicesCommon.h>
+
+/**
+ * Defines and objectPaths
+ */
+
+#define GET_WIDGET_VALUE_CASES \
+case EN_MYDEVICE_ROOTCONTAINER_GET_VALUE: \
+case EN_MYDEVICE_SENSORINFOCONTAINER_GET_VALUE: \
+case EN_MYDEVICE_CURRENTTEMPERATUREPROPERTY_GET_VALUE: \
+case EN_MYDEVICE_CURRENTHUMIDITYPROPERTY_GET_VALUE: \
+case EN_MYDEVICE_CURRENTPM2_5PROPERTY_GET_VALUE: \
+
+
+#define GET_WIDGET_ALL_VALUE_CASES \
+case EN_MYDEVICE_ROOTCONTAINER_GET_ALL_VALUES: \
+case EN_MYDEVICE_SENSORINFOCONTAINER_GET_ALL_VALUES: \
+case EN_MYDEVICE_CURRENTTEMPERATUREPROPERTY_GET_ALL_VALUES: \
+case EN_MYDEVICE_CURRENTHUMIDITYPROPERTY_GET_ALL_VALUES: \
+case EN_MYDEVICE_CURRENTPM2_5PROPERTY_GET_ALL_VALUES: \
+
+
+#define GET_ROOT_VALUE_CASES \
+case MYDEVICE_ROOT_CONTROLPANEL_ROOTCONTAINER_GET_VALUE: \
+
+
+#define GET_ROOT_ALL_VALUE_CASES \
+case MYDEVICE_ROOT_CONTROLPANEL_ROOTCONTAINER_GET_ALL_VALUES: \
+
+
+#define SET_VALUE_CASES \
+case MYDEVICE_ROOT_CONTROLPANEL_ROOTCONTAINER_SET_VALUE: \
+case EN_MYDEVICE_ROOTCONTAINER_SET_VALUE: \
+case EN_MYDEVICE_SENSORINFOCONTAINER_SET_VALUE: \
+case EN_MYDEVICE_CURRENTTEMPERATUREPROPERTY_SET_VALUE: \
+case EN_MYDEVICE_CURRENTHUMIDITYPROPERTY_SET_VALUE: \
+case EN_MYDEVICE_CURRENTPM2_5PROPERTY_SET_VALUE: \
+
+
+#define ACTION_CASES \
+
+
+#define GET_URL_CASES \
+
+
+#define AJCPS_CONTROLLEE_GENERATED_OBJECTS \
+    {  MyDeviceRootContainerObjectPath, ControlPanelInterfaces, AJ_OBJ_FLAG_HIDDEN | AJ_OBJ_FLAG_DISABLED | AJ_OBJ_FLAG_ANNOUNCED  }, \
+    {  enMyDeviceRootContainerObjectPath, SecuredContainerInterfaces  }, \
+    {  enMyDeviceSensorInfoContainerObjectPath, ContainerInterfaces  }, \
+    {  enMyDeviceCurrentTemperaturePropertyObjectPath, PropertyInterfaces  }, \
+    {  enMyDeviceCurrentHumidityPropertyObjectPath, PropertyInterfaces  }, \
+    {  enMyDeviceCurrentPM2_5PropertyObjectPath, PropertyInterfaces  }, \
+
+
+#define AJCPS_CONTROLLEE_GENERATED_OBJECTS_COUNT               6
+
+#define MAX_NUM_LANGUAGES                                      1
+
+#define MYDEVICE_MYLANGUAGES_EN 0
+
+#define MYDEVICE_ROOT_CONTROLPANEL_ROOTCONTAINER_GET_VALUE                  AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 0, 0, AJ_PROP_GET)
+#define MYDEVICE_ROOT_CONTROLPANEL_ROOTCONTAINER_SET_VALUE                  AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 0, 0, AJ_PROP_SET)
+#define MYDEVICE_ROOT_CONTROLPANEL_ROOTCONTAINER_GET_ALL_VALUES             AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 0, 0, AJ_PROP_GET_ALL)
+#define MYDEVICE_ROOT_CONTROLPANEL_ROOTCONTAINER_VERSION_PROPERTY           AJ_ENCODE_PROPERTY_ID(AJCPS_OBJECT_LIST_INDEX, 0, 1, 0)
+
+#define EN_MYDEVICE_ROOTCONTAINER_GET_VALUE                  AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 1, 0, AJ_PROP_GET)
+#define EN_MYDEVICE_ROOTCONTAINER_SET_VALUE                  AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 1, 0, AJ_PROP_SET)
+#define EN_MYDEVICE_ROOTCONTAINER_GET_ALL_VALUES             AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 1, 0, AJ_PROP_GET_ALL)
+#define EN_MYDEVICE_ROOTCONTAINER_VERSION_PROPERTY           AJ_ENCODE_PROPERTY_ID(AJCPS_OBJECT_LIST_INDEX, 1, 1, 0)
+#define EN_MYDEVICE_ROOTCONTAINER_STATES_PROPERTY            AJ_ENCODE_PROPERTY_ID(AJCPS_OBJECT_LIST_INDEX, 1, 1, 1)
+#define EN_MYDEVICE_ROOTCONTAINER_OPTPARAMS_PROPERTY         AJ_ENCODE_PROPERTY_ID(AJCPS_OBJECT_LIST_INDEX, 1, 1, 2)
+#define EN_MYDEVICE_ROOTCONTAINER_SIGNAL_PROPERTIES_CHANGED  AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 1, 1, 3)
+
+#define EN_MYDEVICE_SENSORINFOCONTAINER_GET_VALUE                  AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 2, 0, AJ_PROP_GET)
+#define EN_MYDEVICE_SENSORINFOCONTAINER_SET_VALUE                  AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 2, 0, AJ_PROP_SET)
+#define EN_MYDEVICE_SENSORINFOCONTAINER_GET_ALL_VALUES             AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 2, 0, AJ_PROP_GET_ALL)
+#define EN_MYDEVICE_SENSORINFOCONTAINER_VERSION_PROPERTY           AJ_ENCODE_PROPERTY_ID(AJCPS_OBJECT_LIST_INDEX, 2, 1, 0)
+#define EN_MYDEVICE_SENSORINFOCONTAINER_STATES_PROPERTY            AJ_ENCODE_PROPERTY_ID(AJCPS_OBJECT_LIST_INDEX, 2, 1, 1)
+#define EN_MYDEVICE_SENSORINFOCONTAINER_OPTPARAMS_PROPERTY         AJ_ENCODE_PROPERTY_ID(AJCPS_OBJECT_LIST_INDEX, 2, 1, 2)
+#define EN_MYDEVICE_SENSORINFOCONTAINER_SIGNAL_PROPERTIES_CHANGED  AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 2, 1, 3)
+
+#define EN_MYDEVICE_CURRENTTEMPERATUREPROPERTY_GET_VALUE                  AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 3, 0, AJ_PROP_GET)
+#define EN_MYDEVICE_CURRENTTEMPERATUREPROPERTY_SET_VALUE                  AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 3, 0, AJ_PROP_SET)
+#define EN_MYDEVICE_CURRENTTEMPERATUREPROPERTY_GET_ALL_VALUES             AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 3, 0, AJ_PROP_GET_ALL)
+#define EN_MYDEVICE_CURRENTTEMPERATUREPROPERTY_VERSION_PROPERTY           AJ_ENCODE_PROPERTY_ID(AJCPS_OBJECT_LIST_INDEX, 3, 1, 0)
+#define EN_MYDEVICE_CURRENTTEMPERATUREPROPERTY_STATES_PROPERTY            AJ_ENCODE_PROPERTY_ID(AJCPS_OBJECT_LIST_INDEX, 3, 1, 1)
+#define EN_MYDEVICE_CURRENTTEMPERATUREPROPERTY_OPTPARAMS_PROPERTY         AJ_ENCODE_PROPERTY_ID(AJCPS_OBJECT_LIST_INDEX, 3, 1, 2)
+#define EN_MYDEVICE_CURRENTTEMPERATUREPROPERTY_SIGNAL_PROPERTIES_CHANGED  AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 3, 1, 3)
+#define EN_MYDEVICE_CURRENTTEMPERATUREPROPERTY_VALUE_PROPERTY             AJ_ENCODE_PROPERTY_ID(AJCPS_OBJECT_LIST_INDEX, 3, 1, 4)
+#define EN_MYDEVICE_CURRENTTEMPERATUREPROPERTY_SIGNAL_VALUE_CHANGED       AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 3, 1, 5)
+
+#define EN_MYDEVICE_CURRENTHUMIDITYPROPERTY_GET_VALUE                  AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 4, 0, AJ_PROP_GET)
+#define EN_MYDEVICE_CURRENTHUMIDITYPROPERTY_SET_VALUE                  AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 4, 0, AJ_PROP_SET)
+#define EN_MYDEVICE_CURRENTHUMIDITYPROPERTY_GET_ALL_VALUES             AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 4, 0, AJ_PROP_GET_ALL)
+#define EN_MYDEVICE_CURRENTHUMIDITYPROPERTY_VERSION_PROPERTY           AJ_ENCODE_PROPERTY_ID(AJCPS_OBJECT_LIST_INDEX, 4, 1, 0)
+#define EN_MYDEVICE_CURRENTHUMIDITYPROPERTY_STATES_PROPERTY            AJ_ENCODE_PROPERTY_ID(AJCPS_OBJECT_LIST_INDEX, 4, 1, 1)
+#define EN_MYDEVICE_CURRENTHUMIDITYPROPERTY_OPTPARAMS_PROPERTY         AJ_ENCODE_PROPERTY_ID(AJCPS_OBJECT_LIST_INDEX, 4, 1, 2)
+#define EN_MYDEVICE_CURRENTHUMIDITYPROPERTY_SIGNAL_PROPERTIES_CHANGED  AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 4, 1, 3)
+#define EN_MYDEVICE_CURRENTHUMIDITYPROPERTY_VALUE_PROPERTY             AJ_ENCODE_PROPERTY_ID(AJCPS_OBJECT_LIST_INDEX, 4, 1, 4)
+#define EN_MYDEVICE_CURRENTHUMIDITYPROPERTY_SIGNAL_VALUE_CHANGED       AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 4, 1, 5)
+
+#define EN_MYDEVICE_CURRENTPM2_5PROPERTY_GET_VALUE                  AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 5, 0, AJ_PROP_GET)
+#define EN_MYDEVICE_CURRENTPM2_5PROPERTY_SET_VALUE                  AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 5, 0, AJ_PROP_SET)
+#define EN_MYDEVICE_CURRENTPM2_5PROPERTY_GET_ALL_VALUES             AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 5, 0, AJ_PROP_GET_ALL)
+#define EN_MYDEVICE_CURRENTPM2_5PROPERTY_VERSION_PROPERTY           AJ_ENCODE_PROPERTY_ID(AJCPS_OBJECT_LIST_INDEX, 5, 1, 0)
+#define EN_MYDEVICE_CURRENTPM2_5PROPERTY_STATES_PROPERTY            AJ_ENCODE_PROPERTY_ID(AJCPS_OBJECT_LIST_INDEX, 5, 1, 1)
+#define EN_MYDEVICE_CURRENTPM2_5PROPERTY_OPTPARAMS_PROPERTY         AJ_ENCODE_PROPERTY_ID(AJCPS_OBJECT_LIST_INDEX, 5, 1, 2)
+#define EN_MYDEVICE_CURRENTPM2_5PROPERTY_SIGNAL_PROPERTIES_CHANGED  AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 5, 1, 3)
+#define EN_MYDEVICE_CURRENTPM2_5PROPERTY_VALUE_PROPERTY             AJ_ENCODE_PROPERTY_ID(AJCPS_OBJECT_LIST_INDEX, 5, 1, 4)
+#define EN_MYDEVICE_CURRENTPM2_5PROPERTY_SIGNAL_VALUE_CHANGED       AJ_ENCODE_MESSAGE_ID(AJCPS_OBJECT_LIST_INDEX, 5, 1, 5)
+
+
+
+extern const char MyDeviceRootContainerObjectPath[];
+extern const char enMyDeviceRootContainerObjectPath[];
+extern const char enMyDeviceSensorInfoContainerObjectPath[];
+extern const char enMyDeviceCurrentTemperaturePropertyObjectPath[];
+extern const char enMyDeviceCurrentHumidityPropertyObjectPath[];
+extern const char enMyDeviceCurrentPM2_5PropertyObjectPath[];
+
+
+extern ContainerWidget MyDeviceRootContainer;
+extern ContainerWidget MyDeviceSensorInfoContainer;
+extern PropertyWidget MyDeviceCurrentTemperatureProperty;
+extern PropertyWidget MyDeviceCurrentHumidityProperty;
+extern PropertyWidget MyDeviceCurrentPM2_5Property;
+
+
+typedef struct {
+    const char* sender;
+    uint16_t numSignals;
+    int32_t signals[MAX_NUM_LANGUAGES];
+} SetValueContext;
+
+typedef struct {
+    uint8_t signalType;
+    int32_t signalId;
+} Signal;
+
+typedef struct {
+    uint16_t numSignals;
+    Signal signals[MAX_NUM_LANGUAGES * 2];
+} ExecuteActionContext;
+/**
+ *
+ * @return
+ */
+void WidgetsInit();
+
+/**
+ * Set Value of a property.
+ * @param replyMsg - reply message
+ * @param propId - id of property being changed
+ * @param context - setvaluecontext. can be used to send signals
+ * @return status
+ */
+AJ_Status SetValueProperty(AJ_Message* replyMsg, uint32_t propId, void* context);
+
+/**
+ * Execute Action
+ * @param msg - the msg for the response
+ * @param msgId - the Action being executed
+ * @param context - ExecuteActionContext used to send signals as a result of action
+ * @return status
+ */
+AJ_Status ExecuteAction(AJ_Message* msg, uint32_t msgId, ExecuteActionContext* context);
+
+
+/* Defines and functions for Tester App */
+typedef struct {
+    uint32_t msgId;
+    uint16_t numParams;
+    uint16_t param[3];
+} CPSTest;
+
+#define NUMBER_OF_TESTS //NUM_TESTS_GO_HERE
+
+#define ALL_REPLY_CASES                //ALL_REPLIES_GO_HERE
+
+void TestsInit(CPSTest* testsToRun);
+
+void* IdentifyMsgOrPropId(uint32_t identifier, uint16_t* widgetType, uint16_t* propType, uint16_t* language);
+void* IdentifyMsgOrPropIdForSignal(uint32_t identifier, uint8_t* isProperty);
+uint8_t IdentifyRootMsgOrPropId(uint32_t identifier);
+AJSVC_ServiceStatus GeneratedMessageProcessor(AJ_BusAttachment* bus, AJ_Message* msg, AJ_Status* msgStatus);
+
+#endif /* CONTROL_GENERATED_H_ */

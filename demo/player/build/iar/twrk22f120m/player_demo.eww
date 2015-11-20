@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\player_demo.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\..\shell\build\iar\shell_twrk22f120m\shell_twrk22f120m.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\..\mqx\build\iar\psp_twrk22f120m\psp_twrk22f120m.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\..\mqx\build\iar\bsp_twrk22f120m\bsp_twrk22f120m.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\..\mfs\build\iar\mfs_twrk22f120m\mfs_twrk22f120m.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\..\msi\build\iar\twrk22f120m\msi_twrk22f120m.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\..\player\build\iar\twrk22f120m\player_twrk22f120m.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\..\usb\host\build\iar\twrk22f120m\usb_twrk22f120m.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\..\audio\build\iar\audio_twrk22f120m\audio_twrk22f120m.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

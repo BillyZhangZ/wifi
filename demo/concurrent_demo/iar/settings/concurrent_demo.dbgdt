@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1861</ColumnWidth1></Debug-Log>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1395</ColumnWidth1><ColumnWidth2>372</ColumnWidth2><ColumnWidth3>93</ColumnWidth3></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>150</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory/>
+        
+        
+      <ShowCodeCoverage>1</ShowCodeCoverage><ShowInstrProfiling>1</ShowInstrProfiling></Disassembly>
+    </Static>
+    <Windows>
+      
+      
+      
+    <Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-20913-16024</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-31138-16037</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3><Wnd4>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-9642-16030</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>config_tool</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd4><Wnd5>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-20390-16033</Identity>
+            <TabName>Disassembly</TabName>
+            <Factory>Disassembly</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd5></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\mqx\source\io\enet\atheros_wifi\custom_src\api_interface\cust_api_ioctl.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>1315</YPos2><SelStart2>47607</SelStart2><SelEnd2>47636</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\mqx\source\io\enet\atheros_wifi\custom_src\api_interface\cust_api_wmi_rx.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>68</YPos2><SelStart2>3657</SelStart2><SelEnd2>3657</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\mqx\source\io\enet\enet_wifi.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>1134</SelStart2><SelEnd2>1134</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\mqx\source\bsp\twrk21d50m\mqx_main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>1427</SelStart2><SelEnd2>1427</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\mqx\source\bsp\twrk21d50m\bsp_cm.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>910</YPos2><SelStart2>40721</SelStart2><SelEnd2>40721</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\demo\config_tool\sensor\tmp106.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>591</YPos2><SelStart2>16058</SelStart2><SelEnd2>16058</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\Users\yanhuig\Perforce\yanhuig_mqx4\MQX_4.0\mqx\source\bsp\twrk21d50m\mqx_main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>27</YPos2><SelStart2>1661</SelStart2><SelEnd2>1661</SelEnd2></Tab><ActiveTab>6</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00f40e38><key>iaridepm.enu1</key></Toolbar-00f40e38></Sizes></Row0><Row1><Sizes><Toolbar-0baf8a58><key>debuggergui.enu1</key></Toolbar-0baf8a58></Sizes></Row1><Row2><Sizes><Toolbar-1e96d8b8><key>armjlink.enu1</key></Toolbar-1e96d8b8></Sizes></Row2></Top><Left><Row0><Sizes><Wnd4><Rect><Top>-2</Top><Left>-2</Left><Bottom>540</Bottom><Right>224</Right><x>-2</x><y>-2</y><xscreen>153</xscreen><yscreen>148</yscreen><sizeHorzCX>95625</sizeHorzCX><sizeHorzCY>180929</sizeHorzCY><sizeVertCX>141250</sizeVertCX><sizeVertCY>662592</sizeVertCY></Rect></Wnd4></Sizes></Row0></Left><Right><Row0><Sizes><Wnd5><Rect><Top>-2</Top><Left>-2</Left><Bottom>540</Bottom><Right>151</Right><x>-2</x><y>-2</y><xscreen>153</xscreen><yscreen>148</yscreen><sizeHorzCX>95625</sizeHorzCX><sizeHorzCY>180929</sizeHorzCY><sizeVertCX>95625</sizeVertCX><sizeVertCY>662592</sizeVertCY></Rect></Wnd5></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>185</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>187</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>228606</sizeHorzCY><sizeVertCX>95625</sizeVertCX><sizeVertCY>180929</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

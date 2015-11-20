@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\mqx\build\iar\bsp_twrk22_qca4002\bsp_twrk22_qca4002.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\demo\flash_config\build\iar\flash_config_twrk22_qca4002\flash_config_twrk22_qca4002.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\mfs\build\iar\mfs_twrk22_qca4002\mfs_twrk22_qca4002.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\mqx\build\iar\psp_twrk22_qca4002\psp_twrk22_qca4002.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\rtcs\build\iar\rtc_twrk22_qca4002\rtcs_twrk22_qca4002.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\shell\build\iar\shell_twrk22_qca4002\shell_twrk22_qca4002.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\demo\throughput_demo\build\iar\throughput_twrk22_qca4002\throughput_twrk22_qca4002.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\demo\utf_agent\build\iar\utf_agent_twrk22_qca4002\utf_agent_twrk22_qca4002.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+    
+    
+  <CurrentConfigs><Project>throughput_demo_k22fsh/Int Flash SramData Debug</Project><Project>bsp_k22fsh/Debug</Project><Project>psp_k22fsh/Debug</Project><Project>mux_k22fsh/Debug</Project><Project>rtcs_k22fsh/Debug</Project><Project>shell_k22fsh/Debug</Project></CurrentConfigs><CurrentProj>throughput_demo_k22fsh</CurrentProj><OverviewSelected>1</OverviewSelected></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>153</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>720</ColumnWidth1><ColumnWidth2>192</ColumnWidth2><ColumnWidth3>48</ColumnWidth3></Build>
+      <TerminalIO/>
+      <Find-in-Files>
+        
+        
+        
+        
+      <ColumnWidth0>300</ColumnWidth0><ColumnWidth1>50</ColumnWidth1><ColumnWidth2>450</ColumnWidth2><ColumnWidth3>200</ColumnWidth3></Find-in-Files>
+    <Debug-Log><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1381</ColumnWidth1></Debug-Log><Select-Ambiguous-Definitions><ColumnWidth0>358</ColumnWidth0><ColumnWidth1>51</ColumnWidth1><ColumnWidth2>615</ColumnWidth2></Select-Ambiguous-Definitions><Find-All-References><ColumnWidth0>364</ColumnWidth0><ColumnWidth1>52</ColumnWidth1><ColumnWidth2>625</ColumnWidth2></Find-All-References></Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-19805-24361</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>&lt;ws&gt;/throughput_demo_k22fsh</ExpandedNode><ExpandedNode>&lt;ws&gt;/throughput_demo_k22fsh/Source</ExpandedNode><ExpandedNode>&lt;ws&gt;/throughput_demo_k22fsh/Source/common</ExpandedNode><ExpandedNode>&lt;ws&gt;/throughput_demo_k22fsh/Source/custom</ExpandedNode><ExpandedNode>&lt;ws&gt;/throughput_demo_k22fsh/Source/sensor</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-18237-24390</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-21918-26164</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-17182-23103</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab><Tab><Identity>TabID-20490-17153</Identity><TabName>Ambiguous Definitions</TabName><Factory>Select-Ambiguous-Definitions</Factory><Session/></Tab><Tab><Identity>TabID-25487-17264</Identity><TabName>References</TabName><Factory>Find-All-References</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\custom\Shell_Task.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>78</YPos2><SelStart2>3051</SelStart2><SelEnd2>3053</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\mqx\source\bsp\k22fsh\mqx_main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>8</YPos2><SelStart2>1111</SelStart2><SelEnd2>1111</SelEnd2></Tab><ActiveTab>1</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\mqx\source\kernel\int.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>107</YPos2><SelStart2>4221</SelStart2><SelEnd2>4221</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\mqx\source\psp\cortex_m\core\M4\dispatch.S</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>639</YPos2><SelStart2>22754</SelStart2><SelEnd2>22754</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-01D0CD20><key>iaridepm.enu1</key></Toolbar-01D0CD20></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>574</Bottom><Right>227</Right><x>-2</x><y>-2</y><xscreen>1317</xscreen><yscreen>141</yscreen><sizeHorzCX>914583</sizeHorzCX><sizeHorzCY>172372</sizeHorzCY><sizeVertCX>159028</sizeVertCX><sizeVertCY>704156</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>199</Bottom><Right>1442</Right><x>-2</x><y>-2</y><xscreen>1444</xscreen><yscreen>201</yscreen><sizeHorzCX>1002778</sizeHorzCX><sizeHorzCY>245721</sizeHorzCY><sizeVertCX>914583</sizeVertCX><sizeVertCY>172372</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

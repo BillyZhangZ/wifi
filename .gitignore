@@ -1,0 +1,15 @@
+cscope*
+lib/
+output/
+mfi/
+audio/dec
+bluetooth
+*.o
+*.dep
+*.out
+*.elf
+*_debug
+*_release
+*.swp
+qcapatch.tar.bz2
+k22fsh.tar.bz2

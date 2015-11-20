@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\..\audio\build\iar\audio_k22fsh\audio_k22fsh.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\..\mqx\build\iar\bsp_k22fsh\bsp_k22fsh.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\k22fsh_player_demo.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\..\lcd\build\iar\lcd_k22fsh\lcd_k22fsh.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\..\mfs\build\iar\mfs_k22fsh\mfs_k22fsh.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\..\msi\build\iar\k22fsh\msi_k22fsh.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\..\mux\build\iar\mux_k22fsh\mux_k22fsh.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\..\player\build\iar\k22fsh\player_k22fsh.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\..\mqx\build\iar\psp_k22fsh\psp_k22fsh.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\..\shell\build\iar\shell_k22fsh\shell_k22fsh.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\..\usb\host\build\iar\k22fsh\usb_k22fsh.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

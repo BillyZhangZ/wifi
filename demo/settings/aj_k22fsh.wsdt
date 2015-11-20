@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+    
+    
+  <CurrentConfigs><Project>ACServerSample_k22fsh/Int Flash SramData Debug</Project><Project>bsp_k22fsh/Debug</Project><Project>mux_k22fsh/Debug</Project><Project>SmartSensor_k22fsh/Int Flash SramData Debug</Project><Project>psp_k22fsh/Debug</Project><Project>sensors_k22fsh/Debug</Project><Project>ServerSample_k22fsh/Int Flash SramData Debug</Project></CurrentConfigs><CurrentProj>ACServerSample_k22fsh</CurrentProj><OverviewSelected>1</OverviewSelected></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>227</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+    <Build><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>720</ColumnWidth1><ColumnWidth2>192</ColumnWidth2><ColumnWidth3>48</ColumnWidth3></Build><TerminalIO/><Debug-Log><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>961</ColumnWidth1></Debug-Log><Find-in-Files><ColumnWidth0>300</ColumnWidth0><ColumnWidth1>50</ColumnWidth1><ColumnWidth2>450</ColumnWidth2><ColumnWidth3>200</ColumnWidth3></Find-in-Files><Select-Ambiguous-Definitions><ColumnWidth0>350</ColumnWidth0><ColumnWidth1>50</ColumnWidth1><ColumnWidth2>601</ColumnWidth2></Select-Ambiguous-Definitions></Static>
+    <Windows>
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-4975-29082</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1><Tabs><Tab><Identity>TabID-18755-30052</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab><Tab><Identity>TabID-30445-31061</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab><Tab><Identity>TabID-3084-8932</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab><Tab><Identity>TabID-10466-14320</Identity><TabName>Ambiguous Definitions</TabName><Factory>Select-Ambiguous-Definitions</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\aj\allseen\services\base_tcl\sample_apps\SmartSensor\SmartSensor.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>1131</SelStart2><SelEnd2>1131</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\mqx\source\io\enet\atheros_wifi\common_src\stack_common\common_stack_offload.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>570</YPos2><SelStart2>23581</SelStart2><SelEnd2>23581</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\aj\alljoyn\aj_sp140-141mqx\src\aj_net.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>189</YPos2><SelStart2>5232</SelStart2><SelEnd2>5232</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\mqx\source\io\enet\atheros_wifi\custom_src\include\a_config.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>60</YPos2><SelStart2>3061</SelStart2><SelEnd2>3061</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\aj\allseen\services\base_tcl\controlpanel\inc\alljoyn\controlpanel\Common\ConstraintList.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>1160</SelStart2><SelEnd2>1171</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\aj\allseen\services\base_tcl\controlpanel\inc\alljoyn\controlpanel\Definitions.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>1152</SelStart2><SelEnd2>1152</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\mqx\source\bsp\k22fsh\mqx_main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>6</YPos2><SelStart2>1118</SelStart2><SelEnd2>1118</SelEnd2></Tab><ActiveTab>6</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-02664970><key>iaridepm.enu1</key></Toolbar-02664970></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>638</Bottom><Right>301</Right><x>-2</x><y>-2</y><xscreen>848</xscreen><yscreen>15</yscreen><sizeHorzCX>828125</sizeHorzCX><sizeHorzCY>12215</sizeHorzCY><sizeVertCX>295898</sizeVertCX><sizeVertCY>521173</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>542</Bottom><Right>1026</Right><x>-2</x><y>-2</y><xscreen>1028</xscreen><yscreen>544</yscreen><sizeHorzCX>1003906</sizeHorzCX><sizeHorzCY>442997</sizeHorzCY><sizeVertCX>828125</sizeVertCX><sizeVertCY>12215</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

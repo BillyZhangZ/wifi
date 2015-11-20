@@ -1,0 +1,2205 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.50.5.4819/W32 for ARM               29/Sep/2014  00:12:25 #
+# Copyright 2007-2013 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Exe\AllJoyn.out                #
+#    Map file     =  f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\List\AllJoyn.map               #
+#    Command line =  f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\AllJoyn.o                  #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_about.o                 #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_bufio.o                 #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_bus.o                   #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_cert.o                  #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_connect.o               #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_creds.o                 #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_crypto.o                #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_crypto_ecc.o            #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_crypto_sha2.o           #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_debug.o                 #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_disco.o                 #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_guid.o                  #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_helper.o                #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_init.o                  #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_introspect.o            #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_keyauthentication.o     #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_keyexchange.o           #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_link_timeout.o          #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_malloc.o                #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_msg.o                   #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_net.o                   #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_peer.o                  #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_std.o                   #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_sw_crypto.o             #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_target_crypto.o         #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_target_nvram.o          #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_target_util.o           #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_tasks.o                 #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_util.o                  #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\aj_wifi_ctrl.o             #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\atheros_wifi_mediactl_ext. #
+#                    o f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\ #
+#                    aj_sp140-141mqx\lib\sp140k22f.iar\release\bsp\bsp.a      #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\net_utils.o                #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\lib\sp140k22f.iar\release\psp\psp.a        #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\sha2.o                     #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Obj\svclite.o -o               #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\Exe\AllJoyn.out --redirect     #
+#                    _Printf=_PrintfFull --redirect _Scanf=_ScanfFull --map   #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar\Release\List\AllJoyn.map --config      #
+#                    f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj #
+#                    _sp140-141mqx\iar/../lib/sp140k22f.iar/release/bsp/intfl #
+#                    ash.icf --redirect __iar_dlmalloc=malloc --redirect      #
+#                    __iar_dlcalloc=calloc --redirect __iar_dlfree=free       #
+#                    --semihosting --entry __iar_program_start --inline --vfe #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                   = *
+__SystemLibrary             = DLib
+__dlib_jmp_buf_num_elements = 16
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec, block CFMPROTROM };
+"P1":  place in [from 0x00000000 to 0x0007ffff] {
+          first block TEXTSECTION, ro, last block FLASHX_POOL };
+"P2":  place in [from 0x1fff0000 to 0x2000fff0] { rw, last block KERNEL_DATA };
+
+  Section             Kind        Address     Size  Object
+  -------             ----        -------     ----  ------
+"A1":                                        0x414
+  .intvec             const    0x00000000    0x400  vectors.o [3]
+  CFMPROTROM                   0x00000400     0x14  <Block>
+    .cfmconfig        const    0x00000400     0x10  vectors.o [3]
+    .cfmconfig        const    0x00000410      0x0  vectors.o [3]
+    CFMPROTROM        const    0x00000410      0x4  <Block tail>
+                             - 0x00000414    0x414
+
+"P1":                                      0x1ebe4
+  TEXTSECTION                  0x00000420  0x1d08a  <Block>
+    .text             ro code  0x00000420     0x64  boot.o [6]
+    .text             ro code  0x00000484      0xc  cstartup_M.o [7]
+    .text             ro code  0x00000490     0x1a  fpinit_M.o [5]
+    .text             ro code  0x000004aa     0x22  zero_init3.o [7]
+    .text             ro code  0x000004cc     0x16  cmain.o [7]
+    .text             ro code  0x000004e2      0xa  comp.o [6]
+    .text             ro code  0x000004ec     0x28  data_init.o [7]
+    .text             ro code  0x00000514     0x10  mqx_main.o [3]
+    .text             ro code  0x00000524      0x4  exit.o [4]
+    .text             ro code  0x00000528     0xb8  init_hw.o [3]
+    .text             ro code  0x000005e0    0x2c4  mqx.o [6]
+    .text             ro code  0x000008a4      0xa  cexit.o [7]
+    .text             ro code  0x000008b0    0x4bc  bsp_cm.o [3]
+    .text             ro code  0x00000d6c    0x3f4  init_gpio.o [3]
+    .text             ro code  0x00001160      0x6  ABImemclr.o [7]
+    .text             ro code  0x00001168     0x76  ABImemcpy.o [7]
+    .text             ro code  0x000011e0    0x4fc  lwmem.o [6]
+    .text             ro code  0x000016dc    0x1d4  int.o [6]
+    .text             ro code  0x000018b0    0x722  task.o [6]
+    .text             ro code  0x00001fd4     0xa4  sc_irdyq.o [6]
+    .text             ro code  0x00002078    0x1a8  lwsem.o [6]
+    .text             ro code  0x00002220    0x1c8  init_bsp.o [3]
+    .text             ro code  0x000023e8     0xa6  queue.o [6]
+    .text             ro code  0x00002490     0x14  exit.o [8]
+    .text             ro code  0x000024a4      0x8  cm.o [3]
+    .text             ro code  0x000024ac     0x66  ABImemset.o [7]
+    .text             ro code  0x00002512     0x2a  strncmp.o [4]
+    .text             ro code  0x0000253c    0x10c  sched.o [6]
+    .text             ro code  0x00002648     0xa2  stack_bu.o [6]
+    .text             ro code  0x000026ec     0x3a  ABImemset48.o [7]
+    .text             ro code  0x00002726     0x12  psp_iinit.o [6]
+    .text             ro code  0x00002738     0x10  int_vtab.o [6]
+    .text             ro code  0x00002748    0x294  time.o [6]
+    .text             ro code  0x000029dc     0x24  io_init.o [6]
+    .text             ro code  0x00002a00    0x190  lpm.o [3]
+    .text             ro code  0x00002b90    0x6da  serl_pol_kuart.o [3]
+    .text             ro code  0x0000326c    0x804  i2c_pol_ki2c.o [3]
+    .text             ro code  0x00003a70    0x4c2  spi.o [3]
+    .text             ro code  0x00003f34    0x1bc  io_gpio.o [3]
+    .text             ro code  0x000040f0    0x46a  adc.o [3]
+    .text             ro code  0x0000455c    0x96c  esdhc.o [3]
+    .text             ro code  0x00004ec8    0xb46  flashx.o [3]
+    .text             ro code  0x00005a10     0x30  io_sinit.o [3]
+    .text             ro code  0x00005a40      0x6  ABImemclr4.o [7]
+    .text             ro code  0x00005a48     0x10  int_inst.o [6]
+    .text             ro code  0x00005a58     0x68  psp_mstiq.o [6]
+    .text             ro code  0x00005ac0     0x44  psp_tiad.o [6]
+    .text             ro code  0x00005b04     0x7c  psp_tkti.o [6]
+    .text             ro code  0x00005b80     0x30  psp_tinm.o [6]
+    .text             ro code  0x00005bb0     0x2c  lpm_smc.o [3]
+    .text             ro code  0x00005bdc     0x44  serl_mk21.o [3]
+    .text             ro code  0x00005c20    0x452  serl_pol.o [3]
+    .text             ro code  0x00006074    0x12e  i2c_pol.o [3]
+    .text             ro code  0x000061a4     0x28  i2c_mk21.o [3]
+    .text             ro code  0x000061cc     0xfc  io_instx.o [6]
+    .text             ro code  0x000062c8    0x174  xstoul.o [4]
+    .text             ro code  0x0000643c    0x7c8  io_gpio_kgpio.o [3]
+    .text             ro code  0x00006c04     0x1c  io_inst.o [6]
+    .text             ro code  0x00006c20     0x38  io_ioctl.o [6]
+    .text             ro code  0x00006c58    0x818  adc_kadc.o [3]
+    .text             ro code  0x00007470    0x794  adt_kpdb.o [3]
+    .text             ro code  0x00007c04     0x42  strcmp.o [7]
+    .text             ro code  0x00007c48     0x36  strlen.o [7]
+    .text             ro code  0x00007c80     0x10  esdhc_mk21.o [3]
+    .text             ro code  0x00007c90     0x8c  io_fopen.o [6]
+    .text             ro code  0x00007d1c    0x132  I64DivMod.o [7]
+    .text             ro code  0x00007e50     0x58  memchr.o [7]
+    .text             ro code  0x00007ea8      0xc  errno.o [4]
+    .text             ro code  0x00007eb4     0x96  nvic.o [6]
+    .text             ro code  0x00007f4c     0x1c  adc_mk21.o [3]
+    .text             ro code  0x00007f68    0x2d8  lwevent.o [6]
+    .text             ro code  0x00008240      0x2  I64DivZer.o [7]
+    .text             ro code  0x00008242      0x2  xtls.o [4]
+    .text             ro code  0x00008244     0x4c  idletask.o [6]
+    .text             ro code  0x00008290   0x10d4  aj_crypto_ecc.o [2]
+    .text             ro code  0x00009364    0x1dc  aj_target_crypto.o [2]
+    .text             ro code  0x00009540     0x28  io_pntf.o [6]
+    .text             ro code  0x00009568     0x50  io_read.o [6]
+    .text             ro code  0x000095b8    0x1c0  aj_target_util.o [2]
+    .text             ro code  0x00009778     0x28  io_fclos.o [6]
+    .text             ro code  0x000097a0    0xa38  aj_sw_crypto.o [2]
+    .text             ro code  0x0000a1d8     0x44  io_ghand.o [6]
+    .text             ro code  0x0000a21c    0xbc8  io_dopr.o [6]
+    .text             ro code  0x0000ade4    0x16c  aj_malloc.o [2]
+    .text             ro code  0x0000af50     0x1e  U64Shr.o [7]
+    .text             ro code  0x0000af70     0x22  I64Shl.o [7]
+    .text             ro code  0x0000af92      0xc  sha2.o [2]
+    .text             ro code  0x0000afa0    0x694  io_fp.o [6]
+    .text             ro code  0x0000b634     0xc0  modf.o [5]
+    .text             ro code  0x0000b6f4     0x20  DblCmpEq.o [5]
+    .text             ro code  0x0000b714    0x246  DblDiv.o [5]
+    .text             ro code  0x0000b95c     0xe8  DblAdd.o [5]
+    .text             ro code  0x0000ba44    0x1a2  DblMul.o [5]
+    .text             ro code  0x0000bbe8     0x4c  DblToI32.o [5]
+    .text             ro code  0x0000bc34     0x2e  DblCmpGe.o [5]
+    .text             ro code  0x0000bc64     0x2e  DblCmpLe.o [5]
+    .text             ro code  0x0000bc94    0x16c  DblSub.o [5]
+    .text             ro code  0x0000be00    0x47c  sha2.o [2]
+    .text             ro code  0x0000c27c     0x14  sha2.o [2]
+    .text             ro code  0x0000c290    0x1e0  AllJoyn.o [2]
+    .text             ro code  0x0000c470    0x428  aj_wifi_ctrl.o [2]
+    .text             ro code  0x0000c898    0x248  net_utils.o [2]
+    .text             ro code  0x0000cae0    0x674  svclite.o [2]
+    .text             ro code  0x0000d154     0x1c  enmediactl.o [3]
+    .text             ro code  0x0000d170    0x348  aj_util.o [2]
+    .text             ro code  0x0000d4b8    0x1cc  atheros_wifi_mediactl_ext.o [2]
+    .text             ro code  0x0000d684    0x138  eninit.o [3]
+    .text             ro code  0x0000d7bc    0x874  cust_api_stack_offload.o [3]
+    .text             ro code  0x0000e030      0xa  net_utils.o [2]
+    .text             ro code  0x0000e03c     0x32  io_spr.o [6]
+    .text             ro code  0x0000e070     0x16  strchr.o [7]
+    .text             ro code  0x0000e086    0x366  aj_cert.o [2]
+    .text             ro code  0x0000e3ec   0x165c  aj_msg.o [2]
+    .text             ro code  0x0000fa48     0x6c  strncpy.o [7]
+    .text             ro code  0x0000fab4     0x2c  aj_init.o [2]
+    .text             ro code  0x0000fae0    0xea8  aj_introspect.o [2]
+    .text             ro code  0x00010988    0x570  aj_bus.o [2]
+    .text             ro code  0x00010ef8     0xc4  aj_link_timeout.o [2]
+    .text             ro code  0x00010fbc    0x364  aj_connect.o [2]
+    .text             ro code  0x00011320    0x10c  aj_helper.o [2]
+    .text             ro code  0x0001142c    0x284  driver_diag.o [3]
+    .text             ro code  0x000116b0    0x2ec  cust_driver_main.o [3]
+    .text             ro code  0x0001199c     0x12  enutil.o [3]
+    .text             ro code  0x000119b0    0x460  cust_driver_netbuf.o [3]
+    .text             ro code  0x00011e10     0x62  driver_netbuf.o [3]
+    .text             ro code  0x00011e74    0x970  api_ioctl.o [3]
+    .text             ro code  0x000127e4    0xce8  api_stack_offload.o [3]
+    .text             ro code  0x000134cc     0x78  ABImemmove.o [7]
+    .text             ro code  0x00013544    0x12c  cust_api_stack_txrx.o [3]
+    .text             ro code  0x00013670    0x19a  aj_crypto_sha2.o [2]
+    .text             ro code  0x0001380c    0x17e  aj_guid.o [2]
+    .text             ro code  0x0001398a    0x338  aj_crypto.o [2]
+    .text             ro code  0x00013cc2     0x36  aj_bufio.o [2]
+    .text             ro code  0x00013cf8    0x55c  aj_target_nvram.o [2]
+    .text             ro code  0x00014254    0x518  aj_creds.o [2]
+    .text             ro code  0x0001476c     0x62  memcmp.o [7]
+    .text             ro code  0x000147d0    0xc4c  aj_peer.o [2]
+    .text             ro code  0x0001541c    0x2a8  aj_about.o [2]
+    .text             ro code  0x000156c4     0x44  strcpy.o [7]
+    .text             ro code  0x00015708      0x8  atoi.o [4]
+    .text             ro code  0x00015710     0x1c  strcat.o [4]
+    .text             ro code  0x0001572c    0x250  aj_disco.o [2]
+    .text             ro code  0x0001597c    0x664  aj_net.o [2]
+    .text             ro code  0x00015fe0    0x8fc  spi_hcd.o [3]
+    .text             ro code  0x000168dc    0xbc0  wmi.o [3]
+    .text             ro code  0x0001749c    0x3ec  driver_main.o [3]
+    .text             ro code  0x00017888    0x4e8  driver_init.o [3]
+    .text             ro code  0x00017d70    0x374  mutex.o [6]
+    .text             ro code  0x000180e4     0x30  cust_driver_netbuf.o [3]
+    .text             ro code  0x00018114    0x198  hw_api.o [3]
+    .text             ro code  0x000182ac     0x5c  util.o [3]
+    .text             ro code  0x00018308    0x1ac  api_init.o [3]
+    .text             ro code  0x000184b4    0x288  api_txrx.o [3]
+    .text             ro code  0x0001873c     0x70  io_fseek.o [6]
+    .text             ro code  0x000187ac     0x1e  io_write.o [6]
+    .text             ro code  0x000187cc    0x8a0  aj_keyauthentication.o [2]
+    .text             ro code  0x0001906c    0x2fc  cust_hw_api.o [3]
+    .text             ro code  0x00019368    0x96c  api_wmi_rx.o [3]
+    .text             ro code  0x00019cd4    0x1c8  dset.o [3]
+    .text             ro code  0x00019e9c    0x608  htc.o [3]
+    .text             ro code  0x0001a4a4    0x188  driver_txrx.o [3]
+    .text             ro code  0x0001a62c    0x364  bmi.o [3]
+    .text             ro code  0x0001a990     0xd0  rcv_aggr.o [3]
+    .text             ro code  0x0001aa60     0x32  io_fflsh.o [6]
+    .text             ro code  0x0001aa94    0x844  cust_api_wmi_rx.o [3]
+    .text             ro code  0x0001b2d8     0x14  dset_api.o [3]
+    .text             ro code  0x0001b2ec    0x114  storerecall.o [3]
+    .text             ro code  0x0001b400     0xd8  aj_keyexchange.o [2]
+    .text             ro code  0x0001b4d8    0x18c  cust_api_init.o [3]
+    .text             ro code  0x0001b664   0x14b4  cust_api_ioctl.o [3]
+    .text             ro code  0x0001cb18    0x27a  flash_ftfe.o [3]
+    .text             ro code  0x0001cd94     0x1c  flash_mk21.o [3]
+    .text             ro code  0x0001cdb0    0x39e  spi_dspi.o [3]
+    .text             ro code  0x0001d150     0x40  spi_mk21_dspi.o [3]
+    .text             ro code  0x0001d190    0x204  spi_dspi_common.o [3]
+    .text             ro code  0x0001d394     0x30  io_fputc.o [6]
+    .text             ro code  0x0001d3c4     0x30  atheros_phy.o [3]
+    .text             ro code  0x0001d3f4     0xb0  packbits_init.o [7]
+    .text             ro code  0x0001d4a4      0x6  abort.o [4]
+  KERNEL              ro code  0x0001d4b0    0x2c0  dispatch.o [6]
+  .rodata             const    0x0001d770     0xf4  aj_introspect.o [2]
+  .rodata             const    0x0001d864    0x9f0  aj_std.o [2]
+  .rodata             const    0x0001e254     0x48  aj_tasks.o [2]
+  .rodata             const    0x0001e29c    0x204  svclite.o [2]
+  .rodata             const    0x0001e4a0      0x8  cust_driver_netbuf.o [3]
+  .rodata             const    0x0001e4a8      0x4  api_init.o [3]
+  .rodata             const    0x0001e4ac     0x24  mqx.o [6]
+  .rodata             const    0x0001e4d0     0x78  init_enet.o [3]
+  .rodata             const    0x0001e548     0x14  atheros_phy.o [3]
+  .rodata             const    0x0001e55c     0x20  cust_api_init.o [3]
+  .rodata             const    0x0001e57c     0x1c  init_lpm.o [3]
+  .rodata             const    0x0001e598     0x28  init_adc.o [3]
+  .rodata             const    0x0001e5c0      0xc  init_esdhc.o [3]
+  .rodata             const    0x0001e5cc     0x8c  init_flashx.o [3]
+  .rodata             const    0x0001e658     0x14  init_i2c.o [3]
+  .rodata             const    0x0001e66c     0x70  init_sci.o [3]
+  .rodata             const    0x0001e6dc     0x30  init_spi.o [3]
+  .rodata             const    0x0001e70c     0x70  flash_ftfe.o [3]
+  .rodata             const    0x0001e77c     0x18  spi_dspi.o [3]
+  .rodata             const    0x0001e794     0x38  mqx_init.o [3]
+  .iar.init_table     const    0x0001e7cc     0x48  - Linker created -
+  .rodata             const    0x0001e814      0x0  zero_init3.o [7]
+  .rodata             const    0x0001e814      0x0  packbits_init.o [7]
+  Initializer bytes   ro data  0x0001e814     0x8f  <for P2 mid-1>
+  Initializer bytes   ro data  0x0001e8a3      0x2  <for KERNEL_DATA-1>
+  FLASHX_POOL                  0x0001f000      0x1  <Block>
+    .flashx           const    0x0001f000      0x1  vectors.o [3]
+    .flashx           const    0x0001f001      0x0  vectors.o [3]
+                             - 0x0001f001  0x1ebe1
+
+"P2":                                       0x2b64
+  P2 mid-1                     0x1fff0000    0x2c0  <Init block>
+    .data             inited   0x1fff0000      0x8  aj_about.o [2]
+    .data             inited   0x1fff0008      0x2  aj_connect.o [2]
+    .data             inited   0x1fff000c     0x40  aj_introspect.o [2]
+    .data             inited   0x1fff004c     0x10  aj_keyauthentication.o [2]
+    .data             inited   0x1fff005c     0x10  aj_keyauthentication.o [2]
+    .data             inited   0x1fff006c     0x10  aj_keyauthentication.o [2]
+    .data             inited   0x1fff007c      0xc  aj_keyexchange.o [2]
+    .data             inited   0x1fff0088      0x4  svclite.o [2]
+    .data             inited   0x1fff008c     0x20  svclite.o [2]
+    .data             inited   0x1fff00b0    0x1a8  svclite.o [2]
+    .data             inited   0x1fff0258      0x4  cust_driver_main.o [3]
+    .data             inited   0x1fff025c      0x8  driver_init.o [3]
+    .data             inited   0x1fff0264      0x8  mqx.o [6]
+    .data             inited   0x1fff026c     0x14  init_enet.o [3]
+    .data             inited   0x1fff0280      0xc  bmi.o [3]
+    .data             inited   0x1fff028c     0x30  adt_kpdb.o [3]
+    __DLIB_PERTHREAD  inited   0x1fff02bc      0x4  errno.o [4]
+  .bss                zero     0x1fff02c0     0xec  aj_peer.o [2]
+  .bss                zero     0x1fff03ac     0x10  AllJoyn.o [2]
+  .bss                zero     0x1fff03bc     0x10  aj_about.o [2]
+  .bss                zero     0x1fff03cc     0x10  aj_guid.o [2]
+  .bss                zero     0x1fff03dc    0x110  aj_guid.o [2]
+  .bss                zero     0x1fff04ec      0x4  aj_introspect.o [2]
+  .bss                zero     0x1fff04f0     0x28  aj_introspect.o [2]
+  .bss                zero     0x1fff0518     0x20  aj_introspect.o [2]
+  .bss                zero     0x1fff0538     0x78  aj_keyauthentication.o [2]
+  .bss                zero     0x1fff05b0     0x28  aj_keyauthentication.o [2]
+  .bss                zero     0x1fff05d8     0xc0  aj_keyexchange.o [2]
+  .bss                zero     0x1fff0698     0x18  aj_link_timeout.o [2]
+  .bss                zero     0x1fff06b0      0xc  aj_malloc.o [2]
+  .bss                zero     0x1fff06bc    0x40c  aj_net.o [2]
+  .bss                zero     0x1fff0ac8      0x8  aj_net.o [2]
+  .bss                zero     0x1fff0ad0     0x20  aj_peer.o [2]
+  .bss                zero     0x1fff0af0     0xc0  aj_sw_crypto.o [2]
+  .bss                zero     0x1fff0bb0     0x20  aj_target_crypto.o [2]
+  .bss                zero     0x1fff0bd0     0x18  aj_target_nvram.o [2]
+  .bss                zero     0x1fff0be8   0x1c04  aj_target_util.o [2]
+  .bss                zero     0x1fff27ec     0x20  aj_wifi_ctrl.o [2]
+  .bss                zero     0x1fff280c      0x8  atheros_wifi_mediactl_ext.o [2]
+  .bss                zero     0x1fff2814      0x4  atheros_wifi_mediactl_ext.o [2]
+  .bss                zero     0x1fff2818     0x24  api_stack_offload.o [3]
+  .bss                zero     0x1fff283c      0x4  api_stack_offload.o [3]
+  .bss                zero     0x1fff2840      0x4  api_stack_offload.o [3]
+  .bss                zero     0x1fff2844      0xc  cust_api_stack_offload.o [3]
+  .bss                zero     0x1fff2850     0x38  cust_driver_main.o [3]
+  .bss                zero     0x1fff2888      0x4  cust_driver_main.o [3]
+  .bss                zero     0x1fff288c      0xc  cust_driver_main.o [3]
+  .bss                zero     0x1fff2898      0x4  cust_driver_main.o [3]
+  .bss                zero     0x1fff289c      0x4  cust_driver_main.o [3]
+  .bss                zero     0x1fff28a0      0x4  driver_init.o [3]
+  .bss                zero     0x1fff28a4     0x10  wmi.o [3]
+  .bss                zero     0x1fff28b4      0x8  psp_mstiq.o [6]
+  .bss                zero     0x1fff28bc      0x4  bmi.o [3]
+  .bss                zero     0x1fff28c0     0x14  rcv_aggr.o [3]
+  .bss                zero     0x1fff28d4      0x4  api_wmi_rx.o [3]
+  .bss                zero     0x1fff28d8     0xc4  dset.o [3]
+  .bss                zero     0x1fff299c      0x4  cust_api_init.o [3]
+  .bss                zero     0x1fff29a0    0x140  dset_api.o [3]
+  .bss                zero     0x1fff2ae0      0x4  io_gpio.o [3]
+  .bss                zero     0x1fff2ae4     0x30  lpm.o [3]
+  .bss                zero     0x1fff2b14     0x20  adc_kadc.o [3]
+  .bss                zero     0x1fff2b34     0x14  io_gpio_kgpio.o [3]
+  .bss                zero     0x1fff2b48     0x14  io_gpio_kgpio.o [3]
+  .bss                zero     0x1fff2b5c      0x1  aj_init.o [2]
+  .bss                zero     0x1fff2b5d      0x1  aj_msg.o [2]
+  .bss                zero     0x1fff2b5e      0x1  cust_driver_netbuf.o [3]
+  .bss                zero     0x1fff2b5f      0x1  bsp_cm.o [3]
+  KERNEL_DATA                  0x1fff2b60      0x4  <Block>
+    KERNEL_DATA-1              0x1fff2b60      0x4  <Init block>
+      .kernel_data    inited   0x1fff2b60      0x4  kernel_symbols.o [6]
+                             - 0x1fff2b64   0x2b64
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x28a0:
+          0x1fff02c0  0x28a0
+
+Copy/packbits (__iar_packbits_init3)
+    1 source range, total size 0x8f (20% of destination):
+          0x0001e814    0x8f
+    1 destination range, total size 0x2c0:
+          0x1fff0000   0x2c0
+
+Copy/packbits (__iar_packbits_init3)
+    1 source range, total size 0x2 (50% of destination):
+          0x0001e8a3     0x2
+    1 destination range, total size 0x4:
+          0x1fff2b60     0x4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                       ro code  ro data  rw data
+    ------                       -------  -------  -------
+command line: [1]
+    ------------------------------------------------------
+    Total:
+
+f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj_sp140-141mqx\iar\Release\Obj: [2]
+    AllJoyn.o                        480                16
+    aj_about.o                       680        1       24
+    aj_bufio.o                        54
+    aj_bus.o                       1 392
+    aj_cert.o                        870
+    aj_connect.o                     868        1        2
+    aj_creds.o                     1 304
+    aj_crypto.o                      824
+    aj_crypto_ecc.o                4 308
+    aj_crypto_sha2.o                 410
+    aj_disco.o                       592
+    aj_guid.o                        382               288
+    aj_helper.o                      268
+    aj_init.o                         44                 1
+    aj_introspect.o                3 752      257      140
+    aj_keyauthentication.o         2 208       10      208
+    aj_keyexchange.o                 216        2      204
+    aj_link_timeout.o                196                24
+    aj_malloc.o                      364                12
+    aj_msg.o                       5 724                 1
+    aj_net.o                       1 636             1 044
+    aj_peer.o                      3 148               268
+    aj_std.o                                2 544
+    aj_sw_crypto.o                 2 616               192
+    aj_target_crypto.o               476                32
+    aj_target_nvram.o              1 372                24
+    aj_target_util.o                 448             7 172
+    aj_tasks.o                                 72
+    aj_util.o                        840
+    aj_wifi_ctrl.o                 1 064                32
+    atheros_wifi_mediactl_ext.o      460                12
+    net_utils.o                      594
+    sha2.o                         1 180
+    svclite.o                      1 652      610      460
+    ------------------------------------------------------
+    Total:                        40 422    3 497   10 156
+
+bsp.a: [3]
+    adc.o                          1 130
+    adc_kadc.o                     2 072                32
+    adc_mk21.o                        28
+    adt_kpdb.o                     1 940       10       48
+    api_init.o                       428        4
+    api_ioctl.o                    2 416
+    api_stack_offload.o            3 304                44
+    api_txrx.o                       648
+    api_wmi_rx.o                   2 412                 4
+    atheros_phy.o                     48       20
+    bmi.o                            868        2       16
+    bsp_cm.o                       1 212                 1
+    cm.o                               8
+    cust_api_init.o                  396       32        4
+    cust_api_ioctl.o               5 300
+    cust_api_stack_offload.o       2 164                12
+    cust_api_stack_txrx.o            300
+    cust_api_wmi_rx.o              2 116
+    cust_driver_main.o               748        1       84
+    cust_driver_netbuf.o           1 168        8        1
+    cust_hw_api.o                    764
+    driver_diag.o                    644
+    driver_init.o                  1 256        2       12
+    driver_main.o                  1 004
+    driver_netbuf.o                   98
+    driver_txrx.o                    392
+    dset.o                           456               196
+    dset_api.o                        20               320
+    eninit.o                         312
+    enmediactl.o                      28
+    enutil.o                          18
+    esdhc.o                        2 412
+    esdhc_mk21.o                      16
+    flash_ftfe.o                     634      112
+    flash_mk21.o                      28
+    flashx.o                       2 886
+    htc.o                          1 544
+    hw_api.o                         408
+    i2c_mk21.o                        40
+    i2c_pol.o                        302
+    i2c_pol_ki2c.o                 2 052
+    init_adc.o                                 40
+    init_bsp.o                       456
+    init_enet.o                               125       20
+    init_esdhc.o                               12
+    init_flashx.o                             140
+    init_gpio.o                    1 012
+    init_hw.o                        184
+    init_i2c.o                                 20
+    init_lpm.o                                 28
+    init_sci.o                                112
+    init_spi.o                                 48
+    io_gpio.o                        444                 4
+    io_gpio_kgpio.o                1 992                40
+    io_sinit.o                        48
+    lpm.o                            400                48
+    lpm_smc.o                         44
+    mqx_init.o                                 56
+    mqx_main.o                        16
+    rcv_aggr.o                       208                20
+    serl_mk21.o                       68
+    serl_pol.o                     1 106
+    serl_pol_kuart.o               1 754
+    spi.o                          1 218
+    spi_dspi.o                       926       24
+    spi_dspi_common.o                516
+    spi_hcd.o                      2 300
+    spi_mk21_dspi.o                   64
+    storerecall.o                    276
+    util.o                            92
+    vectors.o                               1 041
+    wmi.o                          3 008                16
+    ------------------------------------------------------
+    Total:                        60 152    1 837      922
+
+dl7M_tln.a: [4]
+    abort.o                            6
+    atoi.o                             8
+    errno.o                           12        1        4
+    exit.o                             4
+    strcat.o                          28
+    strncmp.o                         42
+    xstoul.o                         372
+    xtls.o                             2
+    ------------------------------------------------------
+    Total:                           474        1        4
+
+m7M_tlv.a: [5]
+    DblAdd.o                         232
+    DblCmpEq.o                        32
+    DblCmpGe.o                        46
+    DblCmpLe.o                        46
+    DblDiv.o                         582
+    DblMul.o                         418
+    DblSub.o                         364
+    DblToI32.o                        76
+    fpinit_M.o                        26
+    modf.o                           192
+    ------------------------------------------------------
+    Total:                         2 014
+
+psp.a: [6]
+    boot.o                           100
+    comp.o                            10
+    dispatch.o                       704
+    idletask.o                        76
+    int.o                            468
+    int_inst.o                        16
+    int_vtab.o                        16
+    io_dopr.o                      3 016
+    io_fclos.o                        40
+    io_fflsh.o                        50
+    io_fopen.o                       140
+    io_fp.o                        1 684
+    io_fputc.o                        48
+    io_fseek.o                       112
+    io_ghand.o                        68
+    io_init.o                         36
+    io_inst.o                         28
+    io_instx.o                       252
+    io_ioctl.o                        56
+    io_pntf.o                         40
+    io_read.o                         80
+    io_spr.o                          50
+    io_write.o                        30
+    kernel_symbols.o                            2        4
+    lwevent.o                        728
+    lwmem.o                        1 276
+    lwsem.o                          424
+    mqx.o                            708       37        8
+    mutex.o                          884
+    nvic.o                           150
+    psp_iinit.o                       18
+    psp_mstiq.o                      104                 8
+    psp_tiad.o                        68
+    psp_tinm.o                        48
+    psp_tkti.o                       124
+    queue.o                          166
+    sc_irdyq.o                       164
+    sched.o                          268
+    stack_bu.o                       162
+    task.o                         1 826
+    time.o                           660
+    ------------------------------------------------------
+    Total:                        14 898       39       20
+
+rt7M_tl.a: [7]
+    ABImemclr.o                        6
+    ABImemclr4.o                       6
+    ABImemcpy.o                      118
+    ABImemmove.o                     120
+    ABImemset.o                      102
+    ABImemset48.o                     58
+    I64DivMod.o                      306
+    I64DivZer.o                        2
+    I64Shl.o                          34
+    U64Shr.o                          30
+    cexit.o                           10
+    cmain.o                           22
+    cstartup_M.o                      12
+    data_init.o                       40
+    memchr.o                          88
+    memcmp.o                          98
+    packbits_init.o                  176
+    strchr.o                          22
+    strcmp.o                          66
+    strcpy.o                          68
+    strlen.o                          54
+    strncpy.o                        108
+    zero_init3.o                      34
+    ------------------------------------------------------
+    Total:                         1 580
+
+shb_l.a: [8]
+    exit.o                            20
+    ------------------------------------------------------
+    Total:                            20
+
+    Gaps                              72                 6
+    Linker created                             76
+----------------------------------------------------------
+    Grand Total:                 119 632    5 450   11 108
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+?main                   0x000004cd          Code  Gb  cmain.o [7]
+A2H                     0x0000d171    0x32  Code  Lc  aj_util.o [2]
+AJ_AES_CBC_128_ENCRYPT  0x00009c0b    0x6e  Code  Gb  aj_sw_crypto.o [2]
+AJ_AES_CTR_128          0x00009b81    0x8a  Code  Gb  aj_sw_crypto.o [2]
+AJ_AES_Disable          0x00009b79     0x8  Code  Gb  aj_sw_crypto.o [2]
+AJ_AES_ECB_128_ENCRYPT  0x00009c7f    0x1e  Code  Gb  aj_sw_crypto.o [2]
+AJ_AES_Enable           0x00009b0b    0x6e  Code  Gb  aj_sw_crypto.o [2]
+AJ_AboutAnnounce        0x0001555f    0x78  Code  Gb  aj_about.o [2]
+AJ_AboutHandleGetAboutData
+                        0x0001545b    0x3c  Code  Gb  aj_about.o [2]
+AJ_AboutHandleGetObjectDescription
+                        0x000155d7    0x14  Code  Gb  aj_about.o [2]
+AJ_AboutHandleGetProp   0x00015453     0x8  Code  Gb  aj_about.o [2]
+AJ_AboutIconHandleGetContent
+                        0x00015649    0x36  Code  Gb  aj_about.o [2]
+AJ_AboutIconHandleGetProp
+                        0x00015621     0x8  Code  Gb  aj_about.o [2]
+AJ_AboutIconHandleGetURL
+                        0x00015629    0x20  Code  Gb  aj_about.o [2]
+AJ_AboutInit            0x00015437     0xa  Code  Gb  aj_about.o [2]
+AJ_AcquireIPAddress     0x0000c7ed    0x6c  Code  Gb  aj_wifi_ctrl.o [2]
+AJ_AllSeenIntrospectionIface
+                        0x0001e068    0x10  Data  Gb  aj_std.o [2]
+AJ_AllocReplyContext    0x00010859    0x34  Code  Gb  aj_introspect.o [2]
+AJ_Authenticate         0x000110db    0xe6  Code  Gb  aj_connect.o [2]
+AJ_B64ToRaw             0x0000d2ed    0x5c  Code  Gb  aj_util.o [2]
+AJ_BigEndianDecodeCertificate
+                        0x0000e233    0x9e  Code  Gb  aj_cert.o [2]
+AJ_BigEndianDecodePrivateKey
+                        0x0000e16b     0x8  Code  Gb  aj_cert.o [2]
+AJ_BigEndianDecodePublicKey
+                        0x0000e159     0xa  Code  Gb  aj_cert.o [2]
+AJ_BigEndianEncodeCertificate
+                        0x0000e197    0x9c  Code  Gb  aj_cert.o [2]
+AJ_BigEndianEncodePublicKey
+                        0x0000e151     0x8  Code  Gb  aj_cert.o [2]
+AJ_BusAdvertiseName     0x000109bb    0x22  Code  Gb  aj_bus.o [2]
+AJ_BusBindSessionPort   0x00010a5d    0x30  Code  Gb  aj_bus.o [2]
+AJ_BusDestination       0x0001dde0    0x10  Data  Gb  aj_std.o [2]
+AJ_BusEnableSecurity    0x00010ea3    0x26  Code  Gb  aj_bus.o [2]
+AJ_BusHandleBusMessage  0x00010b75   0x228  Code  Gb  aj_bus.o [2]
+AJ_BusLinkStateProc     0x00010f1d    0x72  Code  Gb  aj_link_timeout.o [2]
+AJ_BusPropGet           0x00010e85     0xc  Code  Gb  aj_bus.o [2]
+AJ_BusPropSet           0x00010e91     0xa  Code  Gb  aj_bus.o [2]
+AJ_BusReplyAcceptSession
+                        0x00010b37    0x20  Code  Gb  aj_bus.o [2]
+AJ_BusRequestName       0x00010995    0x26  Code  Gb  aj_bus.o [2]
+AJ_BusSetPasswordCallback
+                        0x00010de3     0x6  Code  Gb  aj_bus.o [2]
+AJ_BusSetSignalRule     0x00010aa9    0x14  Code  Gb  aj_bus.o [2]
+AJ_ByteSwap32           0x0000966d    0x18  Code  Gb  aj_target_util.o [2]
+AJ_ByteSwap64           0x00009685    0x72  Code  Gb  aj_target_util.o [2]
+AJ_ClearAuthContext     0x000148fb    0x1e  Code  Gb  aj_peer.o [2]
+AJ_CloseMsg             0x0000e753    0x52  Code  Gb  aj_msg.o [2]
+AJ_ConnectWiFi          0x0000c6b1    0x9c  Code  Gb  aj_wifi_ctrl.o [2]
+AJ_ConnectWiFiHelper    0x0000c569   0x148  Code  Lc  aj_wifi_ctrl.o [2]
+AJ_CreateCertificate    0x0000e2d1    0x6c  Code  Gb  aj_cert.o [2]
+AJ_CredentialExpired    0x0001474d    0x20  Code  Gb  aj_creds.o [2]
+AJ_Crypto_PRF           0x00013beb    0xb6  Code  Gb  aj_crypto.o [2]
+AJ_Crypto_PRF_SHA256    0x00013799    0x72  Code  Gb  aj_crypto_sha2.o [2]
+AJ_DBusDestination      0x0001ddc8    0x18  Data  Gb  aj_std.o [2]
+AJ_DSASignDigest        0x000090a3    0x70  Code  Gb  aj_crypto_ecc.o [2]
+AJ_DSAVerifyDigest      0x00009113    0x28  Code  Gb  aj_crypto_ecc.o [2]
+AJ_Decrypt_CCM          0x00013b55    0x8e  Code  Gb  aj_crypto.o [2]
+AJ_DeleteCredential     0x0001466b    0x16  Code  Gb  aj_creds.o [2]
+AJ_DeleteLocalCredential
+                        0x00014741     0xc  Code  Gb  aj_creds.o [2]
+AJ_DeleteOldestCredential
+                        0x000144d3    0xe0  Code  Lc  aj_creds.o [2]
+AJ_DeletePeerCredential
+                        0x00014681     0x8  Code  Gb  aj_creds.o [2]
+AJ_DeliverMsg           0x0000e62f    0x44  Code  Gb  aj_msg.o [2]
+AJ_DeliverMsgPartial    0x0000f7b3    0x70  Code  Gb  aj_msg.o [2]
+AJ_Disconnect           0x00011233    0x2a  Code  Gb  aj_connect.o [2]
+AJ_DisconnectWiFi       0x0000c74d    0x2e  Code  Gb  aj_wifi_ctrl.o [2]
+AJ_Discover             0x00015869   0x114  Code  Gb  aj_disco.o [2]
+AJ_Encrypt_CCM          0x00013ae3    0x72  Code  Gb  aj_crypto.o [2]
+AJ_EphemeralPort        0x0001597d    0x24  Code  Gb  aj_net.o [2]
+AJ_ErrLanguageNotSuppored
+                        0x0001de90    0x28  Data  Gb  aj_std.o [2]
+AJ_ErrRejected          0x0001de58    0x1c  Data  Gb  aj_std.o [2]
+AJ_ErrResources         0x0001de74    0x1c  Data  Gb  aj_std.o [2]
+AJ_ErrSecurityViolation
+                        0x0001de1c    0x24  Data  Gb  aj_std.o [2]
+AJ_ErrServiceUnknown    0x0001ddf0    0x2c  Data  Gb  aj_std.o [2]
+AJ_ErrTimeout           0x0001de40    0x18  Data  Gb  aj_std.o [2]
+AJ_FindBusAndConnect    0x000111cd    0x5c  Code  Gb  aj_connect.o [2]
+AJ_Free                 0x0000964f    0x16  Code  Gb  aj_target_util.o [2]
+AJ_FreeCredential       0x000146f1    0x14  Code  Gb  aj_creds.o [2]
+AJ_GUID_AddNameMapping  0x00013865    0x4c  Code  Gb  aj_guid.o [2]
+AJ_GUID_ClearNameMap    0x000138d3     0xc  Code  Gb  aj_guid.o [2]
+AJ_GUID_DeleteNameMapping
+                        0x000138b1    0x16  Code  Gb  aj_guid.o [2]
+AJ_GUID_Find            0x000138c7     0xc  Code  Gb  aj_guid.o [2]
+AJ_GUID_FromString      0x0001381f    0x14  Code  Gb  aj_guid.o [2]
+AJ_GUID_ToString        0x0001380d    0x12  Code  Gb  aj_guid.o [2]
+AJ_GenerateDHKeyPair    0x00009037     0x4  Code  Gb  aj_crypto_ecc.o [2]
+AJ_GenerateDSAKeyPair   0x00009097     0x2  Code  Gb  aj_crypto_ecc.o [2]
+AJ_GenerateShareSecret  0x0000903b    0x5c  Code  Gb  aj_crypto_ecc.o [2]
+AJ_GetCredential        0x00014405    0x10  Code  Gb  aj_creds.o [2]
+AJ_GetElapsedTime       0x000095bd    0x2c  Code  Gb  aj_target_util.o [2]
+AJ_GetGroupKey          0x0001393d    0x44  Code  Gb  aj_guid.o [2]
+AJ_GetIPAddress         0x0000c7c9    0x24  Code  Gb  aj_wifi_ctrl.o [2]
+AJ_GetLocalCredential   0x00014733     0xe  Code  Gb  aj_creds.o [2]
+AJ_GetLocalGUID         0x00014693    0x54  Code  Gb  aj_creds.o [2]
+AJ_GetPeerCredential    0x00014689     0xa  Code  Gb  aj_creds.o [2]
+AJ_GetSessionKey        0x0001391f    0x1c  Code  Gb  aj_guid.o [2]
+AJ_GetUniqueName        0x00010989     0xc  Code  Gb  aj_bus.o [2]
+AJ_GetWifiConnectState  0x0000c471     0x8  Code  Gb  aj_wifi_ctrl.o [2]
+AJ_HMAC_SHA256_Final    0x00013749    0x50  Code  Gb  aj_crypto_sha2.o [2]
+AJ_HMAC_SHA256_Init     0x000136ab    0x92  Code  Gb  aj_crypto_sha2.o [2]
+AJ_HMAC_SHA256_Update   0x0001373d     0xc  Code  Gb  aj_crypto_sha2.o [2]
+AJ_HandleGetDescriptionLanguages
+                        0x0001031d    0x3c  Code  Gb  aj_introspect.o [2]
+AJ_HandleIntrospectRequest
+                        0x0001022b    0xf2  Code  Gb  aj_introspect.o [2]
+AJ_HexToRaw             0x0000d211    0x5c  Code  Gb  aj_util.o [2]
+AJ_IOBufInit            0x00013cc3    0x12  Code  Gb  aj_bufio.o [2]
+AJ_IOBufRebase          0x00013cd5    0x24  Code  Gb  aj_bufio.o [2]
+AJ_IPV4_MULTICAST_GROUP
+                        0x00015fc8     0xc  Data  Lc  aj_net.o [2]
+AJ_IPV6_MULTICAST_GROUP
+                        0x00015fd4     0xc  Data  Lc  aj_net.o [2]
+AJ_IdentifyMessage      0x0001077b    0xc2  Code  Gb  aj_introspect.o [2]
+AJ_IdentifyProperty     0x0001064b    0xea  Code  Gb  aj_introspect.o [2]
+AJ_InitArg              0x0000f571    0x46  Code  Gb  aj_msg.o [2]
+AJ_InitMessageFromMsgId
+                        0x00010591    0x9a  Code  Gb  aj_introspect.o [2]
+AJ_InitObjectIterator   0x000108f5     0xa  Code  Gb  aj_introspect.o [2]
+AJ_InitTimer            0x000095e9    0x14  Code  Gb  aj_target_util.o [2]
+AJ_Initialize           0x0000fab5    0x2c  Code  Gb  aj_init.o [2]
+AJ_IntrospectionIface   0x0001e05c     0xc  Data  Gb  aj_std.o [2]
+AJ_KeyAuthenticationECDSA
+                        0x1fff004c    0x10  Data  Gb  aj_keyauthentication.o [2]
+AJ_KeyAuthenticationNULL
+                        0x1fff006c    0x10  Data  Gb  aj_keyauthentication.o [2]
+AJ_KeyAuthenticationPSK
+                        0x1fff005c    0x10  Data  Gb  aj_keyauthentication.o [2]
+AJ_KeyExchangeECDHE     0x1fff007c     0xc  Data  Gb  aj_keyexchange.o [2]
+AJ_LookupMessageId      0x0001041f    0xf0  Code  Gb  aj_introspect.o [2]
+AJ_Main                 0x0000ccd7   0x176  Code  Gb  svclite.o [2]
+AJ_Malloc               0x00009635    0x1a  Code  Gb  aj_target_util.o [2]
+AJ_MarshalArg           0x0000f4e1    0x88  Code  Gb  aj_msg.o [2]
+AJ_MarshalArgs          0x0000f79f     0xe  Code  Gb  aj_msg.o [2]
+AJ_MarshalCloseContainer
+                        0x0000f861    0x82  Code  Gb  aj_msg.o [2]
+AJ_MarshalContainer     0x0000f83f    0x22  Code  Gb  aj_msg.o [2]
+AJ_MarshalErrorMsg      0x0000f9a7    0x1e  Code  Gb  aj_msg.o [2]
+AJ_MarshalMethodCall    0x0000f915    0x3c  Code  Gb  aj_msg.o [2]
+AJ_MarshalRaw           0x0000f823    0x1c  Code  Gb  aj_msg.o [2]
+AJ_MarshalReplyMsg      0x0000f98b    0x1c  Code  Gb  aj_msg.o [2]
+AJ_MarshalSignal        0x0000f951    0x2e  Code  Gb  aj_msg.o [2]
+AJ_MarshalStatusMsg     0x0000f9ef    0x2a  Code  Gb  aj_msg.o [2]
+AJ_MarshalVariant       0x0000f8e3    0x32  Code  Gb  aj_msg.o [2]
+AJ_NVRAM_Clear          0x00013da3    0x30  Code  Gb  aj_target_nvram.o [2]
+AJ_NVRAM_Close          0x000141f1    0x34  Code  Gb  aj_target_nvram.o [2]
+AJ_NVRAM_Delete         0x00013fd3    0x6a  Code  Gb  aj_target_nvram.o [2]
+AJ_NVRAM_Exist          0x00014225    0x1c  Code  Gb  aj_target_nvram.o [2]
+AJ_NVRAM_GetSize        0x00013d29    0x30  Code  Gb  aj_target_nvram.o [2]
+AJ_NVRAM_GetSizeRemaining
+                        0x00013fbd    0x16  Code  Gb  aj_target_nvram.o [2]
+AJ_NVRAM_Init           0x00013dd3    0xac  Code  Gb  aj_target_nvram.o [2]
+AJ_NVRAM_Open           0x0001403d    0xaa  Code  Gb  aj_target_nvram.o [2]
+AJ_NVRAM_Read           0x000141ab    0x46  Code  Gb  aj_target_nvram.o [2]
+AJ_NVRAM_Write          0x000140e7    0xc4  Code  Gb  aj_target_nvram.o [2]
+AJ_NV_SENTINEL          0x0001424c     0x8  Data  Lc  aj_target_nvram.o [2]
+AJ_Net_Connect          0x00015b29    0xee  Code  Gb  aj_net.o [2]
+AJ_Net_Disconnect       0x00015c17     0x2  Code  Gb  aj_net.o [2]
+AJ_Net_MCastDown        0x00015faf    0x18  Code  Gb  aj_net.o [2]
+AJ_Net_MCastUp          0x00015ebd    0xcc  Code  Gb  aj_net.o [2]
+AJ_Net_Recv             0x00015a9f    0x8a  Code  Gb  aj_net.o [2]
+AJ_Net_Send             0x00015a61    0x3e  Code  Gb  aj_net.o [2]
+AJ_Network_Up           0x0000c783    0x40  Code  Lc  aj_wifi_ctrl.o [2]
+AJ_NextArgSig           0x0000ee15    0x22  Code  Gb  aj_msg.o [2]
+AJ_NextObject           0x000108ff    0x54  Code  Gb  aj_introspect.o [2]
+AJ_NotifyLinkActive     0x00010f13     0xa  Code  Gb  aj_link_timeout.o [2]
+AJ_PSK_SetPwdCallback   0x00018cb5     0x8  Code  Gb  aj_keyauthentication.o [2]
+AJ_PeerHandleExchangeGUIDs
+                        0x00014a0f    0xe0  Code  Gb  aj_peer.o [2]
+AJ_PeerHandleExchangeGUIDsReply
+                        0x00014aef    0xd4  Code  Gb  aj_peer.o [2]
+AJ_PeerHandleExchangeGroupKeys
+                        0x00015305    0x62  Code  Gb  aj_peer.o [2]
+AJ_PeerHandleExchangeGroupKeysReply
+                        0x000153c5    0x3c  Code  Gb  aj_peer.o [2]
+AJ_PeerHandleExchangeSuites
+                        0x00014c1f    0xd2  Code  Gb  aj_peer.o [2]
+AJ_PeerHandleExchangeSuitesReply
+                        0x00014cf9    0x90  Code  Gb  aj_peer.o [2]
+AJ_PeerHandleGenSessionKey
+                        0x0001518f    0x96  Code  Gb  aj_peer.o [2]
+AJ_PeerHandleGenSessionKeyReply
+                        0x00015225    0xb8  Code  Gb  aj_peer.o [2]
+AJ_PeerHandleKeyAuthentication
+                        0x00014fe3    0x8e  Code  Gb  aj_peer.o [2]
+AJ_PeerHandleKeyAuthenticationReply
+                        0x0001508b    0x6c  Code  Gb  aj_peer.o [2]
+AJ_PeerHandleKeyExchange
+                        0x00014e39    0x9e  Code  Gb  aj_peer.o [2]
+AJ_PeerHandleKeyExchangeReply
+                        0x00014ee9    0xda  Code  Gb  aj_peer.o [2]
+AJ_PoolAlloc            0x0000ae73    0x3e  Code  Gb  aj_malloc.o [2]
+AJ_PoolAllocInit        0x000095fd    0x38  Code  Gb  aj_target_util.o [2]
+AJ_PoolFree             0x0000aeb1    0x28  Code  Gb  aj_malloc.o [2]
+AJ_PoolInit             0x0000ae0d    0x66  Code  Gb  aj_malloc.o [2]
+AJ_PoolRealloc          0x0000aed9    0x72  Code  Gb  aj_malloc.o [2]
+AJ_PoolRequired         0x0000ade5    0x28  Code  Gb  aj_malloc.o [2]
+AJ_PrintFWVersion       0x0000c553    0x16  Code  Gb  aj_wifi_ctrl.o [2]
+AJ_PropertiesIface      0x0001e048    0x14  Data  Gb  aj_std.o [2]
+AJ_RandBytes            0x00009417    0x76  Code  Gb  aj_target_crypto.o [2]
+AJ_RandHex              0x00013ca1    0x22  Code  Gb  aj_crypto.o [2]
+AJ_RawToB64             0x0000d275    0x78  Code  Gb  aj_util.o [2]
+AJ_RawToHex             0x0000d1cb    0x46  Code  Gb  aj_util.o [2]
+AJ_Realloc              0x00009665     0x4  Code  Gb  aj_target_util.o [2]
+AJ_RegisterObjects      0x0001083d     0x8  Code  Gb  aj_introspect.o [2]
+AJ_ReleaseReplyContext  0x0001088d    0x1a  Code  Gb  aj_introspect.o [2]
+AJ_ReleaseReplyContexts
+                        0x000108e5     0x8  Code  Gb  aj_introspect.o [2]
+AJ_ResetArgs            0x0000ea41    0x5a  Code  Gb  aj_msg.o [2]
+AJ_SHA256_Final         0x000136a7     0x4  Code  Gb  aj_crypto_sha2.o [2]
+AJ_SHA256_GetDigest     0x00013679    0x2e  Code  Gb  aj_crypto_sha2.o [2]
+AJ_SHA256_Init          0x00013671     0x4  Code  Gb  aj_crypto_sha2.o [2]
+AJ_SHA256_Update        0x00013675     0x4  Code  Gb  aj_crypto_sha2.o [2]
+AJ_SendLinkProbeReq     0x00010f8f    0x24  Code  Gb  aj_link_timeout.o [2]
+AJ_SetBusLinkTimeout    0x00010ef9    0x1a  Code  Gb  aj_link_timeout.o [2]
+AJ_SetGroupKey          0x000138e9    0x1c  Code  Gb  aj_guid.o [2]
+AJ_SetIPAddress         0x0000c85f    0x24  Code  Gb  aj_wifi_ctrl.o [2]
+AJ_SetSessionKey        0x00013905    0x1a  Code  Gb  aj_guid.o [2]
+AJ_SignCertificate      0x0000e373    0x3e  Code  Gb  aj_cert.o [2]
+AJ_SkipArg              0x0000ed3d    0xd0  Code  Gb  aj_msg.o [2]
+AJ_Sleep                0x000095b9     0x4  Code  Gb  aj_target_util.o [2]
+AJ_StandardObjects      0x0001e1d4    0x80  Data  Gb  aj_std.o [2]
+AJ_StartService         0x00011321   0x102  Code  Gb  aj_helper.o [2]
+AJ_StoreCredential      0x000145c9    0x76  Code  Gb  aj_creds.o [2]
+AJ_StoreLocalCredential
+                        0x00014705    0x2e  Code  Gb  aj_creds.o [2]
+AJ_StorePeerSecret      0x0001463f    0x2c  Code  Gb  aj_creds.o [2]
+AJ_StringFindFirstOf    0x0000d1a3    0x28  Code  Gb  aj_util.o [2]
+AJ_TimedOutMethodCall   0x000108a7    0x38  Code  Gb  aj_introspect.o [2]
+AJ_UnmarshalArg         0x0000ee37    0x7e  Code  Gb  aj_msg.o [2]
+AJ_UnmarshalArgs        0x0000f069    0x12  Code  Gb  aj_msg.o [2]
+AJ_UnmarshalCloseContainer
+                        0x0000f0d5    0x3e  Code  Gb  aj_msg.o [2]
+AJ_UnmarshalContainer   0x0000f07b    0x54  Code  Gb  aj_msg.o [2]
+AJ_UnmarshalMsg         0x0000ea9d   0x288  Code  Gb  aj_msg.o [2]
+AJ_UnmarshalPropertyArgs
+                        0x00010735    0x46  Code  Gb  aj_introspect.o [2]
+AJ_UnmarshalVariant     0x0000f113    0x16  Code  Gb  aj_msg.o [2]
+AJ_VerifyCertificate    0x0000e3b1    0x3c  Code  Gb  aj_cert.o [2]
+ATHEROS_PHY_IF          0x0001e548    0x14  Data  Gb  atheros_phy.o [3]
+ATHEROS_WIFI_IF         0x0001e55c    0x20  Data  Gb  cust_api_init.o [3]
+AboutGetProp            0x00015441    0x12  Code  Lc  aj_about.o [2]
+AboutIconGetProp        0x000155eb    0x36  Code  Lc  aj_about.o [2]
+AboutIconIface          0x0001e174    0x1c  Data  Lc  aj_std.o [2]
+AboutIconIfaces         0x0001e1c8     0xc  Data  Lc  aj_std.o [2]
+AboutIconInterface      0x0001e018    0x14  Data  Lc  aj_std.o [2]
+AboutIconObjectPath     0x0001e004    0x14  Data  Lc  aj_std.o [2]
+AboutIface              0x0001e15c    0x18  Data  Lc  aj_std.o [2]
+AboutIfaces             0x0001e1bc     0xc  Data  Lc  aj_std.o [2]
+AboutInterface          0x0001dff0    0x14  Data  Lc  aj_std.o [2]
+AboutObjectPath         0x0001dfe8     0x8  Data  Lc  aj_std.o [2]
+Access                  0x0000feb0     0xc  Data  Lc  aj_introspect.o [2]
+AddSuite                0x00010da5    0x3e  Code  Lc  aj_bus.o [2]
+AllJoyn_Start           0x0000c291    0xb6  Code  Gb  AllJoyn.o [2]
+AllSeenIntrospectableInterface
+                        0x0001e02c    0x1c  Data  Gb  aj_std.o [2]
+AnonymousAuthAdvance    0x0001101f    0xb6  Code  Lc  aj_connect.o [2]
+Api_AggrRecvAddbaReqEvent
+                        0x00019a7d    0x1a  Code  Gb  api_wmi_rx.o [3]
+Api_AggrRecvDelbaReqEvent
+                        0x00019a97     0xe  Code  Gb  api_wmi_rx.o [3]
+Api_BootProfile         0x00018309     0xe  Code  Gb  api_init.o [3]
+Api_BssInfoEvent        0x00019401     0x8  Code  Gb  api_wmi_rx.o [3]
+Api_ChannelListEvent    0x0001939d    0x36  Code  Gb  api_wmi_rx.o [3]
+Api_ConnectEvent        0x00019463   0x100  Code  Gb  api_wmi_rx.o [3]
+Api_ConnectWiFi         0x00012161   0x1a6  Code  Gb  api_ioctl.o [3]
+Api_DataTxStart         0x0001868f    0x9c  Code  Gb  api_txrx.o [3]
+Api_DeInitFinish        0x00018449    0x2e  Code  Gb  api_init.o [3]
+Api_DisconnectEvent     0x00019563    0xbe  Code  Gb  api_wmi_rx.o [3]
+Api_DisconnectWiFi      0x000120a1    0xc0  Code  Gb  api_ioctl.o [3]
+Api_DriverAccessCheck   0x00012595    0x6e  Code  Gb  api_ioctl.o [3]
+Api_DsetOPEvent         0x000198e5    0xba  Code  Gb  api_wmi_rx.o [3]
+Api_GetBitRateEvent     0x00019395     0x8  Code  Gb  api_wmi_rx.o [3]
+Api_GetPmkEvent         0x00019437    0x22  Code  Gb  api_wmi_rx.o [3]
+Api_GetTemperatureReply
+                        0x00019adb    0x1e  Code  Gb  api_wmi_rx.o [3]
+Api_HostDsetCreateEvent
+                        0x00019665    0x50  Code  Gb  api_wmi_rx.o [3]
+Api_HostDsetReadEvent   0x0001980f    0x6a  Code  Gb  api_wmi_rx.o [3]
+Api_HostDsetReadbackEvent
+                        0x00019723    0x96  Code  Gb  api_wmi_rx.o [3]
+Api_HostDsetStoreEvent  0x00019621    0x44  Code  Gb  api_wmi_rx.o [3]
+Api_HostDsetSyncEvent   0x000197b9    0x56  Code  Gb  api_wmi_rx.o [3]
+Api_HostDsetWriteEvent  0x000196b5    0x6e  Code  Gb  api_wmi_rx.o [3]
+Api_InitFinish          0x0001832b    0x44  Code  Gb  api_init.o [3]
+Api_InitStart           0x00018317    0x14  Code  Gb  api_init.o [3]
+Api_ParseInfoElem       0x00012473   0x122  Code  Gb  api_ioctl.o [3]
+Api_ProgramMacAddress   0x00012603    0xbc  Code  Gb  api_ioctl.o [3]
+Api_RSNASuccessEvent    0x00019ad7     0x4  Code  Gb  api_wmi_rx.o [3]
+Api_ReadyEvent          0x00019aa5    0x32  Code  Gb  api_wmi_rx.o [3]
+Api_RegDomainEvent      0x0001938b     0xa  Code  Gb  api_wmi_rx.o [3]
+Api_RxComplete          0x00018563   0x10e  Code  Gb  api_txrx.o [3]
+Api_RxGpioDataEvent     0x00019b43     0x8  Code  Gb  api_wmi_rx.o [3]
+Api_RxPfmDataDoneEvent  0x00019b53     0x8  Code  Gb  api_wmi_rx.o [3]
+Api_RxPfmDataEvent      0x00019b4b     0x8  Code  Gb  api_wmi_rx.o [3]
+Api_ScanCompleteEvent   0x000193dd    0x24  Code  Gb  api_wmi_rx.o [3]
+Api_SetPowerMode        0x00012701    0x98  Code  Gb  api_ioctl.o [3]
+Api_SockResponseEventRx
+                        0x000128b5   0x394  Code  Gb  api_stack_offload.o [3]
+Api_StoreRecallEvent    0x0001999f    0x50  Code  Gb  api_wmi_rx.o [3]
+Api_StoreRecallStartEvent
+                        0x000199ef    0x3c  Code  Gb  api_wmi_rx.o [3]
+Api_TargetStatsEvent    0x00019369    0x22  Code  Gb  api_wmi_rx.o [3]
+Api_TestCmdEventRx      0x00019b2b    0x18  Code  Gb  api_wmi_rx.o [3]
+Api_TkipMicErrorEvent   0x00019409    0x2e  Code  Gb  api_wmi_rx.o [3]
+Api_TxComplete          0x00018531    0x32  Code  Gb  api_txrx.o [3]
+Api_TxGetStatus         0x000184e5    0x4c  Code  Gb  api_txrx.o [3]
+Api_WMIInitFinish       0x000183bd    0x8c  Code  Gb  api_init.o [3]
+Api_WmiTxStart          0x00018679    0x16  Code  Gb  api_txrx.o [3]
+Api_WpsProfileEvent     0x00019a2b    0x52  Code  Gb  api_wmi_rx.o [3]
+Api_bind                0x00012e9b    0xce  Code  Gb  api_stack_offload.o [3]
+Api_connect             0x00012db7    0xce  Code  Gb  api_stack_offload.o [3]
+Api_dset_read_event     0x0001987d    0x54  Code  Gb  api_wmi_rx.o [3]
+Api_ip6config           0x00013279    0xdc  Code  Gb  api_stack_offload.o [3]
+Api_ipconfig            0x0001315f   0x100  Code  Gb  api_stack_offload.o [3]
+Api_recvfrom            0x0000dd59   0x1ce  Code  Gb  cust_api_stack_offload.o [3]
+Api_select              0x00012f79    0xe8  Code  Gb  api_stack_offload.o [3]
+Api_setsockopt          0x00013065    0xda  Code  Gb  api_stack_offload.o [3]
+Api_shutdown            0x00012d45    0x72  Code  Gb  api_stack_offload.o [3]
+Api_socket              0x00012c49    0xee  Code  Gb  api_stack_offload.o [3]
+AppObjects              0x1fff008c    0x20  Data  Lc  svclite.o [2]
+Atheros_Driver_Task     0x00011705    0x82  Code  Lc  cust_driver_main.o [3]
+AuthListenerCallback    0x0000caf1   0x170  Code  Lc  svclite.o [2]
+BAUDRATE_ICR            0x00003970   0x100  Data  Lc  i2c_pol_ki2c.o [3]
+BAUDRATE_MULT           0x00003964     0xc  Data  Lc  i2c_pol_ki2c.o [3]
+BAUDRATE_PRESCALER      0x0001d334    0x10  Data  Lc  spi_dspi_common.o [3]
+BAUDRATE_SCALER         0x0001d344    0x40  Data  Lc  spi_dspi_common.o [3]
+BMIDone                 0x0001a7a3    0x40  Code  Gb  bmi.o [3]
+BMIExecute              0x0001a8ed    0x66  Code  Gb  bmi.o [3]
+BMIGetTargetInfo        0x0001a7e3    0x68  Code  Gb  bmi.o [3]
+BMIInit                 0x0001a75f    0x44  Code  Gb  bmi.o [3]
+BMIWriteMemory          0x0001a84b    0x9c  Code  Gb  bmi.o [3]
+BigEndianU8ToHostU32    0x0000e0b3    0x2e  Code  Lc  aj_cert.o [2]
+BigEndianU8ToHostU64    0x0000e117    0x3a  Code  Lc  aj_cert.o [2]
+BusIface                0x0001e0bc    0x54  Data  Lc  aj_std.o [2]
+BusIfaces               0x0001e19c     0x8  Data  Lc  aj_std.o [2]
+BusInterface            0x0001df64    0x10  Data  Lc  aj_std.o [2]
+BusObjectPath           0x0001df50    0x14  Data  Lc  aj_std.o [2]
+Bus_InOutDescriptorSet  0x000181a5    0xac  Code  Gb  hw_api.o [3]
+Bus_InOutToken          0x00018251    0x10  Code  Gb  hw_api.o [3]
+CBC_MAC                 0x0001398b    0x4a  Code  Lc  aj_crypto.o [2]
+CFMPROTROM$$Base        0x00000400           --   Gb  - Linker created -
+CFMPROTROM$$Limit       0x00000414           --   Gb  - Linker created -
+CertificateDigest       0x0000e33d    0x36  Code  Lc  aj_cert.o [2]
+CertificateSize         0x0000e17d    0x1a  Code  Lc  aj_cert.o [2]
+CheckSignature          0x00010359    0x54  Code  Lc  aj_introspect.o [2]
+ChildPath               0x0000ff5d    0x4c  Code  Lc  aj_introspect.o [2]
+ClockConfigurationID    0x1fff2b5f     0x1  Data  Lc  bsp_cm.o [3]
+CloseNetSock            0x00015a17    0x4a  Code  Lc  aj_net.o [2]
+CommonIfaces            0x0001e1a4    0x10  Data  Lc  aj_std.o [2]
+CompleteTypeSigLen      0x0000e7af    0x3c  Code  Lc  aj_msg.o [2]
+ComposeSignature        0x000103ad    0x36  Code  Lc  aj_introspect.o [2]
+ComputeMasterSecret     0x00014949    0x2e  Code  Lc  aj_peer.o [2]
+ComputeVerifier         0x000187cd    0x4a  Code  Lc  aj_keyauthentication.o [2]
+Compute_CCM_AuthTag     0x000139e1    0x76  Code  Lc  aj_crypto.o [2]
+ConfigNetSock           0x000159a1    0x76  Code  Lc  aj_net.o [2]
+ConnectService          0x00017889    0xb0  Code  Lc  driver_init.o [3]
+Cpu_SetClockConfiguration
+                        0x00000ae7    0xa6  Code  Gb  bsp_cm.o [3]
+Cpu_SetMCG              0x000008b1   0x236  Code  Lc  bsp_cm.o [3]
+Custom_Api_BitRateEvent_tx
+                        0x0001af05    0x30  Code  Gb  cust_api_wmi_rx.o [3]
+Custom_Api_BssInfoEvent
+                        0x0001acfb   0x11e  Code  Gb  cust_api_wmi_rx.o [3]
+Custom_Api_ConnectEvent
+                        0x0001ae19    0x46  Code  Gb  cust_api_wmi_rx.o [3]
+Custom_Api_DisconnectEvent
+                        0x0001ae5f    0x62  Code  Gb  cust_api_wmi_rx.o [3]
+Custom_Api_GpioDataEvent
+                        0x0001b1b5    0x10  Code  Gb  cust_api_wmi_rx.o [3]
+Custom_Api_Initialize   0x0001b4ff    0xf2  Code  Lc  cust_api_init.o [3]
+Custom_Api_Join         0x0001b4dd     0x4  Code  Lc  cust_api_init.o [3]
+Custom_Api_Mediactl     0x0001c6ad   0x408  Code  Gb  cust_api_ioctl.o [3]
+Custom_Api_PfmDataDoneEvent
+                        0x0001b1d5    0x16  Code  Gb  cust_api_wmi_rx.o [3]
+Custom_Api_PfmDataEvent
+                        0x0001b1c5    0x10  Code  Gb  cust_api_wmi_rx.o [3]
+Custom_Api_RSNASuccessEvent
+                        0x0001aedb    0x2a  Code  Gb  cust_api_wmi_rx.o [3]
+Custom_Api_Readmii      0x0001b4d9     0x2  Code  Lc  cust_api_init.o [3]
+Custom_Api_ReadyEvent   0x0001aec1    0x1a  Code  Gb  cust_api_wmi_rx.o [3]
+Custom_Api_Rejoin       0x0001b4e1     0x4  Code  Lc  cust_api_init.o [3]
+Custom_Api_Send         0x00013545     0x4  Code  Gb  cust_api_stack_txrx.o [3]
+Custom_Api_Shutdown     0x0001b5f1    0x52  Code  Lc  cust_api_init.o [3]
+Custom_Api_Test_Cmd_Event
+                        0x0001b1a3    0x12  Code  Gb  cust_api_wmi_rx.o [3]
+Custom_Api_Writemii     0x0001b4db     0x2  Code  Lc  cust_api_init.o [3]
+Custom_Api_get_p2p_ctx  0x0001b04f    0x40  Code  Gb  cust_api_wmi_rx.o [3]
+Custom_Api_p2p_go_neg_event
+                        0x0001af35    0x4e  Code  Gb  cust_api_wmi_rx.o [3]
+Custom_Api_p2p_invite_rcvd_result
+                        0x0001b13f    0x32  Code  Gb  cust_api_wmi_rx.o [3]
+Custom_Api_p2p_invite_req
+                        0x0001b10d    0x32  Code  Gb  cust_api_wmi_rx.o [3]
+Custom_Api_p2p_invite_send_result
+                        0x0001b171    0x32  Code  Gb  cust_api_wmi_rx.o [3]
+Custom_Api_p2p_list_persistent_network_event
+                        0x0001b00b    0x44  Code  Gb  cust_api_wmi_rx.o [3]
+Custom_Api_p2p_node_list_event
+                        0x0001af83    0x54  Code  Gb  cust_api_wmi_rx.o [3]
+Custom_Api_p2p_prov_disc_req
+                        0x0001b08f    0x30  Code  Gb  cust_api_wmi_rx.o [3]
+Custom_Api_p2p_req_auth_event
+                        0x0001afd7    0x34  Code  Gb  cust_api_wmi_rx.o [3]
+Custom_Api_p2p_serv_disc_req
+                        0x0001b0db    0x32  Code  Gb  cust_api_wmi_rx.o [3]
+Custom_Bus_CompleteTransfer
+                        0x000191e3     0xe  Code  Gb  cust_hw_api.o [3]
+Custom_Bus_InOutBuffer  0x0001915b    0x20  Code  Gb  cust_hw_api.o [3]
+Custom_Bus_InOutToken   0x0001917b    0x46  Code  Gb  cust_hw_api.o [3]
+Custom_Bus_StartTransfer
+                        0x000191c1    0x22  Code  Gb  cust_hw_api.o [3]
+Custom_DeliverFrameToNetworkStack
+                        0x000135dd    0x1c  Code  Gb  cust_api_stack_txrx.o [3]
+Custom_Driver_ContextDeInit
+                        0x000118fd    0x34  Code  Gb  cust_driver_main.o [3]
+Custom_Driver_ContextInit
+                        0x00011869    0x94  Code  Gb  cust_driver_main.o [3]
+Custom_Driver_CreateThread
+                        0x00011787    0x4e  Code  Gb  cust_driver_main.o [3]
+Custom_Driver_DestroyThread
+                        0x000117d5    0x12  Code  Gb  cust_driver_main.o [3]
+Custom_Driver_WaitForCondition
+                        0x000116b1    0x4a  Code  Gb  cust_driver_main.o [3]
+Custom_Driver_WakeDriver
+                        0x00011859     0x8  Code  Gb  cust_driver_main.o [3]
+Custom_Driver_WakeUser  0x00011861     0x8  Code  Gb  cust_driver_main.o [3]
+Custom_FreeRxRequest    0x000117e7     0x2  Code  Lc  cust_driver_main.o [3]
+Custom_GetRxRequest     0x000117e9    0x64  Code  Gb  cust_driver_main.o [3]
+Custom_HW_DeInit        0x00019309    0x2c  Code  Gb  cust_hw_api.o [3]
+Custom_HW_EnableDisableSPIIRQ
+                        0x0001906f    0x18  Code  Gb  cust_hw_api.o [3]
+Custom_HW_Init          0x000191f9   0x100  Code  Gb  cust_hw_api.o [3]
+Custom_HW_InterruptHandler
+                        0x000191f1     0x8  Code  Gb  cust_hw_api.o [3]
+Custom_HW_PowerUpDown   0x000190b7    0xa4  Code  Gb  cust_hw_api.o [3]
+Custom_HW_SetClock      0x0001906d     0x2  Code  Gb  cust_hw_api.o [3]
+Custom_HW_UsecDelay     0x00019087    0x30  Code  Gb  cust_hw_api.o [3]
+DBusIface               0x0001e078    0x2c  Data  Lc  aj_std.o [2]
+DBusIfaces              0x0001e0b4     0x8  Data  Lc  aj_std.o [2]
+DBusInterface           0x0001ded0    0x18  Data  Lc  aj_std.o [2]
+DBusIntrospectableInterface
+                        0x0001df28    0x28  Data  Lc  aj_std.o [2]
+DBusObjectPath          0x0001deb8    0x18  Data  Lc  aj_std.o [2]
+DBusPeerIface           0x0001e0a4    0x10  Data  Lc  aj_std.o [2]
+DBusPeerInterface       0x0001dee8    0x1c  Data  Gb  aj_std.o [2]
+DBusPropsInterface      0x0001df04    0x24  Data  Lc  aj_std.o [2]
+DELAY_PRESCALER         0x0001d384    0x10  Data  Lc  spi_dspi_common.o [3]
+DaemonIface             0x0001e110    0x10  Data  Lc  aj_std.o [2]
+DaemonIfaces            0x0001e1b4     0x8  Data  Lc  aj_std.o [2]
+DaemonInterface         0x0001df78    0x14  Data  Lc  aj_std.o [2]
+DaemonObjectPath        0x0001df74     0x2  Data  Lc  aj_std.o [2]
+DecryptMessage          0x0000e519    0x7a  Code  Lc  aj_msg.o [2]
+Direction               0x0000fef8    0x18  Data  Lc  aj_introspect.o [2]
+DoDMAOp                 0x0001622b    0x9a  Code  Lc  spi_hcd.o [3]
+DoPioReadInternal       0x00016009    0x28  Code  Lc  spi_hcd.o [3]
+DoPioWriteInternal      0x00015fe1    0x28  Code  Lc  spi_hcd.o [3]
+Driver_BootComm         0x00017c5f    0xb4  Code  Gb  driver_init.o [3]
+Driver_CompleteRequest  0x00017657    0x40  Code  Gb  driver_main.o [3]
+Driver_ContextDeInit    0x00017acf    0x20  Code  Gb  driver_init.o [3]
+Driver_ContextInit      0x00017a19    0xb6  Code  Gb  driver_init.o [3]
+Driver_DeInit           0x00017be5    0x46  Code  Gb  driver_init.o [3]
+Driver_DumpAssertInfo   0x00011617    0x7e  Code  Gb  driver_diag.o [3]
+Driver_GetTargetInfo    0x00017c2b    0x34  Code  Gb  driver_init.o [3]
+Driver_Init             0x00017aef    0xf6  Code  Gb  driver_init.o [3]
+Driver_Main             0x0001749d   0x19c  Code  Gb  driver_main.o [3]
+Driver_PostProcessRequest
+                        0x0001a4f9    0x24  Code  Lc  driver_txrx.o [3]
+Driver_ReadDataDiag     0x0001154d    0x66  Code  Gb  driver_diag.o [3]
+Driver_ReadRegDiag      0x000114bd    0x48  Code  Gb  driver_diag.o [3]
+Driver_RecvPacket       0x0001a5db    0x3c  Code  Gb  driver_txrx.o [3]
+Driver_ReportRxBuffStatus
+                        0x00017639    0x1e  Code  Gb  driver_main.o [3]
+Driver_RxComplete       0x0001a4a5    0x3e  Code  Gb  driver_txrx.o [3]
+Driver_RxReady          0x00017765    0xda  Code  Gb  driver_main.o [3]
+Driver_SendPacket       0x0001a589    0x52  Code  Gb  driver_txrx.o [3]
+Driver_SetAddressWindowRegister
+                        0x0001142d    0x90  Code  Lc  driver_diag.o [3]
+Driver_SubmitTxRequest  0x0001a51d    0x68  Code  Gb  driver_txrx.o [3]
+Driver_TxComplete       0x0001a4e3    0x16  Code  Lc  driver_txrx.o [3]
+Driver_TxReady          0x00017697    0xce  Code  Gb  driver_main.o [3]
+Driver_WriteDataDiag    0x000115b3    0x64  Code  Gb  driver_diag.o [3]
+Driver_WriteRegDiag     0x00011505    0x48  Code  Gb  driver_diag.o [3]
+ECC_hash_to_bigval      0x00008ffd    0x3a  Code  Gb  aj_crypto_ecc.o [2]
+ECDHE_Init              0x0001b401    0x10  Code  Lc  aj_keyexchange.o [2]
+ECDHE_Marshal           0x0001b411    0x40  Code  Lc  aj_keyexchange.o [2]
+ECDHE_Unmarshal         0x0001b451    0x80  Code  Lc  aj_keyexchange.o [2]
+ECDH_generate           0x00008eb1    0x3c  Code  Gb  aj_crypto_ecc.o [2]
+ECDSA_Final             0x00018c99    0x1c  Code  Lc  aj_keyauthentication.o [2]
+ECDSA_Init              0x00018817   0x15a  Code  Lc  aj_keyauthentication.o [2]
+ECDSA_Marshal           0x000189fb    0xd2  Code  Lc  aj_keyauthentication.o [2]
+ECDSA_MarshalCertificate
+                        0x00018985    0x76  Code  Lc  aj_keyauthentication.o [2]
+ECDSA_Unmarshal         0x00018b2d   0x15a  Code  Lc  aj_keyauthentication.o [2]
+ECDSA_UnmarshalCertificate
+                        0x00018acd    0x60  Code  Lc  aj_keyauthentication.o [2]
+ECDSA_verify            0x00008fed    0x10  Code  Gb  aj_crypto_ecc.o [2]
+ECDSA_verify_inner      0x00008eed    0xe2  Code  Lc  aj_crypto_ecc.o [2]
+ENET_0                  0x0001e4f0    0x10  Data  Gb  init_enet.o [3]
+ENET_default_params     0x0001e500    0x48  Data  Gb  init_enet.o [3]
+ENET_initialize         0x0000d75d    0x18  Code  Gb  eninit.o [3]
+ENET_initialize_ex      0x0000d685    0xd8  Code  Gb  eninit.o [3]
+ENET_max_framesize      0x0001199d    0x12  Code  Gb  enutil.o [3]
+ENET_mediactl           0x0000d155    0x1c  Code  Gb  enmediactl.o [3]
+EnableDisableSPIIRQHwDetect
+                        0x00016031    0x5a  Code  Lc  spi_hcd.o [3]
+EncryptMessage          0x0000e59f    0x7a  Code  Lc  aj_msg.o [2]
+EncryptRounds           0x000097ab   0x360  Code  Lc  aj_sw_crypto.o [2]
+EndianSwap              0x0000e439    0xb8  Code  Lc  aj_msg.o [2]
+ExchangeSuites          0x00014bcf    0x50  Code  Lc  aj_peer.o [2]
+ExpandAttribute         0x0000fae1    0x4c  Code  Lc  aj_introspect.o [2]
+ExpandInterfaces        0x0000fc2d   0x250  Code  Lc  aj_introspect.o [2]
+FLASHX_POOL$$Base       0x0001f000           --   Gb  - Linker created -
+FLASHX_POOL$$Limit      0x0001f001           --   Gb  - Linker created -
+FindCredential          0x0001430d    0xf2  Code  Lc  aj_creds.o [2]
+FindInterface           0x000103e3    0x3c  Code  Lc  aj_introspect.o [2]
+FindReplyContext        0x0001062b    0x20  Code  Lc  aj_introspect.o [2]
+Flash_GetBaseAddr       0x00013cf9    0x30  Code  Gb  aj_target_nvram.o [2]
+FreeCredentialContent   0x00014255    0x46  Code  Lc  aj_creds.o [2]
+GatherBits              0x00009365    0xb2  Code  Lc  aj_target_crypto.o [2]
+GenSessionKey           0x0001510d    0x78  Code  Lc  aj_peer.o [2]
+GenXML                  0x0000ffef   0x178  Code  Lc  aj_introspect.o [2]
+GetAcceptableVersion    0x00014841    0x1e  Code  Lc  aj_peer.o [2]
+GetCredentialSize       0x00014415    0x10  Code  Lc  aj_creds.o [2]
+GetDescription          0x0000fb71    0x10  Code  Lc  aj_introspect.o [2]
+HTC_ConnectService      0x0001a2fb    0xcc  Code  Gb  htc.o [3]
+HTC_ProcessCpuInterrupt
+                        0x0001a01d    0x6e  Code  Gb  htc.o [3]
+HTC_Start               0x0001a3c7    0x30  Code  Gb  htc.o [3]
+HTC_WaitTarget          0x0001a2a9    0x52  Code  Gb  htc.o [3]
+HW_EnableDisableSPIIRQ  0x00018115    0x4c  Code  Gb  hw_api.o [3]
+HW_InterruptHandler     0x00018261    0x34  Code  Gb  hw_api.o [3]
+HW_PowerUpDown          0x00018161    0x40  Code  Gb  hw_api.o [3]
+HandshakeComplete       0x00014919    0x30  Code  Lc  aj_peer.o [2]
+HandshakeTimeout        0x000149a1    0x44  Code  Lc  aj_peer.o [2]
+HandshakeValid          0x000149e5    0x2a  Code  Lc  aj_peer.o [2]
+Hcd_ClearCPUInterrupt   0x0001646b    0x2a  Code  Gb  spi_hcd.o [3]
+Hcd_Deinitialize        0x0001661b    0x1c  Code  Gb  spi_hcd.o [3]
+Hcd_DoPioExternalAccess
+                        0x00016111    0xf8  Code  Gb  spi_hcd.o [3]
+Hcd_DoPioInternalAccess
+                        0x00016105     0xc  Code  Gb  spi_hcd.o [3]
+Hcd_GetLookAhead        0x0001676d    0xa8  Code  Gb  spi_hcd.o [3]
+Hcd_GetMboxAddress      0x000160e1    0x24  Code  Gb  spi_hcd.o [3]
+Hcd_Init                0x00016637   0x120  Code  Gb  spi_hcd.o [3]
+Hcd_ProgramWriteBufferWaterMark
+                        0x000162c5    0xb2  Code  Gb  spi_hcd.o [3]
+Hcd_ReadCPUInterrupt    0x00016427    0x44  Code  Gb  spi_hcd.o [3]
+Hcd_RefreshWriteBufferSpace
+                        0x00016377    0x1e  Code  Gb  spi_hcd.o [3]
+Hcd_ReinitTarget        0x000165e3    0x38  Code  Gb  spi_hcd.o [3]
+Hcd_Request             0x00016395    0x92  Code  Gb  spi_hcd.o [3]
+Hcd_SpiInterrupt        0x000164a9   0x13a  Code  Gb  spi_hcd.o [3]
+Hcd_UnmaskSPIInterrupts
+                        0x000160b7    0x2a  Code  Gb  spi_hcd.o [3]
+HostU32ToBigEndianU8    0x0000e087    0x2c  Code  Gb  aj_cert.o [2]
+HostU64ToBigEndianU8    0x0000e0e1    0x36  Code  Lc  aj_cert.o [2]
+Htc_DistributeCredits   0x00019f8d    0x3e  Code  Lc  htc.o [3]
+Htc_GetCreditCounterUpdate
+                        0x00019f41    0x4c  Code  Gb  htc.o [3]
+Htc_PrepareRecvPacket   0x00019e9d    0x38  Code  Gb  htc.o [3]
+Htc_ProcessCreditRpt    0x00019fcb    0x52  Code  Lc  htc.o [3]
+Htc_ProcessRecvHeader   0x0001a1c3    0xe6  Code  Gb  htc.o [3]
+Htc_ProcessTrailer      0x0001a08b    0xa8  Code  Lc  htc.o [3]
+Htc_ProcessTxComplete   0x0001a1bb     0x8  Code  Gb  htc.o [3]
+Htc_ReadCreditCounter   0x00019ef5    0x4c  Code  Gb  htc.o [3]
+Htc_RxComplete          0x00019ed5    0x20  Code  Gb  htc.o [3]
+Htc_SendPacket          0x0001a133    0x88  Code  Gb  htc.o [3]
+InStream_Read           0x0001d3f5    0x22  Code  Lc  packbits_init.o [7]
+Inet6Pton               0x0000c98d    0xd2  Code  Gb  net_utils.o [2]
+InitArg                 0x0000e3ed    0x12  Code  Lc  aj_msg.o [2]
+InitCCMContext          0x00013a65    0x7e  Code  Lc  aj_crypto.o [2]
+InitNonce               0x0000e503    0x16  Code  Lc  aj_msg.o [2]
+InitializeIO            0x0000d609    0x32  Code  Gb  atheros_wifi_mediactl_ext.o [2]
+Install_static_wep_keys
+                        0x00012017    0x8a  Code  Lc  api_ioctl.o [3]
+K256                    0x0000c158   0x100  Data  Lc  sha2.o [2]
+KERNEL_DATA$$Base       0x1fff2b60           --   Gb  - Linker created -
+KERNEL_DATA$$Limit      0x1fff2b64           --   Gb  - Linker created -
+KeyExchange             0x00014d89    0xac  Code  Lc  aj_peer.o [2]
+KeyGen                  0x0001485f    0x9c  Code  Lc  aj_peer.o [2]
+LED_SetOutput           0x0000d63b     0x2  Code  Gb  atheros_wifi_mediactl_ext.o [2]
+LPM_CPU_OPERATION_MODES
+                        0x0001e57c    0x1c  Data  Gb  init_lpm.o [3]
+LoadBytes               0x0000e673    0x54  Code  Lc  aj_msg.o [2]
+LookupName              0x00013833    0x32  Code  Lc  aj_guid.o [2]
+MCGTransitionMatrix     0x00000cd8    0x1c  Data  Lc  bsp_cm.o [3]
+MCastUp6                0x00015e0d    0xb0  Code  Lc  aj_net.o [2]
+MQX_init_struct         0x0001e79c    0x30  Data  Gb  mqx_init.o [3]
+MQX_template_list       0x0001e25c    0x40  Data  Gb  aj_tasks.o [2]
+Marshal                 0x0000f129   0x1dc  Code  Lc  aj_msg.o [2]
+MarshalDefaultProps     0x0001541d    0x1a  Code  Lc  aj_about.o [2]
+MarshalMsg              0x0000f30f   0x1b4  Code  Lc  aj_msg.o [2]
+MarshalObjectDescriptions
+                        0x00015497    0xc0  Code  Lc  aj_about.o [2]
+MarshalSessionOpts      0x000109fb    0x58  Code  Lc  aj_bus.o [2]
+MaskSPIInterrupts       0x0001608b    0x2c  Code  Lc  spi_hcd.o [3]
+MemberClose             0x0000febc    0x10  Data  Lc  aj_introspect.o [2]
+MemberOpen              0x0000fecc     0xc  Data  Lc  aj_introspect.o [2]
+MessageLen              0x0000e4f1    0x12  Code  Lc  aj_msg.o [2]
+MyBusAuthPwdCB          0x0000ccc7    0x10  Code  Gb  svclite.o [2]
+NULL_Final              0x0001900d     0xa  Code  Lc  aj_keyauthentication.o [2]
+NULL_Init               0x00018f31    0x1e  Code  Lc  aj_keyauthentication.o [2]
+NULL_Marshal            0x00018f4f    0x50  Code  Lc  aj_keyauthentication.o [2]
+NULL_Unmarshal          0x00018f9f    0x6e  Code  Lc  aj_keyauthentication.o [2]
+NV_BaseAddr             0x1fff0be4     0x4  Data  Lc  aj_target_nvram.o [2]
+NV_Busy                 0x1fff0bd0     0x1  Data  Lc  aj_target_nvram.o [2]
+NV_Compact              0x00013ef5    0xbe  Code  Lc  aj_target_nvram.o [2]
+NV_EraseSector          0x00013eab    0x4a  Code  Lc  aj_target_nvram.o [2]
+NV_FindEntry            0x00013e7f    0x2c  Code  Lc  aj_target_nvram.o [2]
+NV_IsCompact            0x1fff0bd1     0x1  Data  Lc  aj_target_nvram.o [2]
+NV_Offset               0x1fff0be0     0x4  Data  Lc  aj_target_nvram.o [2]
+NV_PartitionSize        0x1fff0bdc     0x4  Data  Lc  aj_target_nvram.o [2]
+NV_SectorSize           0x1fff0bd8     0x4  Data  Lc  aj_target_nvram.o [2]
+NV_Write                0x00013d7b    0x28  Code  Lc  aj_target_nvram.o [2]
+PE_CpuClockConfigurations
+                        0x00000cf4    0x78  Data  Lc  bsp_cm.o [3]
+PSK_Final               0x00018f0d    0x24  Code  Lc  aj_keyauthentication.o [2]
+PSK_Init                0x00018cbd    0x1a  Code  Lc  aj_keyauthentication.o [2]
+PSK_Marshal             0x00018cdd   0x110  Code  Lc  aj_keyauthentication.o [2]
+PSK_Unmarshal           0x00018ded   0x118  Code  Lc  aj_keyauthentication.o [2]
+PWD                     0x0000cf20     0x8  Data  Lc  svclite.o [2]
+Pack32                  0x000097a1     0x2  Code  Lc  aj_sw_crypto.o [2]
+PadForType              0x0000e3ff    0x3a  Code  Lc  aj_msg.o [2]
+ParseIsAt               0x0001572d   0x13c  Code  Lc  aj_disco.o [2]
+PasswordCallback        0x0000cae1    0x10  Code  Lc  svclite.o [2]
+PeerAuthIface           0x0001e130    0x2c  Data  Lc  aj_std.o [2]
+PeerAuthInterface       0x0001dfc4    0x24  Data  Lc  aj_std.o [2]
+PeerIfaces              0x0001e190     0xc  Data  Lc  aj_std.o [2]
+PeerObjectPath          0x0001df8c    0x18  Data  Lc  aj_std.o [2]
+PeerSessionIface        0x0001e120    0x10  Data  Lc  aj_std.o [2]
+PeerSessionInterface    0x0001dfa4    0x20  Data  Lc  aj_std.o [2]
+PropAccess              0x00010e21    0x64  Code  Lc  aj_bus.o [2]
+PropGetHandler          0x0000cca1    0x14  Code  Lc  svclite.o [2]
+PropSetHandler          0x0000ccb5    0x12  Code  Lc  svclite.o [2]
+PropStoreGetter         0x1fff0004     0x4  Data  Lc  aj_about.o [2]
+Rconst                  0x0000a1a8    0x30  Data  Lc  aj_sw_crypto.o [2]
+ReadLine                0x00010fcd    0x30  Code  Lc  aj_connect.o [2]
+ReadRemainderOfCredential
+                        0x0001429b    0x72  Code  Lc  aj_creds.o [2]
+RecvFrom                0x00015d45    0xb6  Code  Lc  aj_net.o [2]
+Region$$Table$$Base     0x0001e7cc           --   Gb  - Linker created -
+Region$$Table$$Limit    0x0001e814           --   Gb  - Linker created -
+ResetRead               0x00010fbd    0x10  Code  Lc  aj_connect.o [2]
+ResetWriteBufferWaterMark
+                        0x00016209    0x22  Code  Lc  spi_hcd.o [3]
+RxBuffer                0x1fff06bc   0x400  Data  Lc  aj_net.o [2]
+SHA256_Final            0x0000c05b    0xf0  Code  Gb  sha2.o [2]
+SHA256_Init             0x0000be01    0x24  Code  Gb  sha2.o [2]
+SHA256_Transform        0x0000be25   0x1a8  Code  Gb  sha2.o [2]
+SHA256_Update           0x0000bfcd    0x8e  Code  Gb  sha2.o [2]
+SaveMasterSecret        0x00014977    0x2a  Code  Lc  aj_peer.o [2]
+SectorBaseAddr          0x00013d59    0x22  Code  Lc  aj_target_nvram.o [2]
+SecurityApplies         0x0000ffa9    0x46  Code  Lc  aj_introspect.o [2]
+SendIoctl               0x0000c4b3    0xa0  Code  Lc  aj_wifi_ctrl.o [2]
+SendTo                  0x00015c19   0x11c  Code  Lc  aj_net.o [2]
+ServiceName             0x0000cf0c    0x14  Data  Lc  svclite.o [2]
+SetAuthVersion          0x000147d1    0x26  Code  Lc  aj_peer.o [2]
+SetCipherSuite          0x000147f7    0x4a  Code  Lc  aj_peer.o [2]
+SetupServices           0x00017939    0xe0  Code  Lc  driver_init.o [3]
+SizeXML                 0x000101f3    0x16  Code  Gb  aj_introspect.o [2]
+Strrcl_ChipUpFinish     0x0001b2ed    0x84  Code  Lc  storerecall.o [3]
+Strrcl_Recall           0x0001b371    0x74  Code  Gb  storerecall.o [3]
+TEXTSECTION$$Base       0x00000420           --   Gb  - Linker created -
+TEXTSECTION$$Limit      0x0001d4aa           --   Gb  - Linker created -
+TypeFlags               0x0000fa28    0x20  Data  Lc  aj_msg.o [2]
+TypeForHdr              0x0000f4cc    0x14  Data  Lc  aj_msg.o [2]
+Unmarshal               0x0000e8a1   0x18e  Code  Lc  aj_msg.o [2]
+UnmarshalArray          0x0000e7eb    0xb6  Code  Lc  aj_msg.o [2]
+Unpack32                0x000097a3     0x2  Code  Lc  aj_sw_crypto.o [2]
+UnpackMsgId             0x0001050f    0x7a  Code  Lc  aj_introspect.o [2]
+UpdateCred              0x00014425    0xa6  Code  Lc  aj_creds.o [2]
+Util_AC2EndpointID      0x000182fd     0xc  Code  Gb  util.o [3]
+Util_Freq2ieee          0x000182bf    0x38  Code  Gb  util.o [3]
+Util_GetEndpoint        0x000182ad    0x12  Code  Gb  util.o [3]
+VMarshalArgs            0x0000f5b7   0x1e8  Code  Lc  aj_msg.o [2]
+VUnmarshalArgs          0x0000eebd   0x1ac  Code  Lc  aj_msg.o [2]
+WiFiCallback            0x0000c479    0x3a  Code  Lc  aj_wifi_ctrl.o [2]
+WriteBytes              0x0000e6c7    0x8c  Code  Lc  aj_msg.o [2]
+WriteLine               0x00010ffd    0x22  Code  Lc  aj_connect.o [2]
+WriteXML                0x00010209    0x22  Code  Gb  aj_introspect.o [2]
+XMLWriteDescription     0x0000fb81    0x76  Code  Lc  aj_introspect.o [2]
+XMLWriteTag             0x0000fb2d    0x44  Code  Lc  aj_introspect.o [2]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x2000fef0           --   Gb  command line/config [1]
+__DEFAULT_INTERRUPT_STACK_SIZE {Abs}
+                        0x00000400           --   Gb  command line/config [1]
+__DEFAULT_PROCESSOR_NUMBER {Abs}
+                        0x00000001           --   Gb  command line/config [1]
+__EXTERNAL_LCD_BASE {Abs}
+                        0x60000000           --   Gb  command line/config [1]
+__EXTERNAL_LCD_DC_BASE {Abs}
+                        0x60010000           --   Gb  command line/config [1]
+__EXTERNAL_LCD_SIZE {Abs}
+                        0x0001ffff           --   Gb  command line/config [1]
+__EXTERNAL_MRAM_RAM_BASE {Abs}
+                        0x60000000           --   Gb  command line/config [1]
+__EXTERNAL_MRAM_RAM_SIZE {Abs}
+                        0x00080000           --   Gb  command line/config [1]
+__EXTERNAL_MRAM_ROM_BASE {Abs}
+                        0x60000000           --   Gb  command line/config [1]
+__EXTERNAL_MRAM_ROM_SIZE {Abs}
+                        0x00000000           --   Gb  command line/config [1]
+__FLASHX_END_ADDR {Abs}
+                        0x00100000           --   Gb  command line/config [1]
+__FLASHX_SECT_SIZE {Abs}
+                        0x00001000           --   Gb  command line/config [1]
+__FLASHX_START_ADDR     0x0001f000     0x1  Data  Gb  vectors.o [3]
+__INTERNAL_FLASH_BASE {Abs}
+                        0x00000000           --   Gb  command line/config [1]
+__INTERNAL_FLASH_SIZE {Abs}
+                        0x00100000           --   Gb  command line/config [1]
+__INTERNAL_FLEXNVM_BASE {Abs}
+                        0x00000000           --   Gb  command line/config [1]
+__INTERNAL_FLEXNVM_SIZE {Abs}
+                        0x00000000           --   Gb  command line/config [1]
+__INTERNAL_SRAM_BASE {Abs}
+                        0x1fff0000           --   Gb  command line/config [1]
+__INTERNAL_SRAM_SIZE {Abs}
+                        0x00020000           --   Gb  command line/config [1]
+__KERNEL_DATA_END {Abs}
+                        0x2000fff0           --   Gb  command line/config [1]
+__KERNEL_DATA_START     0x1fff2b60          Data  Gb  kernel_symbols.o [6]
+__SRAM_POOL {Abs}       0x1fff0000           --   Gb  command line/config [1]
+__UNCACHED_DATA_END {Abs}
+                        0x2000fff0           --   Gb  command line/config [1]
+__UNCACHED_DATA_SIZE {Abs}
+                        0x00020000           --   Gb  command line/config [1]
+__UNCACHED_DATA_START {Abs}
+                        0x1fff0000           --   Gb  command line/config [1]
+__VECTOR_TABLE_RAM_START {Abs}
+                        0x1fff0000           --   Gb  command line/config [1]
+__VECTOR_TABLE_ROM_START {Abs}
+                        0x00000000           --   Gb  command line/config [1]
+__aeabi_cdcmpeq         0x0000b6f5          Code  Gb  DblCmpEq.o [5]
+__aeabi_cdcmple         0x0000bc65          Code  Gb  DblCmpLe.o [5]
+__aeabi_cdrcmple        0x0000bc35          Code  Gb  DblCmpGe.o [5]
+__aeabi_d2iz            0x0000bbe9          Code  Gb  DblToI32.o [5]
+__aeabi_dadd            0x0000b95d          Code  Gb  DblAdd.o [5]
+__aeabi_ddiv            0x0000b715          Code  Gb  DblDiv.o [5]
+__aeabi_dmul            0x0000ba45          Code  Gb  DblMul.o [5]
+__aeabi_errno_addr      0x00007ea9     0x6  Code  Gb  errno.o [4]
+__aeabi_ldiv0           0x00008241          Code  Gb  I64DivZer.o [7]
+__aeabi_ldivmod         0x00007d1d          Code  Gb  I64DivMod.o [7]
+__aeabi_llsl            0x0000af71          Code  Gb  I64Shl.o [7]
+__aeabi_llsr            0x0000af51          Code  Gb  U64Shr.o [7]
+__aeabi_memclr          0x00001161          Code  Gb  ABImemclr.o [7]
+__aeabi_memclr4         0x00005a41          Code  Gb  ABImemclr4.o [7]
+__aeabi_memcpy          0x00001169          Code  Gb  ABImemcpy.o [7]
+__aeabi_memcpy4         0x00001189          Code  Gb  ABImemcpy.o [7]
+__aeabi_memcpy8         0x00001189          Code  Gb  ABImemcpy.o [7]
+__aeabi_memmove         0x000134cd          Code  Gb  ABImemmove.o [7]
+__aeabi_memmove4        0x000134cd          Code  Gb  ABImemmove.o [7]
+__aeabi_memmove8        0x000134cd          Code  Gb  ABImemmove.o [7]
+__aeabi_memset          0x000024ad          Code  Gb  ABImemset.o [7]
+__aeabi_memset4         0x000026ed          Code  Gb  ABImemset48.o [7]
+__aeabi_memset8         0x000026ed          Code  Gb  ABImemset48.o [7]
+__aeabi_uldivmod        0x00007d61          Code  Gb  I64DivMod.o [7]
+__boot                  0x00000421          Code  Gb  boot.o [6]
+__cmain                 0x000004cd          Code  Gb  cmain.o [7]
+__exit                  0x00002491    0x14  Code  Gb  exit.o [8]
+__get_MSP               0x0001d741          Code  Gb  dispatch.o [6]
+__get_PSP               0x0001d73b          Code  Gb  dispatch.o [6]
+__get_PSR               0x0001d74d          Code  Gb  dispatch.o [6]
+__iar_Errno             0x1fff02bc     0x4  Data  Gb  errno.o [4]
+__iar_Memchr            0x00007e51          Code  Gb  memchr.o [7]
+__iar_Memset            0x000024ad          Code  Gb  ABImemset.o [7]
+__iar_Memset4_word      0x000026f5          Code  Gb  ABImemset48.o [7]
+__iar_Memset8_word      0x000026f5          Code  Gb  ABImemset48.o [7]
+__iar_Memset_word       0x000024b5          Code  Gb  ABImemset.o [7]
+__iar_Stoul             0x000063e7     0x4  Code  Gb  xstoul.o [4]
+__iar_Stoulx            0x000062c9   0x118  Code  Gb  xstoul.o [4]
+__iar_Strchr            0x0000e071          Code  Gb  strchr.o [7]
+__iar_d2uiz             0x0000bc15          Code  Gb  DblToI32.o [5]
+__iar_dadd              0x0000b971          Code  Gb  DblAdd.o [5]
+__iar_data_init3        0x000004ed    0x28  Code  Gb  data_init.o [7]
+__iar_dlib_perthread_access
+                        0x00008243     0x2  Code  Gb  xtls.o [4]
+__iar_dsub              0x0000bc95          Code  Gb  DblSub.o [5]
+__iar_dsubStart         0x0000bca7          Code  Gb  DblSub.o [5]
+__iar_init_vfp          0x00000491          Code  Gb  fpinit_M.o [5]
+__iar_modf              0x0000b64d          Code  Gb  modf.o [5]
+__iar_modfl             0x0000b64d          Code  Gb  modf.o [5]
+__iar_packbits_init3    0x0001d417    0x8e  Code  Gb  packbits_init.o [7]
+__iar_program_start     0x00000485          Code  Gb  cstartup_M.o [7]
+__iar_strcmp            0x00007c05          Code  Gb  strcmp.o [7]
+__iar_vfp_modf          0x0000b635          Code  Gb  modf.o [5]
+__iar_vfp_modfl         0x0000b635          Code  Gb  modf.o [5]
+__iar_zero_init3        0x000004ab    0x22  Code  Gb  zero_init3.o [7]
+__low_level_init        0x000004e3     0xa  Code  Gb  comp.o [6]
+__set_MSP               0x0000046b          Code  Gb  boot.o [6]
+__vector_table          0x00000000   0x400  Data  Gb  vectors.o [3]
+_adc_close              0x00004399    0xb0  Code  Gb  adc.o [3]
+_adc_hw_channel_deinit  0x00007161    0x4a  Code  Gb  adc_kadc.o [3]
+_adc_hw_channel_init    0x00007087    0xda  Code  Gb  adc_kadc.o [3]
+_adc_hw_deinit          0x00007071    0x16  Code  Gb  adc_kadc.o [3]
+_adc_hw_init            0x00006ed1   0x1a0  Code  Gb  adc_kadc.o [3]
+_adc_hw_ioctl           0x00006c59   0x276  Code  Gb  adc_kadc.o [3]
+_adc_ioctl              0x000044a1    0xba  Code  Gb  adc.o [3]
+_adc_open               0x0000415d   0x23a  Code  Gb  adc.o [3]
+_adc_read               0x00004449    0x54  Code  Gb  adc.o [3]
+_adc_write              0x0000449d     0x4  Code  Gb  adc.o [3]
+_adt_hw_channel_deinit  0x000078e3    0x82  Code  Gb  adt_kpdb.o [3]
+_adt_hw_channel_init    0x000077e1   0x102  Code  Gb  adt_kpdb.o [3]
+_adt_hw_deinit          0x00007655     0xe  Code  Gb  adt_kpdb.o [3]
+_adt_hw_init            0x000075a5    0xb0  Code  Gb  adt_kpdb.o [3]
+_adt_hw_ioctl           0x00007471   0x134  Code  Gb  adt_kpdb.o [3]
+_adt_pause              0x000079f9    0x6e  Code  Gb  adt_kpdb.o [3]
+_adt_process_data       0x00007b53    0x6a  Code  Gb  adt_kpdb.o [3]
+_adt_resume             0x00007a67    0x84  Code  Gb  adt_kpdb.o [3]
+_adt_stop               0x00007aeb    0x68  Code  Gb  adt_kpdb.o [3]
+_adt_trigger            0x00007965    0x94  Code  Gb  adt_kpdb.o [3]
+_bsp_adc0_init          0x0001e5a8    0x18  Data  Gb  init_adc.o [3]
+_bsp_adc_channel_io_init
+                        0x00000f21    0xb2  Code  Gb  init_gpio.o [3]
+_bsp_adc_io_init        0x00000ef9    0x22  Code  Gb  init_gpio.o [3]
+_bsp_dspi0_init         0x0001e6dc     0x8  Data  Lc  init_spi.o [3]
+_bsp_dspi_io_init       0x00000fd9    0x5a  Code  Gb  init_gpio.o [3]
+_bsp_enable_card        0x0000222d   0x104  Code  Gb  init_bsp.o [3]
+_bsp_esdhc0_init        0x0001e5c0     0xc  Data  Gb  init_esdhc.o [3]
+_bsp_esdhc_io_init      0x00001033    0x26  Code  Gb  init_gpio.o [3]
+_bsp_flashx_file_blocks
+                        0x0001e5f0    0x48  Data  Gb  init_flashx.o [3]
+_bsp_flashx_init        0x0001e638    0x20  Data  Gb  init_flashx.o [3]
+_bsp_ftfx_io_init       0x000010cb     0xe  Code  Gb  init_gpio.o [3]
+_bsp_get_adc_base_address
+                        0x00007f4d    0x12  Code  Gb  adc_mk21.o [3]
+_bsp_get_clock          0x00000c8d    0x1e  Code  Gb  bsp_cm.o [3]
+_bsp_get_clock_configuration
+                        0x00000c85     0x2  Code  Gb  bsp_cm.o [3]
+_bsp_get_dspi_base_address
+                        0x0001d151    0x12  Code  Gb  spi_mk21_dspi.o [3]
+_bsp_get_dspi_vectors   0x0001d163    0x16  Code  Gb  spi_mk21_dspi.o [3]
+_bsp_get_esdhc_base_address
+                        0x00007c81     0xa  Code  Gb  esdhc_mk21.o [3]
+_bsp_get_ftfe_address   0x0001cd95     0x4  Code  Gb  flash_mk21.o [3]
+_bsp_get_hwticks        0x00002335    0x32  Code  Gb  init_bsp.o [3]
+_bsp_get_i2c_base_address
+                        0x000061a5    0x1a  Code  Gb  i2c_mk21.o [3]
+_bsp_get_serial_base_address
+                        0x00005bdd    0x44  Code  Gb  serl_mk21.o [3]
+_bsp_gpio_io_init       0x000010a7     0xa  Code  Gb  init_gpio.o [3]
+_bsp_i2c1_init          0x0001e658    0x14  Data  Gb  init_i2c.o [3]
+_bsp_i2c_io_init        0x00001059    0x4e  Code  Gb  init_gpio.o [3]
+_bsp_initialize_hardware
+                        0x00000b8d    0xdc  Code  Gb  bsp_cm.o [3]
+_bsp_pdb_init           0x0001e598    0x10  Data  Gb  init_adc.o [3]
+_bsp_sci0_init          0x0001e68c    0x28  Data  Gb  init_sci.o [3]
+_bsp_sci0_operation_modes
+                        0x0001e66c    0x10  Data  Gb  init_sci.o [3]
+_bsp_sci5_init          0x0001e6b4    0x28  Data  Gb  init_sci.o [3]
+_bsp_sci5_operation_modes
+                        0x0001e67c    0x10  Data  Gb  init_sci.o [3]
+_bsp_serial_io_init     0x00000d6d   0x18c  Code  Gb  init_gpio.o [3]
+_bsp_serial_rts_init    0x000010b1    0x1a  Code  Gb  init_gpio.o [3]
+_bsp_set_clock_configuration
+                        0x00000c69    0x1c  Code  Gb  bsp_cm.o [3]
+_bsp_spi0_init          0x0001e6e4    0x28  Data  Gb  init_spi.o [3]
+_bsp_systick            0x00002331     0x4  Code  Gb  init_bsp.o [3]
+_bsp_watchdog_disable   0x00000529    0x1a  Code  Gb  init_hw.o [3]
+_call_main              0x000004d9          Code  Gb  cmain.o [7]
+_cfm                    0x00000400    0x10  Data  Gb  vectors.o [3]
+_cm_get_clock           0x000024a9     0x4  Code  Gb  cm.o [3]
+_cm_get_clock_configuration
+                        0x000024a5     0x4  Code  Gb  cm.o [3]
+_dspi_cs_deassert       0x0001d113     0xe  Code  Lc  spi_dspi.o [3]
+_dspi_ctar_params       0x0001d29f    0x50  Code  Gb  spi_dspi_common.o [3]
+_dspi_deinit            0x0001ce41    0x58  Code  Lc  spi_dspi.o [3]
+_dspi_deinit_low        0x0001d31f    0x14  Code  Gb  spi_dspi_common.o [3]
+_dspi_find_baudrate     0x0001d191   0x10e  Code  Gb  spi_dspi_common.o [3]
+_dspi_init              0x0001cdb1    0x90  Code  Lc  spi_dspi.o [3]
+_dspi_init_low          0x0001d2ef    0x30  Code  Gb  spi_dspi_common.o [3]
+_dspi_ioctl             0x0001d121    0x2e  Code  Lc  spi_dspi.o [3]
+_dspi_isr               0x0001cf35    0xe6  Code  Lc  spi_dspi.o [3]
+_dspi_setparam          0x0001ce99    0x9c  Code  Lc  spi_dspi.o [3]
+_dspi_tx_rx             0x0001d01b    0xf8  Code  Lc  spi_dspi.o [3]
+_esdhc_close            0x00004855    0x5a  Code  Gb  esdhc.o [3]
+_esdhc_init             0x000045e1    0x8e  Code  Lc  esdhc.o [3]
+_esdhc_install          0x00004745    0x72  Code  Gb  esdhc.o [3]
+_esdhc_ioctl            0x000048c5   0x464  Code  Gb  esdhc.o [3]
+_esdhc_open             0x000047e5    0x6a  Code  Gb  esdhc.o [3]
+_esdhc_read             0x00004d31    0xc8  Code  Gb  esdhc.o [3]
+_esdhc_send_command     0x0000466f    0xd6  Code  Lc  esdhc.o [3]
+_esdhc_set_baudrate     0x0000455d    0x84  Code  Lc  esdhc.o [3]
+_esdhc_uninstall        0x000047b9    0x2a  Code  Gb  esdhc.o [3]
+_esdhc_write            0x00004df9    0xca  Code  Gb  esdhc.o [3]
+_exit                   0x000008a5          Code  Gb  cexit.o [7]
+_flashx_ftfe_if         0x0001e75c    0x20  Data  Gb  flash_ftfe.o [3]
+_flashx_kinetisN_block_map
+                        0x0001e70c    0x50  Data  Gb  flash_ftfe.o [3]
+_get_size               0x000180e5    0x30  Code  Gb  cust_driver_netbuf.o [3]
+_int_default_isr        0x000016dd    0x30  Code  Gb  int.o [6]
+_int_disable            0x0000170d    0x1a  Code  Gb  int.o [6]
+_int_enable             0x00001727    0x22  Code  Gb  int.o [6]
+_int_get_default_isr    0x00001749     0x8  Code  Gb  int.o [6]
+_int_get_isr_data       0x00001751    0x54  Code  Gb  int.o [6]
+_int_init               0x00001831    0x72  Code  Gb  int.o [6]
+_int_install_isr        0x000017a5    0x8c  Code  Gb  int.o [6]
+_int_kernel_isr         0x0001d623          Code  Gb  dispatch.o [6]
+_int_set_vector_table   0x00002739     0xa  Code  Gb  int_vtab.o [6]
+_io_adc_install         0x000040f1    0x6a  Code  Gb  adc.o [3]
+_io_cvt                 0x0000afa1   0x248  Code  Gb  io_fp.o [6]
+_io_dev_install         0x00006c05    0x1c  Code  Gb  io_inst.o [6]
+_io_dev_install_ext     0x000061cd    0xfc  Code  Gb  io_instx.o [6]
+_io_doprint             0x0000a289   0x950  Code  Gb  io_dopr.o [6]
+_io_doprint_prt         0x0000abf3    0xd4  Code  Gb  io_dopr.o [6]
+_io_doprint_prt64       0x0000acc7    0xf6  Code  Gb  io_dopr.o [6]
+_io_dtoa                0x0000b267    0x38  Code  Gb  io_fp.o [6]
+_io_dtoe                0x0000b29f    0xb4  Code  Gb  io_fp.o [6]
+_io_dtof                0x0000b353    0xe0  Code  Gb  io_fp.o [6]
+_io_dtog                0x0000b439   0x1fc  Code  Gb  io_fp.o [6]
+_io_fclose              0x00009779    0x28  Code  Gb  io_fclos.o [6]
+_io_fflush              0x0001aa61    0x32  Code  Gb  io_fflsh.o [6]
+_io_flashx_check_free_space
+                        0x000056e3    0x1a  Code  Gb  flashx.o [3]
+_io_flashx_close        0x000050f9    0x40  Code  Gb  flashx.o [3]
+_io_flashx_erase_sector
+                        0x0000520f    0x3c  Code  Gb  flashx.o [3]
+_io_flashx_find_correct_sectors
+                        0x0000524b    0xba  Code  Gb  flashx.o [3]
+_io_flashx_flush_sector_buffer
+                        0x00005305    0x74  Code  Gb  flashx.o [3]
+_io_flashx_install      0x00004ec9    0x88  Code  Gb  flashx.o [3]
+_io_flashx_ioctl        0x000056fd   0x30c  Code  Gb  flashx.o [3]
+_io_flashx_open         0x00004f6d   0x18c  Code  Gb  flashx.o [3]
+_io_flashx_read         0x00005139    0xd6  Code  Gb  flashx.o [3]
+_io_flashx_uninstall    0x00004f51    0x1a  Code  Gb  flashx.o [3]
+_io_flashx_write        0x00005379   0x1c4  Code  Gb  flashx.o [3]
+_io_flashx_write_partial_sector
+                        0x00005543   0x196  Code  Gb  flashx.o [3]
+_io_fopen               0x00007c91    0x8c  Code  Gb  io_fopen.o [6]
+_io_fputc               0x0001d395    0x30  Code  Gb  io_fputc.o [6]
+_io_fseek               0x0001873d    0x70  Code  Gb  io_fseek.o [6]
+_io_get_handle          0x0000a1d9    0x44  Code  Gb  io_ghand.o [6]
+_io_gpio_close          0x00004085    0x56  Code  Gb  io_gpio.o [3]
+_io_gpio_install        0x00003f35    0x36  Code  Gb  io_gpio.o [3]
+_io_gpio_open           0x00003f6d   0x116  Code  Gb  io_gpio.o [3]
+_io_gpio_read           0x000040e9     0x4  Code  Gb  io_gpio.o [3]
+_io_gpio_write          0x000040ed     0x4  Code  Gb  io_gpio.o [3]
+_io_i2c_polled_close    0x00006141    0x2a  Code  Gb  i2c_pol.o [3]
+_io_i2c_polled_install  0x00006075    0x68  Code  Gb  i2c_pol.o [3]
+_io_i2c_polled_ioctl    0x0000617d    0x26  Code  Gb  i2c_pol.o [3]
+_io_i2c_polled_open     0x00006105    0x3c  Code  Gb  i2c_pol.o [3]
+_io_i2c_polled_read     0x0000616d     0x8  Code  Gb  i2c_pol.o [3]
+_io_i2c_polled_uninstall
+                        0x000060dd    0x28  Code  Gb  i2c_pol.o [3]
+_io_i2c_polled_write    0x00006175     0x8  Code  Gb  i2c_pol.o [3]
+_io_inf_or_nan          0x0000b201    0x66  Code  Lc  io_fp.o [6]
+_io_init                0x000029dd    0x24  Code  Gb  io_init.o [6]
+_io_ioctl               0x00006c21    0x38  Code  Gb  io_ioctl.o [6]
+_io_mputc               0x0000a21d    0x32  Code  Lc  io_dopr.o [6]
+_io_printf              0x00009541    0x28  Code  Gb  io_pntf.o [6]
+_io_putstr              0x0000a24f    0x3a  Code  Lc  io_dopr.o [6]
+_io_read                0x00009569    0x50  Code  Gb  io_read.o [6]
+_io_serial_default_init
+                        0x00005a11    0x30  Code  Gb  io_sinit.o [3]
+_io_serial_polled_clock_configuration_callback
+                        0x00002beb    0x9e  Code  Gb  serl_pol_kuart.o [3]
+_io_serial_polled_close
+                        0x00005d81    0x3c  Code  Gb  serl_pol.o [3]
+_io_serial_polled_install
+                        0x00005c21    0xa4  Code  Gb  serl_pol.o [3]
+_io_serial_polled_ioctl
+                        0x0000600d    0x66  Code  Gb  serl_pol.o [3]
+_io_serial_polled_open  0x00005ccd    0xb2  Code  Gb  serl_pol.o [3]
+_io_serial_polled_operation_mode_callback
+                        0x00002c89   0x100  Code  Gb  serl_pol_kuart.o [3]
+_io_serial_polled_read  0x00005dbd   0x15e  Code  Gb  serl_pol.o [3]
+_io_serial_polled_write
+                        0x00005f1d    0xee  Code  Gb  serl_pol.o [3]
+_io_spi_close           0x00003c69    0x14  Code  Lc  spi.o [3]
+_io_spi_flush           0x00003bb7    0x44  Code  Lc  spi.o [3]
+_io_spi_install         0x00003a71    0xa4  Code  Gb  spi.o [3]
+_io_spi_ioctl           0x00003c8d   0x2a6  Code  Lc  spi.o [3]
+_io_spi_open            0x00003bfd    0x6a  Code  Lc  spi.o [3]
+_io_spi_read            0x00003c7d     0x8  Code  Lc  spi.o [3]
+_io_spi_read_write      0x00003b3f    0x78  Code  Lc  spi.o [3]
+_io_spi_uninstall       0x00003b1d    0x22  Code  Lc  spi.o [3]
+_io_spi_write           0x00003c85     0x6  Code  Lc  spi.o [3]
+_io_sprintf             0x0000e03d    0x26  Code  Gb  io_spr.o [6]
+_io_sputc               0x0000e065     0xa  Code  Gb  io_spr.o [6]
+_io_write               0x000187ad    0x1e  Code  Gb  io_write.o [6]
+_ki2c_polled_deinit     0x0000337d    0x34  Code  Gb  i2c_pol_ki2c.o [3]
+_ki2c_polled_init       0x000032ed    0x90  Code  Gb  i2c_pol_ki2c.o [3]
+_ki2c_polled_install    0x000032c7    0x26  Code  Gb  i2c_pol_ki2c.o [3]
+_ki2c_polled_ioctl      0x000033b1   0x254  Code  Gb  i2c_pol_ki2c.o [3]
+_ki2c_polled_rx         0x00003609    0x64  Code  Gb  i2c_pol_ki2c.o [3]
+_ki2c_polled_rx_tx      0x000036d7   0x28c  Code  Lc  i2c_pol_ki2c.o [3]
+_ki2c_polled_tx         0x0000366d    0x60  Code  Gb  i2c_pol_ki2c.o [3]
+_ki2c_set_baudrate      0x0000326d    0x5a  Code  Lc  i2c_pol_ki2c.o [3]
+_kuart_change_baudrate  0x00002b91    0x5a  Code  Gb  serl_pol_kuart.o [3]
+_kuart_polled_deinit    0x00002ea9    0x40  Code  Gb  serl_pol_kuart.o [3]
+_kuart_polled_getc      0x00002ee9    0x12  Code  Gb  serl_pol_kuart.o [3]
+_kuart_polled_init      0x00002db9    0xee  Code  Gb  serl_pol_kuart.o [3]
+_kuart_polled_install   0x00002d89    0x2e  Code  Gb  serl_pol_kuart.o [3]
+_kuart_polled_ioctl     0x00002f69   0x302  Code  Gb  serl_pol_kuart.o [3]
+_kuart_polled_putc      0x00002efd    0x12  Code  Gb  serl_pol_kuart.o [3]
+_kuart_polled_status    0x00002f11    0x58  Code  Gb  serl_pol_kuart.o [3]
+_lpm_get_clock_configuration
+                        0x00002b35    0x1a  Code  Gb  lpm.o [3]
+_lpm_get_operation_mode
+                        0x00002b4f    0x14  Code  Gb  lpm.o [3]
+_lpm_idle_sleep_check   0x00005bb1    0x22  Code  Gb  lpm_smc.o [3]
+_lpm_install            0x00002a49    0x44  Code  Gb  lpm.o [3]
+_lpm_register_driver    0x00002a8d    0xa8  Code  Gb  lpm.o [3]
+_lpm_restart_idle_task  0x00002a01    0x48  Code  Lc  lpm.o [3]
+_lwevent_clear          0x00008055    0x1c  Code  Gb  lwevent.o [6]
+_lwevent_create         0x00007f69    0x58  Code  Gb  lwevent.o [6]
+_lwevent_destroy        0x00008051     0x4  Code  Gb  lwevent.o [6]
+_lwevent_destroy_internal
+                        0x00007fd9    0x78  Code  Gb  lwevent.o [6]
+_lwevent_set            0x00008081    0xb6  Code  Gb  lwevent.o [6]
+_lwevent_wait_internal  0x00008137    0xc6  Code  Gb  lwevent.o [6]
+_lwevent_wait_ticks     0x000081fd    0x38  Code  Gb  lwevent.o [6]
+_lwmem_alloc            0x00001479     0xc  Code  Gb  lwmem.o [6]
+_lwmem_alloc_align      0x0000149d    0x12  Code  Gb  lwmem.o [6]
+_lwmem_alloc_align_internal
+                        0x0000137f    0xfa  Code  Gb  lwmem.o [6]
+_lwmem_alloc_at         0x00001485    0x18  Code  Gb  lwmem.o [6]
+_lwmem_alloc_at_internal
+                        0x000012af    0xd0  Code  Gb  lwmem.o [6]
+_lwmem_alloc_internal   0x000011e1    0xc4  Code  Gb  lwmem.o [6]
+_lwmem_alloc_system     0x00001619     0x8  Code  Gb  lwmem.o [6]
+_lwmem_alloc_system_zero
+                        0x000016c7     0xc  Code  Gb  lwmem.o [6]
+_lwmem_alloc_zero       0x000014bd     0xc  Code  Gb  lwmem.o [6]
+_lwmem_create_pool      0x000014cf    0x5e  Code  Gb  lwmem.o [6]
+_lwmem_free             0x0000152d    0xec  Code  Gb  lwmem.o [6]
+_lwmem_get_next_block_internal
+                        0x00001647    0x64  Code  Gb  lwmem.o [6]
+_lwmem_init_internal    0x00001627    0x20  Code  Gb  lwmem.o [6]
+_lwmem_set_type         0x000016ab     0xa  Code  Gb  lwmem.o [6]
+_lwmem_transfer_internal
+                        0x000016b5     0x8  Code  Gb  lwmem.o [6]
+_lwmem_transfer_td_internal
+                        0x000016bd     0xa  Code  Gb  lwmem.o [6]
+_lwsem_create           0x00002079    0x46  Code  Gb  lwsem.o [6]
+_lwsem_destroy          0x00002147     0x4  Code  Gb  lwsem.o [6]
+_lwsem_destroy_internal
+                        0x000020bf    0x88  Code  Gb  lwsem.o [6]
+_lwsem_post             0x0000214b    0x60  Code  Gb  lwsem.o [6]
+_lwsem_wait             0x000021b3    0x5c  Code  Gb  lwsem.o [6]
+_main                   0x000004df          Code  Gb  cmain.o [7]
+_mem_test_and_set       0x0001d721          Code  Gb  dispatch.o [6]
+_mqx                    0x000005e1   0x15c  Code  Gb  mqx.o [6]
+_mqx_api_call           0x0001d4d9          Code  Gb  dispatch.o [6]
+_mqx_get_io_component_handle
+                        0x00000745    0x1e  Code  Gb  mqx.o [6]
+_mqx_idle_task          0x00008245    0x4c  Code  Gb  idletask.o [6]
+_mqx_init_kernel_data_internal
+                        0x000007c3    0xbc  Code  Gb  mqx.o [6]
+_mqx_kernel_data        0x1fff0264     0x4  Data  Gb  mqx.o [6]
+_mqx_link_io_component_handle
+                        0x00000763    0x60  Code  Gb  mqx.o [6]
+_mqx_set_cpu_type       0x0000073d     0x8  Code  Gb  mqx.o [6]
+_mqx_system_stack       0x1fff0268     0x4  Data  Gb  mqx.o [6]
+_mqx_vendor             0x000008a0     0x4  Data  Gb  mqx.o [6]
+_mqx_version_number     0x0000089c     0x4  Data  Gb  mqx.o [6]
+_mqx_zero_tick_struct   0x0001e4c4     0xc  Data  Gb  mqx.o [6]
+_mutex_cleanup          0x00018005    0x42  Code  Gb  mutex.o [6]
+_mutex_create_component
+                        0x00017d71    0x5a  Code  Gb  mutex.o [6]
+_mutex_destroy          0x00017dcb    0x90  Code  Gb  mutex.o [6]
+_mutex_init             0x00017e5b    0x9e  Code  Gb  mutex.o [6]
+_mutex_lock             0x00017eff   0x104  Code  Gb  mutex.o [6]
+_mutex_unlock           0x00018047    0x8e  Code  Gb  mutex.o [6]
+_nvic_int_disable       0x00007f1f    0x10  Code  Gb  nvic.o [6]
+_nvic_int_init          0x00007eb5    0x6a  Code  Gb  nvic.o [6]
+_pend_svc               0x0001d555          Code  Gb  dispatch.o [6]
+_port_int_prio          0x00006bf4     0x8  Data  Lc  io_gpio_kgpio.o [3]
+_psp_add_ticks          0x00005ac1    0x44  Code  Gb  psp_tiad.o [6]
+_psp_build_float_context
+                        0x000026b9    0x32  Code  Gb  stack_bu.o [6]
+_psp_build_stack_frame  0x00002649    0x6a  Code  Gb  stack_bu.o [6]
+_psp_exception_return   0x0001d6b5          Code  Gb  dispatch.o [6]
+_psp_init_readyqs       0x00002011    0x5c  Code  Gb  sc_irdyq.o [6]
+_psp_int_init           0x00002727    0x12  Code  Gb  psp_iinit.o [6]
+_psp_int_install        0x00005a49    0x10  Code  Gb  int_inst.o [6]
+_psp_msecs_to_ticks_quick
+                        0x00005a59    0x68  Code  Gb  psp_mstiq.o [6]
+_psp_normalize_ticks    0x00005b81    0x30  Code  Gb  psp_tinm.o [6]
+_psp_save_fp_context_internal
+                        0x0001d6ed          Code  Gb  dispatch.o [6]
+_psp_set_kernel_disable_level
+                        0x00001fd5    0x3c  Code  Gb  sc_irdyq.o [6]
+_psp_ticks_to_time      0x00005b05    0x7c  Code  Gb  psp_tkti.o [6]
+_queue_dequeue          0x00002427    0x24  Code  Gb  queue.o [6]
+_queue_enqueue          0x000023f5    0x32  Code  Gb  queue.o [6]
+_queue_init             0x000023e9     0xc  Code  Gb  queue.o [6]
+_queue_insert           0x00002453    0x34  Code  Gb  queue.o [6]
+_sched_boost_priority_internal
+                        0x00002563    0x12  Code  Gb  sched.o [6]
+_sched_check_scheduler_internal
+                        0x0001d4b9          Code  Gb  dispatch.o [6]
+_sched_execute_scheduler_internal
+                        0x0001d4d5          Code  Gb  dispatch.o [6]
+_sched_get_max_priority_on_q_internal
+                        0x000025cf    0x1e  Code  Gb  sched.o [6]
+_sched_insert_priorityq_internal
+                        0x000025a5    0x2a  Code  Gb  sched.o [6]
+_sched_run_internal     0x0001d4b5          Code  Gb  dispatch.o [6]
+_sched_set_priority_internal
+                        0x000025ed    0x56  Code  Gb  sched.o [6]
+_sched_start_internal   0x0001d4b1          Code  Gb  dispatch.o [6]
+_sched_unboost_priority_internal
+                        0x00002575    0x24  Code  Gb  sched.o [6]
+_sched_yield            0x0000253d    0x26  Code  Gb  sched.o [6]
+_spi_dspi_devif         0x0001e77c    0x18  Data  Gb  spi_dspi.o [3]
+_svc_handler            0x0001d4df          Code  Gb  dispatch.o [6]
+_task_block             0x0001d4db          Code  Gb  dispatch.o [6]
+_task_build_internal    0x00001c95    0x6e  Code  Gb  task.o [6]
+_task_create_blocked    0x000018b1    0x46  Code  Gb  task.o [6]
+_task_exit_function_internal
+                        0x00001d05    0x12  Code  Gb  task.o [6]
+_task_fill_stack_internal
+                        0x00001f85    0x12  Code  Gb  task.o [6]
+_task_get_id            0x00001c0f     0xc  Code  Gb  task.o [6]
+_task_get_id_from_name  0x000018f7    0x52  Code  Gb  task.o [6]
+_task_get_parameter_for
+                        0x00001949     0x6  Code  Gb  task.o [6]
+_task_get_td            0x00001c1b    0x4e  Code  Gb  task.o [6]
+_task_init_internal     0x00001d17   0x268  Code  Gb  task.o [6]
+_task_ready             0x000019d9    0x42  Code  Gb  task.o [6]
+_task_ready_internal    0x00001f97    0x22  Code  Gb  task.o [6]
+_task_restart           0x00001bfd    0x12  Code  Gb  task.o [6]
+_task_restart_func      0x00001a1b   0x1dc  Code  Lc  task.o [6]
+_task_set_error         0x00001c69    0x2c  Code  Gb  task.o [6]
+_task_set_error_td_internal
+                        0x00001fc5     0xe  Code  Gb  task.o [6]
+_task_set_priority      0x00001957    0x82  Code  Gb  task.o [6]
+_task_sync_priority_internal
+                        0x00001fb9     0x2  Code  Gb  task.o [6]
+_time_delay             0x00002749    0x4a  Code  Gb  time.o [6]
+_time_delay_for         0x00002793    0x2e  Code  Gb  time.o [6]
+_time_delay_internal    0x000027c1    0x6a  Code  Gb  time.o [6]
+_time_delay_until       0x00002833    0x26  Code  Gb  time.o [6]
+_time_get_elapsed       0x0000288f    0x1a  Code  Gb  time.o [6]
+_time_get_elapsed_ticks
+                        0x000028a9    0x2e  Code  Gb  time.o [6]
+_time_notify_kernel     0x000028e5    0xc6  Code  Gb  time.o [6]
+_time_set_hwtick_function
+                        0x000029bf     0xe  Code  Gb  time.o [6]
+_time_set_hwticks_per_tick
+                        0x000029cd     0xa  Code  Gb  time.o [6]
+_time_set_ticks_per_sec
+                        0x000029ab     0xa  Code  Gb  time.o [6]
+_time_set_timer_vector  0x000029b5     0xa  Code  Gb  time.o [6]
+a_free                  0x00011d8f     0x4  Code  Gb  cust_driver_netbuf.o [3]
+a_malloc                0x00011d75    0x1a  Code  Gb  cust_driver_netbuf.o [3]
+a_netbuf_alloc          0x00011a57    0x6a  Code  Gb  cust_driver_netbuf.o [3]
+a_netbuf_alloc_raw      0x00011b03    0x56  Code  Gb  cust_driver_netbuf.o [3]
+a_netbuf_append_fragment
+                        0x00011c4d    0x24  Code  Gb  cust_driver_netbuf.o [3]
+a_netbuf_configure      0x00011c71    0x2e  Code  Gb  cust_driver_netbuf.o [3]
+a_netbuf_dequeue        0x00011e3b    0x2e  Code  Gb  driver_netbuf.o [3]
+a_netbuf_dequeue_adv    0x000119cb    0x40  Code  Gb  cust_driver_netbuf.o [3]
+a_netbuf_enqueue        0x00011e11    0x2a  Code  Gb  driver_netbuf.o [3]
+a_netbuf_free           0x00011b59    0x56  Code  Gb  cust_driver_netbuf.o [3]
+a_netbuf_free_rx_pool   0x00011baf    0x28  Code  Gb  cust_driver_netbuf.o [3]
+a_netbuf_get_fragment   0x00011c17    0x36  Code  Gb  cust_driver_netbuf.o [3]
+a_netbuf_headroom       0x00011d19     0x8  Code  Gb  cust_driver_netbuf.o [3]
+a_netbuf_init           0x00011a3d    0x1a  Code  Gb  cust_driver_netbuf.o [3]
+a_netbuf_pull           0x00011d29    0x20  Code  Gb  cust_driver_netbuf.o [3]
+a_netbuf_purge_queue    0x00011a0b    0x32  Code  Gb  cust_driver_netbuf.o [3]
+a_netbuf_push           0x00011ca3    0x22  Code  Gb  cust_driver_netbuf.o [3]
+a_netbuf_put            0x00011cc5    0x22  Code  Gb  cust_driver_netbuf.o [3]
+a_netbuf_put_data       0x00011ce7    0x32  Code  Gb  cust_driver_netbuf.o [3]
+a_netbuf_queue_init     0x00011e69     0xa  Code  Gb  driver_netbuf.o [3]
+a_netbuf_reinit         0x00011ac1    0x38  Code  Gb  cust_driver_netbuf.o [3]
+a_netbuf_set_rx_pool    0x00011af9     0x2  Code  Gb  cust_driver_netbuf.o [3]
+a_netbuf_tailroom       0x00011d21     0x8  Code  Gb  cust_driver_netbuf.o [3]
+a_netbuf_to_data        0x00011c9f     0x4  Code  Gb  cust_driver_netbuf.o [3]
+a_netbuf_to_len         0x00011bd7    0x40  Code  Gb  cust_driver_netbuf.o [3]
+a_netbuf_trim           0x00011d4f    0x20  Code  Gb  cust_driver_netbuf.o [3]
+abort                   0x0001d4a5     0x6  Code  Gb  abort.o [4]
+adc_address             0x00007f60     0x8  Data  Lc  adc_mk21.o [3]
+adc_bundle              0x1fff2b30     0x4  Data  Gb  adc_kadc.o [3]
+adc_calibrate           0x00007301    0x8c  Code  Lc  adc_kadc.o [3]
+adc_channel_params      0x0000951c    0x24  Data  Lc  aj_target_crypto.o [2]
+adc_complete_isr        0x000072e5    0x1c  Code  Lc  adc_kadc.o [3]
+adc_get_calibration_data
+                        0x00007393    0x58  Code  Lc  adc_kadc.o [3]
+adc_init                0x00009518     0x4  Data  Lc  aj_target_crypto.o [2]
+adc_internal            0x1fff2b14    0x1c  Data  Lc  adc_kadc.o [3]
+adc_process_all_data    0x00007233    0x9a  Code  Gb  adc_kadc.o [3]
+adc_process_data        0x000071ab    0x88  Code  Lc  adc_kadc.o [3]
+adc_set_calibration_data
+                        0x000073eb    0x58  Code  Lc  adc_kadc.o [3]
+adt_idelay_isr          0x00007bbd    0x2a  Code  Lc  adt_kpdb.o [3]
+adt_period_prescaler    0x00007663   0x17e  Code  Lc  adt_kpdb.o [3]
+aes_context             0x1fff0af0    0xc0  Data  Lc  aj_sw_crypto.o [2]
+affine_infinity         0x00009160    0x4c  Data  Lc  aj_crypto_ecc.o [2]
+aggr_context            0x1fff28c0    0x14  Data  Lc  rcv_aggr.o [3]
+aggr_init               0x0001a991     0x8  Code  Gb  rcv_aggr.o [3]
+aggr_recv_addba_req_evt
+                        0x0001a9a1    0x36  Code  Gb  rcv_aggr.o [3]
+aggr_recv_delba_req_evt
+                        0x0001a9d7    0x2e  Code  Gb  rcv_aggr.o [3]
+aggr_reset_state        0x0001aa05    0x16  Code  Gb  rcv_aggr.o [3]
+annotateSecure          0x0001016c    0x34  Data  Lc  aj_introspect.o [2]
+ar4XXX_boot_param       0x1fff025c     0x4  Data  Gb  driver_init.o [3]
+ar4xx_reg_domain        0x1fff0260     0x4  Data  Gb  driver_init.o [3]
+argClose                0x0000ff18     0xc  Data  Lc  aj_introspect.o [2]
+argOpen                 0x0000ff24     0xc  Data  Lc  aj_introspect.o [2]
+assert_func             0x00011931    0x10  Code  Gb  cust_driver_main.o [3]
+athSecType              0x1fff27f4     0x4  Data  Lc  aj_wifi_ctrl.o [2]
+ath_custom_htc          0x1fff288c     0xc  Data  Gb  cust_driver_main.o [3]
+ath_custom_init         0x1fff2850    0x38  Data  Gb  cust_driver_main.o [3]
+ath_custom_mediactl     0x1fff2888     0x4  Data  Gb  cust_driver_main.o [3]
+ath_inet_aton           0x0000c899    0x64  Code  Gb  net_utils.o [2]
+ath_ioctl_handler       0x0001b7f1   0xe9e  Code  Lc  cust_api_ioctl.o [3]
+ath_ioctl_handler_ext   0x0000d52d    0xc6  Code  Lc  atheros_wifi_mediactl_ext.o [2]
+ath_sock_context        0x1fff2818    0x24  Data  Gb  api_stack_offload.o [3]
+atheros_driver_setup    0x0000d63d     0xe  Code  Gb  atheros_wifi_mediactl_ext.o [2]
+atheros_wifi_param      0x1fff026c    0x14  Data  Gb  init_enet.o [3]
+atheros_wifi_task_id    0x1fff2898     0x4  Data  Gb  cust_driver_main.o [3]
+atoh                    0x0000c951    0x3c  Code  Gb  net_utils.o [2]
+atoi                    0x00015709     0x8  Code  Gb  atoi.o [4]
+authContext             0x1fff0ad8    0x18  Data  Lc  aj_peer.o [2]
+b_P256                  0x0000923c    0x24  Data  Lc  aj_crypto_ecc.o [2]
+baseP256                0x00009318    0x4c  Data  Lc  aj_crypto_ecc.o [2]
+big_1wd_mpy             0x000087d3    0x36  Code  Lc  aj_crypto_ecc.o [2]
+big_add                 0x00008809    0x2e  Code  Lc  aj_crypto_ecc.o [2]
+big_addP                0x00008837     0xa  Code  Lc  aj_crypto_ecc.o [2]
+big_adjustP             0x00008747    0x8c  Code  Lc  aj_crypto_ecc.o [2]
+big_cmp                 0x0000888d    0x32  Code  Lc  aj_crypto_ecc.o [2]
+big_divide              0x00008993    0xdc  Code  Lc  aj_crypto_ecc.o [2]
+big_halve               0x0000893b    0x28  Code  Lc  aj_crypto_ecc.o [2]
+big_is_one              0x00008979    0x1a  Code  Lc  aj_crypto_ecc.o [2]
+big_is_zero             0x00008963    0x16  Code  Gb  aj_crypto_ecc.o [2]
+big_mpyP                0x000082ed   0x44e  Code  Lc  aj_crypto_ecc.o [2]
+big_one                 0x0000913c    0x24  Data  Lc  aj_crypto_ecc.o [2]
+big_precise_reduce      0x000088bf    0x7c  Code  Lc  aj_crypto_ecc.o [2]
+big_sub                 0x00008841    0x30  Code  Lc  aj_crypto_ecc.o [2]
+big_subP                0x00008871     0x8  Code  Lc  aj_crypto_ecc.o [2]
+big_triple              0x00008a6f    0x2e  Code  Lc  aj_crypto_ecc.o [2]
+blockForDataRx          0x0000d82b     0xc  Code  Gb  cust_api_stack_offload.o [3]
+blockForResponse        0x0000d837    0xc2  Code  Gb  cust_api_stack_offload.o [3]
+bmiBufferReceive        0x0001a6d3    0x8c  Code  Lc  bmi.o [3]
+bmiBufferSend           0x0001a62d    0xa6  Code  Lc  bmi.o [3]
+bmiDone                 0x1fff0280     0x1  Data  Lc  bmi.o [3]
+busLinkTimeout          0x1fff06ac     0x4  Data  Lc  aj_link_timeout.o [2]
+busLinkWatcher          0x1fff0698    0x14  Data  Lc  aj_link_timeout.o [2]
+chip_state_ctrl         0x0001b4e5    0x1a  Code  Gb  cust_api_init.o [3]
+clear_socket_context    0x00013385    0x4e  Code  Gb  api_stack_offload.o [3]
+config_dump_target_assert_info
+                        0x0001b777    0x68  Code  Lc  cust_api_ioctl.o [3]
+connectState            0x1fff27ec     0x1  Data  Lc  aj_wifi_ctrl.o [2]
+const_wps_error_code_translation
+                        0x0001cb10     0x8  Data  Gb  cust_api_ioctl.o [3]
+custom_alloc            0x0000df4f    0x38  Code  Gb  cust_api_stack_offload.o [3]
+custom_free             0x0000df87    0x26  Code  Gb  cust_api_stack_offload.o [3]
+custom_queue_empty      0x0000dfd1    0x12  Code  Gb  cust_api_stack_offload.o [3]
+custom_receive_tcpip    0x00013549    0x8a  Code  Gb  cust_api_stack_txrx.o [3]
+custom_send_tcpip       0x000135f9    0x42  Code  Gb  cust_api_stack_txrx.o [3]
+custom_socket_context_deinit
+                        0x0000d807    0x24  Code  Gb  cust_api_stack_offload.o [3]
+custom_socket_context_init
+                        0x0000d7bd    0x4a  Code  Gb  cust_api_stack_offload.o [3]
+daemonService           0x0001130c    0x14  Data  Lc  aj_connect.o [2]
+decode_token            0x0000d3b8   0x100  Data  Lc  aj_util.o [2]
+defaultSessionOpts      0x00010ef0     0x8  Data  Lc  aj_bus.o [2]
+default_native_free_fn  0x000119b1    0x1a  Code  Gb  cust_driver_netbuf.o [3]
+default_scan_param      0x000184a0    0x14  Data  Gb  api_init.o [3]
+default_strrcl_config_cmd
+                        0x0001849c     0x4  Data  Gb  api_init.o [3]
+descriptionLookups      0x1fff002c    0x20  Data  Lc  aj_introspect.o [2]
+digits                  0x000063ec    0x28  Data  Lc  xstoul.o [4]
+doAnnounce              0x1fff0000     0x1  Data  Lc  aj_about.o [2]
+driver_thread_operation
+                        0x0000d4b9    0x74  Code  Lc  atheros_wifi_mediactl_ext.o [2]
+dset_fill               0x00019deb    0x46  Code  Gb  dset.o [3]
+dset_find               0x00019cd5    0x34  Code  Gb  dset.o [3]
+dset_find_handle        0x0001b2d9    0x10  Code  Gb  dset_api.o [3]
+dset_get                0x00019d4d    0x64  Code  Gb  dset.o [3]
+dset_get_first          0x00019e31    0x3c  Code  Gb  dset.o [3]
+dset_get_next           0x00019e6d    0x28  Code  Gb  dset.o [3]
+dset_handles            0x1fff29a0   0x140  Data  Gb  dset_api.o [3]
+dset_insert             0x00019d09    0x44  Code  Gb  dset.o [3]
+dset_length             0x1fff28d4     0x4  Data  Gb  api_wmi_rx.o [3]
+dset_read               0x00019dc9    0x1a  Code  Gb  dset.o [3]
+dset_write              0x00019db1    0x18  Code  Gb  dset.o [3]
+dspi_address            0x0001d178     0xc  Data  Lc  spi_mk21_dspi.o [3]
+dspi_vectors            0x0001d184     0xc  Data  Lc  spi_mk21_dspi.o [3]
+ecc_prv                 0x1fff0104    0x24  Data  Lc  svclite.o [2]
+ecc_prv_b64             0x0000cf9c    0x34  Data  Lc  svclite.o [2]
+ecc_pub                 0x1fff00b8    0x4c  Data  Lc  svclite.o [2]
+ecc_pub_b64             0x0000cf30    0x6c  Data  Lc  svclite.o [2]
+ecdhectx                0x1fff05d8    0xc0  Data  Lc  aj_keyexchange.o [2]
+ecdsactx                0x1fff0538    0x78  Data  Lc  aj_keyauthentication.o [2]
+encode_token            0x0000d374    0x44  Data  Lc  aj_util.o [2]
+exit                    0x00000525     0x4  Code  Gb  exit.o [4]
+falseVal                0x0000fef0     0x8  Data  Lc  aj_introspect.o [2]
+fill_ext_scan_info      0x0001abc3   0x138  Code  Lc  cust_api_wmi_rx.o [3]
+fill_scan_info          0x0001aa95   0x12e  Code  Lc  cust_api_wmi_rx.o [3]
+find_socket_context     0x0001283f    0x1e  Code  Gb  api_stack_offload.o [3]
+find_socket_context_from_ssl
+                        0x000127e5    0x5a  Code  Gb  api_stack_offload.o [3]
+first_irq               0x1fff2ae0     0x4  Data  Gb  io_gpio.o [3]
+flash_hdl               0x1fff0bd4     0x4  Data  Lc  aj_target_nvram.o [2]
+ftable                  0x00009da8   0x400  Data  Lc  aj_sw_crypto.o [2]
+ftfe_flash_command_sequence
+                        0x0001cb19    0xdc  Code  Lc  flash_ftfe.o [3]
+ftfe_flash_deinit       0x0001cc4d    0x1e  Code  Gb  flash_ftfe.o [3]
+ftfe_flash_erase_sector
+                        0x0001cc6b    0x6e  Code  Gb  flash_ftfe.o [3]
+ftfe_flash_init         0x0001cbf5    0x58  Code  Gb  flash_ftfe.o [3]
+ftfe_flash_write_sector
+                        0x0001ccd9    0xa2  Code  Gb  flash_ftfe.o [3]
+ftfe_ram_function       0x0001cd81    0x10  Code  Lc  flash_ftfe.o [3]
+ftfe_ram_function_end   0x0001cd91     0x2  Code  Lc  flash_ftfe.o [3]
+g_driverState           0x1fff2b5e     0x1  Data  Gb  cust_driver_netbuf.o [3]
+g_poolid                0x1fff0258     0x4  Data  Gb  cust_driver_main.o [3]
+g_totAlloc              0x1fff289c     0x4  Data  Gb  cust_driver_main.o [3]
+get_p2p_ctx             0x00019b17     0x4  Code  Gb  api_wmi_rx.o [3]
+get_p2p_prov_disc_req   0x00019b1b     0x4  Code  Gb  api_wmi_rx.o [3]
+get_p2p_serv_disc_req   0x00019b1f     0x4  Code  Gb  api_wmi_rx.o [3]
+get_total_pkts_buffered
+                        0x0000dfad    0x24  Code  Gb  cust_api_stack_offload.o [3]
+gpio_cpu_configure      0x0000643d   0x11a  Code  Gb  io_gpio_kgpio.o [3]
+gpio_cpu_init           0x00006557     0xa  Code  Gb  io_gpio_kgpio.o [3]
+gpio_cpu_ioctl          0x000066bf   0x418  Code  Gb  io_gpio_kgpio.o [3]
+gpio_cpu_open           0x00006561   0x15e  Code  Gb  io_gpio_kgpio.o [3]
+gpio_eport_irq          0x00006add    0x8a  Code  Lc  io_gpio_kgpio.o [3]
+gpio_global_irq_map     0x1fff2b48    0x14  Data  Gb  io_gpio_kgpio.o [3]
+gpio_global_pin_map     0x1fff2b34    0x14  Data  Gb  io_gpio_kgpio.o [3]
+handle                  0x1fff27f0     0x4  Data  Gb  aj_wifi_ctrl.o [2]
+handshakeContext        0x1fff02c0    0xb0  Data  Lc  aj_peer.o [2]
+heap                    0x1fff0be8  0x1c04  Data  Lc  aj_target_util.o [2]
+heapConfig              0x1fff06b4     0x4  Data  Lc  aj_malloc.o [2]
+heapConfig              0x00009740    0x38  Data  Lc  aj_target_util.o [2]
+heapPools               0x1fff06b8     0x4  Data  Lc  aj_malloc.o [2]
+hexnibble               0x0000c941    0x10  Code  Gb  net_utils.o [2]
+host_dsets              0x1fff28dc    0xc0  Data  Gb  dset.o [3]
+icon                    0x1fff03bc    0x10  Data  Lc  aj_about.o [2]
+in_curveP               0x00008e4b    0x5e  Code  Lc  aj_crypto_ecc.o [2]
+inet_ntoa               0x0000c8fd    0x2a  Code  Gb  net_utils.o [2]
+init_hardware           0x00000543    0x7a  Code  Gb  init_hw.o [3]
+initialized             0x1fff2b5c     0x1  Data  Lc  aj_init.o [2]
+interfaceClose          0x0000fe8c    0x10  Data  Lc  aj_introspect.o [2]
+interfaceOpen           0x0000fe9c     0xc  Data  Lc  aj_introspect.o [2]
+internalErrorHdr        0x0000ed24    0x10  Data  Lc  aj_msg.o [2]
+interrupted             0x1fff0ac8     0x1  Data  Lc  aj_net.o [2]
+isSocketBlocked         0x0000d8f9     0x8  Code  Gb  cust_api_stack_offload.o [3]
+isdigit                 0x0000e031     0xa  Code  Gb  net_utils.o [2]
+ishexdigit              0x0000c927    0x1a  Code  Gb  net_utils.o [2]
+issuers                 0x1fff00b0     0x8  Data  Lc  svclite.o [2]
+jacobian_infinity       0x000091ac    0x6c  Data  Lc  aj_crypto_ecc.o [2]
+kactx                   0x1fff05c4    0x14  Data  Lc  aj_keyauthentication.o [2]
+key                     0x1fff0bc0    0x10  Data  Lc  aj_target_crypto.o [2]
+kinetis_flash_invalidate_cache
+                        0x0001cd99    0x10  Code  Gb  flash_mk21.o [3]
+languageList            0x1fff04ec     0x4  Data  Lc  aj_introspect.o [2]
+last_driver_error       0x1fff28a0     0x4  Data  Gb  driver_init.o [3]
+localGroupKey           0x1fff03cc    0x10  Data  Lc  aj_guid.o [2]
+lower_hex_string        0x0000add0    0x14  Data  Lc  io_dopr.o [6]
+lpm_state_struct        0x1fff2ae4    0x30  Data  Lc  lpm.o [3]
+main                    0x00000515    0x10  Code  Gb  mqx_main.o [3]
+max_performance_power_param
+                        0x0001e4a8     0x1  Data  Gb  api_init.o [3]
+memchr                  0x00007e51          Code  Gb  memchr.o [7]
+memcmp                  0x0001476d          Code  Gb  memcmp.o [7]
+memcpy                  0x0000af93     0xc  Code  Gb  sha2.o [2]
+memset                  0x0000c27d    0x14  Code  Gb  sha2.o [2]
+minProtoVersion         0x1fff0009     0x1  Data  Lc  aj_connect.o [2]
+modulusP256             0x00009218    0x24  Data  Lc  aj_crypto_ecc.o [2]
+move_power_state_to_maxperf
+                        0x00013417    0x34  Code  Gb  api_stack_offload.o [3]
+mpy_accum               0x00008291    0x24  Code  Lc  aj_crypto_ecc.o [2]
+mpy_accum_dbl           0x000082b5    0x38  Code  Lc  aj_crypto_ecc.o [2]
+nameAttr                0x000101d8     0x8  Data  Lc  aj_introspect.o [2]
+nameMap                 0x1fff03dc   0x110  Data  Lc  aj_guid.o [2]
+ndigs                   0x00006414    0x28  Data  Lc  xstoul.o [4]
+netContext              0x1fff0abc     0xc  Data  Lc  aj_net.o [2]
+next_dset_ndx           0x1fff28d8     0x2  Data  Gb  dset.o [3]
+nodeClose               0x0001097c     0xc  Data  Lc  aj_introspect.o [2]
+nodeOpen                0x00010974     0x8  Data  Lc  aj_introspect.o [2]
+numPools                0x1fff06b0     0x1  Data  Lc  aj_malloc.o [2]
+objectLists             0x1fff000c    0x20  Data  Lc  aj_introspect.o [2]
+orderDBL256             0x00009288    0x90  Data  Lc  aj_crypto_ecc.o [2]
+orderP256               0x00009260    0x24  Data  Lc  aj_crypto_ecc.o [2]
+output_port             0x1fff2814     0x4  Data  Lc  atheros_wifi_mediactl_ext.o [2]
+owner_cert1_b64         0x0000cfd0   0x178  Data  Lc  svclite.o [2]
+p2p_go_neg_event        0x00019af9     0xe  Code  Gb  api_wmi_rx.o [3]
+p2p_invite_rcvd_result_ev
+                        0x00019b27     0x4  Code  Gb  api_wmi_rx.o [3]
+p2p_invite_req_rx       0x00019b23     0x4  Code  Gb  api_wmi_rx.o [3]
+p2p_invite_sent_result_event
+                        0x00019b07     0x4  Code  Gb  api_wmi_rx.o [3]
+p2p_key_val             0x1fff28a4    0x10  Data  Gb  wmi.o [3]
+p2p_list_persistent_network_event
+                        0x00019b0f     0x4  Code  Gb  api_wmi_rx.o [3]
+p2p_node_list_event     0x00019b0b     0x4  Code  Gb  api_wmi_rx.o [3]
+p2p_req_auth_event      0x00019b13     0x4  Code  Gb  api_wmi_rx.o [3]
+pBMICmdBuf              0x1fff0288     0x4  Data  Lc  bmi.o [3]
+pBMICmdCredits          0x1fff0284     0x4  Data  Lc  bmi.o [3]
+pQuery                  0x1fff2810     0x4  Data  Gb  atheros_wifi_mediactl_ext.o [2]
+p_Global_Cxt            0x1fff299c     0x4  Data  Gb  cust_api_init.o [3]
+pctl_ptr_arr            0x00006be0    0x14  Data  Lc  io_gpio_kgpio.o [3]
+pdb_external            0x1fff028c     0x4  Data  Lc  adt_kpdb.o [3]
+pdb_internal            0x1fff0290    0x2c  Data  Lc  adt_kpdb.o [3]
+phy_atheros_wifi_discover_addr
+                        0x0001d3c5     0x4  Code  Lc  atheros_phy.o [3]
+phy_atheros_wifi_get_link_status
+                        0x0001d3d1    0x24  Code  Lc  atheros_phy.o [3]
+phy_atheros_wifi_get_speed
+                        0x0001d3cd     0x4  Code  Lc  atheros_phy.o [3]
+phy_atheros_wifi_init   0x0001d3c9     0x4  Code  Lc  atheros_phy.o [3]
+pointAdd                0x00008c23   0x134  Code  Lc  aj_crypto_ecc.o [2]
+pointDouble             0x00008b3f    0xde  Code  Lc  aj_crypto_ecc.o [2]
+pointMpyP               0x00008d6b    0xae  Code  Lc  aj_crypto_ecc.o [2]
+power_state_for_module  0x1fff2840     0x4  Data  Gb  api_stack_offload.o [3]
+program_mac_addr        0x00011e75   0x1a2  Code  Lc  api_ioctl.o [3]
+propVal                 0x1fff0088     0x4  Data  Lc  svclite.o [2]
+psk_char                0x0000cf28     0x8  Data  Lc  svclite.o [2]
+pskctx                  0x1fff05b0    0x14  Data  Lc  aj_keyauthentication.o [2]
+query_credit_deficit    0x000184b5    0x30  Code  Lc  api_txrx.o [3]
+reg_query_bool          0x1fff280c     0x4  Data  Gb  atheros_wifi_mediactl_ext.o [2]
+replyContexts           0x1fff04f0    0x28  Data  Lc  aj_introspect.o [2]
+restore_power_state     0x0001344b    0x3e  Code  Gb  api_stack_offload.o [3]
+root_cert               0x1fff0128   0x130  Data  Lc  svclite.o [2]
+routingProtoVersion     0x1fff0008     0x1  Data  Lc  aj_connect.o [2]
+sbox                    0x00009ca8   0x100  Data  Lc  aj_sw_crypto.o [2]
+scan_setup              0x0001b69f    0xd8  Code  Lc  cust_api_ioctl.o [3]
+secureOff               0x0000fea8     0x8  Data  Lc  aj_introspect.o [2]
+secureTrue              0x000101a0     0xc  Data  Lc  aj_introspect.o [2]
+security_ie_parse       0x0001230d   0x166  Code  Lc  api_ioctl.o [3]
+seed                    0x1fff0bb0    0x10  Data  Lc  aj_target_crypto.o [2]
+selectSock              0x1fff0acc     0x4  Data  Lc  aj_net.o [2]
+send_stack_init         0x000133d3    0x44  Code  Gb  api_stack_offload.o [3]
+sessionContext          0x1fff0370    0x3c  Data  Lc  aj_peer.o [2]
+sessionlessAttr         0x0000fed8    0x10  Data  Lc  aj_introspect.o [2]
+setup_host_dset         0x000116fb     0xa  Code  Gb  cust_driver_main.o [3]
+sha256_initial_hash_value
+                        0x0000c258    0x20  Data  Lc  sha2.o [2]
+socket_context_deinit   0x00012895    0x1e  Code  Gb  api_stack_offload.o [3]
+socket_context_init     0x00012863    0x32  Code  Gb  api_stack_offload.o [3]
+sslhandle               0x1fff283c     0x4  Data  Gb  api_stack_offload.o [3]
+strcat                  0x00015711    0x1c  Code  Gb  strcat.o [4]
+strchr                  0x0000e071          Code  Gb  strchr.o [7]
+strcmp                  0x00007c05          Code  Gb  strcmp.o [7]
+strcpy                  0x000156c5          Code  Gb  strcpy.o [7]
+strlen                  0x00007c49          Code  Gb  strlen.o [7]
+strncmp                 0x00002513    0x2a  Code  Gb  strncmp.o [4]
+strncpy                 0x0000fa49          Code  Gb  strncpy.o [7]
+suites                  0x0000d148     0xc  Data  Lc  svclite.o [2]
+systick_config          0x00002221     0xc  Code  Gb  init_bsp.o [3]
+t_bind                  0x0000d9b1    0x2c  Code  Gb  cust_api_stack_offload.o [3]
+t_connect               0x0000d97f    0x2c  Code  Gb  cust_api_stack_offload.o [3]
+t_ip6config             0x0000da8f    0x50  Code  Gb  cust_api_stack_offload.o [3]
+t_ipconfig              0x0000da4d    0x38  Code  Gb  cust_api_stack_offload.o [3]
+t_recv                  0x0000dd1b    0x16  Code  Gb  cust_api_stack_offload.o [3]
+t_recvfrom              0x0000dce3    0x38  Code  Gb  cust_api_stack_offload.o [3]
+t_select                0x0000d9dd    0x26  Code  Gb  cust_api_stack_offload.o [3]
+t_send                  0x0000dae5    0x16  Code  Gb  cust_api_stack_offload.o [3]
+t_sendto                0x0000dafb   0x1e2  Code  Gb  cust_api_stack_offload.o [3]
+t_setsockopt            0x0000da19    0x34  Code  Gb  cust_api_stack_offload.o [3]
+t_shutdown              0x0000d95d    0x22  Code  Gb  cust_api_stack_offload.o [3]
+t_socket                0x0000d931    0x2c  Code  Gb  cust_api_stack_offload.o [3]
+testInterface           0x0001e464    0x18  Data  Lc  svclite.o [2]
+testInterfaces          0x0001e490    0x10  Data  Lc  svclite.o [2]
+testValuesInterface     0x0001e47c    0x14  Data  Lc  svclite.o [2]
+toAffine                0x00008ac9    0x76  Code  Lc  aj_crypto_ecc.o [2]
+toJacobian              0x00008a9d    0x2c  Code  Lc  aj_crypto_ecc.o [2]
+trueVal                 0x0000fee8     0x8  Data  Lc  aj_introspect.o [2]
+txpkt_free              0x0000df2d    0x22  Code  Gb  cust_api_stack_offload.o [3]
+typeAttr                0x0000ff10     0x8  Data  Lc  aj_introspect.o [2]
+unblock                 0x0000d901    0x22  Code  Gb  cust_api_stack_offload.o [3]
+unblockSelect           0x0000d923     0xe  Code  Gb  cust_api_stack_offload.o [3]
+unmarshalScalarAsElement
+                        0x1fff2b5d     0x1  Data  Lc  aj_msg.o [2]
+up_to_ac                0x00017494     0x8  Data  Gb  wmi.o [3]
+upper_hex_string        0x0000adbc    0x14  Data  Lc  io_dopr.o [6]
+versionContext          0x1fff0ad0     0x8  Data  Lc  aj_peer.o [2]
+wait_scan_done          0x0001b665    0x3a  Code  Lc  cust_api_ioctl.o [3]
+wifi_initialized        0x1fff27ed     0x1  Data  Lc  aj_wifi_ctrl.o [2]
+wifi_state              0x1fff27f8     0x4  Data  Lc  aj_wifi_ctrl.o [2]
+wmi_ap_set_param        0x0001709f    0xc6  Code  Gb  wmi.o [3]
+wmi_bssfilter_cmd       0x000171a5    0x3e  Code  Gb  wmi.o [3]
+wmi_cmd_process         0x00018375    0x48  Code  Lc  api_init.o [3]
+wmi_cmd_send            0x00017035    0x64  Code  Gb  wmi.o [3]
+wmi_cmd_start           0x00017341    0x46  Code  Gb  wmi.o [3]
+wmi_control_rx          0x00016b9f   0x496  Code  Gb  wmi.o [3]
+wmi_control_rx_xtnd     0x00016afb    0xa4  Code  Gb  wmi.o [3]
+wmi_data_hdr_add        0x00016a11    0x72  Code  Gb  wmi.o [3]
+wmi_data_hdr_remove     0x00016add    0x1e  Code  Gb  wmi.o [3]
+wmi_dset_host_cfg_cmd   0x00017387    0x3a  Code  Gb  wmi.o [3]
+wmi_implicit_create_pstream
+                        0x00016a83    0x5a  Code  Gb  wmi.o [3]
+wmi_init                0x000168dd    0x30  Code  Gb  wmi.o [3]
+wmi_meta_add            0x0001696f    0x9c  Code  Gb  wmi.o [3]
+wmi_p2p_set_noa         0x000172bf    0x7c  Code  Gb  wmi.o [3]
+wmi_p2p_set_oppps       0x00017287    0x38  Code  Gb  wmi.o [3]
+wmi_qos_state_init      0x0001690d    0x2a  Code  Gb  wmi.o [3]
+wmi_rateTable           0x0001b1f8    0xe0  Data  Lc  cust_api_wmi_rx.o [3]
+wmi_sdpd_send_cmd       0x00017219    0x6e  Code  Gb  wmi.o [3]
+wmi_set_control_ep      0x00016937    0x1c  Code  Gb  wmi.o [3]
+wmi_shutdown            0x00016953    0x1c  Code  Gb  wmi.o [3]
+wmi_socket_cmd          0x000171e3    0x36  Code  Gb  wmi.o [3]
+wmi_storerecall_recall_cmd
+                        0x00017165    0x40  Code  Gb  wmi.o [3]
+zero_copy_free          0x0000dd31    0x1a  Code  Gb  cust_api_stack_offload.o [3]
+zero_copy_free_queue    0x1fff2844     0xc  Data  Gb  cust_api_stack_offload.o [3]
+
+
+[1] = command line
+[2] = f:\IOT_MQX_4.0.2.173\sw\src\MQX_4.0.2\demo\aj\alljoyn\aj_sp140-141mqx\iar\Release\Obj
+[3] = bsp.a
+[4] = dl7M_tln.a
+[5] = m7M_tlv.a
+[6] = psp.a
+[7] = rt7M_tl.a
+[8] = shb_l.a
+
+  119 632 bytes of readonly  code memory
+    5 450 bytes of readonly  data memory
+   11 108 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,128 @@
+Release Name: K22FSH Development Kit      Version 1.0.0
+
+Package                                   Filename: k22fsh.tar.bz2
+
+Audio Decode Library                      Description: Freescale audio decode library.
+                                          Author: Freescale.
+                                          License: Proprietary.  See Freescale EULA
+                                          LA_OPT_FSL_OPEN_3RD_PARTY_IP, Appendix A, 
+                                          MQX RTOS Code.
+                                          Format: source code/library
+                                          Location: audio/
+
+
+Alljoyn Board Adapter Layer               Description: Qualcomm Alljoyn board adapter layer code.
+                                          Author: Qualcomm.
+                                          License: Proprietary.
+                                          Format: source code
+                                          Location: demo/aj/alljoyn/aj_sp140-141mqx/
+
+Allseen services sample code              Description: Allsee services sample code.
+                                          Author: AllseenAlliance/Freescale.
+                                          License:ISC http://opensource.org/licenses/ISC
+                                          Foramt source code
+                                          Location: demo/aj/allseen/services/
+
+Qualcomm wifi demo code                   Description: Qualcomm wifi demo code.
+                                          Author: Qualcomm.
+                                          License: Proprietary.
+                                          Format: source code.
+                                          Location: demo/flash_config demo/throughput_demo demo/utf_agent
+
+Qualcomm wifi driver patch code           Description: Qualcomm wifi driver patch code.
+                                          Author: Qualcomm.
+                                          License: Proprietary.
+                                          Format: source code.
+                                          Location: mqx/source/io/enet/atheros_wifi/
+
+
+bluetooth uart demo code                  Description: bluetooth uart demo code.
+                                          Author: Freescale.
+                                          License: Proprietary.  See Freescale EULA
+                                          LA_OPT_FSL_OPEN_3RD_PARTY_IP, Appendix A, 
+                                          MQX RTOS Code.
+                                          Format: source code.
+                                          Location: demo/bluetooth_uart
+
+USB player code                           Description: USB player demo code.
+                                          Author: Freescale.
+                                          License: Proprietary.  See Freescale EULA
+                                          LA_OPT_FSL_OPEN_3RD_PARTY_IP, Appendix A, 
+                                          MQX RTOS Code.
+                                          Format: source code.
+                                          Location: demo/player
+
+LCD driver                                Description: lcd driver.
+                                          Author: Freescale.
+                                          License: Proprietary.  See Freescale EULA
+                                          LA_OPT_FSL_OPEN_3RD_PARTY_IP, Appendix A, 
+                                          MQX RTOS Code.
+                                          Format: source code.
+                                          Location: lcd/
+
+MFS patch code                            Description: MQX mfs patch code.
+                                          Author: Freescale.
+                                          License: Proprietary.  See Freescale EULA
+                                          LA_OPT_FSL_OPEN_3RD_PARTY_IP, Appendix A, 
+                                          MQX RTOS Code.
+                                          Format: source code.
+                                          Location: mfs/
+
+MQX K22FSH patch code                     Description: MQX K22FSH patch code.
+                                          Author: Freescale.
+                                          License: Proprietary.  See Freescale EULA
+                                          LA_OPT_FSL_OPEN_3RD_PARTY_IP, Appendix A, 
+                                          MQX RTOS Code.
+                                          Format: source code.
+                                          Location: mqx/
+
+I2S adapter layer/audio dec code          Description: I2S adapter layer/audio dec code.
+                                          Author: Freescale.
+                                          License: Proprietary.  See Freescale EULA
+                                          LA_OPT_FSL_OPEN_3RD_PARTY_IP, Appendix A, 
+                                          MQX RTOS Code.
+                                          Format: source code.
+                                          Location: msi/
+				    
+Serial to parallel chip driver            Description: Serial to parallel chip driver.
+                                          Author: Freescale.
+                                          License: Proprietary.  See Freescale EULA
+                                          LA_OPT_FSL_OPEN_3RD_PARTY_IP, Appendix A, 
+                                          MQX RTOS Code.
+                                          Format: source code.
+                                          Location: mux/
+
+Audio player middleware layer             Description: audio player middleware layer code.
+                                          Author: Freescale.
+                                          License: Proprietary.  See Freescale EULA
+                                          LA_OPT_FSL_OPEN_3RD_PARTY_IP, Appendix A, 
+                                          MQX RTOS Code.
+                                          Format: source code.
+                                          Location: player/
+
+RTCS patch                                Description: RTCS patch code.
+                                          Author: Freescale.
+                                          License: Proprietary.  See Freescale EULA
+                                          LA_OPT_FSL_OPEN_3RD_PARTY_IP, Appendix A, 
+                                          MQX RTOS Code.
+                                          Format: source code.
+                                          Location: rtcs/
+
+Sensor chip driver                        Description: Sensor chip driver.
+                                          Author: Freescale.
+                                          License: Proprietary.  See Freescale EULA
+                                          LA_OPT_FSL_OPEN_3RD_PARTY_IP, Appendix A, 
+                                          MQX RTOS Code.
+                                          Format: source code.
+                                          Location: sensors/
+
+
+USB                                       Description: Freescale USB stack. 
+                                          Author: Freescale
+                                          License: Proprietary.  See Freescale EULA
+                                          LA_OPT_FSL_OPEN_3RD_PARTY_IP, Appendix A, 
+                                          MQX RTOS Code.
+                                          Format: source code
+                                          Location: usb/
+
+

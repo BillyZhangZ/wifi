@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\AllJoyn.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\mqx\build\iar\bsp_sp140_kf\bsp_sp140_kf.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\codisco.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\mqx\build\iar\psp_sp140_kf\psp_sp140_kf.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\sigtest.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

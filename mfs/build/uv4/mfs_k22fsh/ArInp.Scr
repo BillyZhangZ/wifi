@@ -1,0 +1,25 @@
+--create .\Debug\mfs.lib
+.\debug\dir_read.o
+.\debug\mfs_attribute.o
+.\debug\mfs_cluster.o
+.\debug\mfs_create.o
+.\debug\mfs_data_sector.o
+.\debug\mfs_delete.o
+.\debug\mfs_dir_entry.o
+.\debug\mfs_directory.o
+.\debug\mfs_fat.o
+.\debug\mfs_format.o
+.\debug\mfs_handle.o
+.\debug\mfs_init.o
+.\debug\mfs_lfn.o
+.\debug\mfs_misc.o
+.\debug\mfs_open.o
+.\debug\mfs_parse.o
+.\debug\mfs_read.o
+.\debug\mfs_rename.o
+.\debug\mfs_rw.o
+.\debug\mfs_search.o
+.\debug\mfs_time.o
+.\debug\mfs_valdev.o
+.\debug\mfs_write.o
+.\debug\part_mgr.o

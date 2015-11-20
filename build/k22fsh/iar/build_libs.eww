@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <batchBuild>
+    <batchDefinition>
+      <name>Build All</name>
+      <member>
+        <project>bsp_twrk22f120m</project>
+        <configuration>Debug</configuration>
+      </member>
+      <member>
+        <project>bsp_twrk22f120m</project>
+        <configuration>Release</configuration>
+      </member>
+      <member>
+        <project>mfs_twrk22f120m</project>
+        <configuration>Debug</configuration>
+      </member>
+      <member>
+        <project>mfs_twrk22f120m</project>
+        <configuration>Release</configuration>
+      </member>
+      <member>
+        <project>psp_twrk22f120m</project>
+        <configuration>Debug</configuration>
+      </member>
+      <member>
+        <project>psp_twrk22f120m</project>
+        <configuration>Release</configuration>
+      </member>
+      <member>
+        <project>shell_twrk22f120m</project>
+        <configuration>Debug</configuration>
+      </member>
+      <member>
+        <project>shell_twrk22f120m</project>
+        <configuration>Release</configuration>
+      </member>
+    </batchDefinition>
+    <batchDefinition>
+      <name>Debug</name>
+      <member>
+        <project>bsp_twrk22_qca4002</project>
+        <configuration>Debug</configuration>
+      </member>
+      <member>
+        <project>psp_twrk22_qca4002</project>
+        <configuration>Debug</configuration>
+      </member>
+      <member>
+        <project>mfs_twrk22_qca4002</project>
+        <configuration>Debug</configuration>
+      </member>
+      <member>
+        <project>shell_twrk22_qca4002</project>
+        <configuration>Debug</configuration>
+      </member>
+      <member>
+        <project>rtcs_twrk22_qca4002</project>
+        <configuration>Debug</configuration>
+      </member>
+    </batchDefinition>
+    <batchDefinition>
+      <name>Release</name>
+      <member>
+        <project>bsp_twrk22f120m</project>
+        <configuration>Release</configuration>
+      </member>
+      <member>
+        <project>mfs_twrk22f120m</project>
+        <configuration>Release</configuration>
+      </member>
+      <member>
+        <project>psp_twrk22f120m</project>
+        <configuration>Release</configuration>
+      </member>
+      <member>
+        <project>shell_twrk22f120m</project>
+        <configuration>Release</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

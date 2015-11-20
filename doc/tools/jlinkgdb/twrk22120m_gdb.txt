@@ -1,0 +1,70 @@
+#==============================================================================
+# LOAD_RAM <my_app.elf>
+define LOAD_RAM
+#==============================================================================
+    if $argc == 0
+        print "missing elf filename"
+    else
+        # remote connection
+        target remote localhost:2331
+
+        # reset type - core reset
+        monitor reset 1
+
+        # halt cpu
+        monitor halt
+
+        # load image, 'pc' is set automatically
+        load $arg0
+
+        # load symbols
+        file $arg0
+
+        # take stack address from 0.th item of  __vector_table
+        print (*((unsigned int *)__vector_table))
+        # and set sp register
+        set $sp = $
+    end
+end
+#==============================================================================
+
+#==============================================================================
+# LOAD_FLASH <my_app.elf>
+define LOAD_FLASH
+#==============================================================================
+    if $argc == 0
+        print "missing elf filename"
+    else
+
+        # remote connection
+        target remote localhost:2331
+
+        # reset type - core reset
+        monitor reset
+
+        # change speed
+        monitor speed 1000
+
+        # Specify device
+        monitor flash device = MK22FN512xxx10
+
+        # load image, 'pc' is set automatically
+        load $arg0
+
+        # load symbols
+        file $arg0
+
+        # take stack address from 0.th item of  __vector_table
+        print (*((unsigned int *)__vector_table))
+        # and set sp register
+        set $sp = $
+    end
+end
+#==============================================================================
+
+
+
+
+
+
+

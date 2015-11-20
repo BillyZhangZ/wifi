@@ -1,0 +1,90 @@
+
+<controlPanelDevice xmlns="http://www.alljoyn.org/controlpanel/gen">
+    <name>MyDevice</name>
+    <headerCode>#include "ControlPanelProvided.h"</headerCode>
+    <languageSet name="myLanguages">
+        <language>en</language>     
+    </languageSet>
+    <controlPanels>
+        <controlPanel languageSet="myLanguages">
+            <rootContainer>
+      		      <name>rootContainer</name>
+                <secured>false</secured>
+                <enabled>true</enabled>
+                <bgcolor>0x1e90ff</bgcolor>
+                <hints>
+                    <hint>vertical_linear</hint>
+                    <hint>horizontal_linear</hint>
+                </hints>
+                <elements>
+                    <container>
+                        <name>PowerConsumptionContainer</name>
+                        <secured>false</secured>
+                        <enabled>true</enabled>
+                        <bgcolor>0x200</bgcolor>
+                        <hints>
+                            <hint>vertical_linear</hint>
+                        </hints>
+                        <elements>
+                            <stringProperty>
+                               <name>CurrentPowerConsumptionProperty</name>
+                               <getCode>getCurrentPowerConsumptionString</getCode>
+                               <setCode>setCurrentPowerConsumptionString(%s)</setCode>
+                               <secured>false</secured>
+                               <enabled>true</enabled>
+                               <writable>false</writable>
+                               <label>
+                                  <value type="literal" language="en">Current PowerConsumption: </value>
+                               </label>
+                               <bgcolor>0x500</bgcolor>
+                               <hints>
+                                  <hint>textview</hint>
+                               </hints>
+                            </stringProperty>
+                            <stringProperty>
+                               <name>CurrentHumidityStringProperty</name>
+                               <getCode>getCurrentHumidityString</getCode>
+                               <setCode>setCurrentHumidityString(%s)</setCode>
+                               <secured>false</secured>
+                               <enabled>true</enabled>
+                               <writable>false</writable>
+                               <label>
+                                  <value type="literal" language="en">Current Humidity: </value>
+                               </label>
+                               <bgcolor>0x500</bgcolor>
+                               <hints>
+                                  <hint>textview</hint>
+                               </hints>
+                            </stringProperty>
+                        </elements>
+                    </container>	
+                    <scalarProperty dataType="UINT16">
+                        <name>set_worktimer</name>
+                        <getCode>getWorkTimer</getCode>
+                        <setCode>setWorkTimer(%s)</setCode>
+                        <secured>false</secured>
+                        <enabled>false</enabled>
+                        <writable>true</writable>
+                        <label>
+                            <value type="literal" language="en">Temperature</value>
+                        </label>
+                        <bgcolor>0x008000</bgcolor>
+                        <hints>
+                            <hint>slider</hint>
+                        </hints>
+                        <constraintDefs>
+                            <constraintRange>
+                                <min>50</min>
+                                <max>90</max>
+                                <increment>1</increment >
+                            </constraintRange>
+                        </constraintDefs>
+                        <unitMeasure>
+                          <value type="literal" language="en">Degrees</value>
+                        </unitMeasure>
+                    </scalarProperty>
+      		      </elements>
+            </rootContainer>
+        </controlPanel>
+    </controlPanels>
+</controlPanelDevice>

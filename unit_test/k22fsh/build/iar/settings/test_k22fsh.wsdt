@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+    
+    
+  <CurrentConfigs><Project>bsp_k22fsh/Debug</Project><Project>lcd_k22fsh/Debug</Project><Project>mfs_k22fsh/Debug</Project><Project>mux_k22fsh/Debug</Project><Project>psp_k22fsh/Debug</Project><Project>rtcs_k22fsh/Debug</Project><Project>sensors_k22fsh/Debug</Project><Project>shell_k22fsh/Debug</Project><Project>test_k22fsh/Debug</Project><Project>throughput_demo_k22fsh/Int Flash SramData Debug</Project><Project>unit_test_k22fsh/Debug</Project><Project>usb_k22fsh/Debug</Project></CurrentConfigs><CurrentProj>test_k22fsh</CurrentProj><OverviewSelected>1</OverviewSelected></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>480</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1152</ColumnWidth1><ColumnWidth2>307</ColumnWidth2><ColumnWidth3>76</ColumnWidth3></Build>
+    <TerminalIO/><Debug-Log><ColumnWidth0>20</ColumnWidth0><ColumnWidth1>961</ColumnWidth1></Debug-Log><Find-in-Files><ColumnWidth0>300</ColumnWidth0><ColumnWidth1>50</ColumnWidth1><ColumnWidth2>450</ColumnWidth2><ColumnWidth3>200</ColumnWidth3></Find-in-Files><Select-Ambiguous-Definitions><ColumnWidth0>350</ColumnWidth0><ColumnWidth1>50</ColumnWidth1><ColumnWidth2>601</ColumnWidth2></Select-Ambiguous-Definitions><Auto><PreferedWindows><Position>4</Position><ScreenPosX>639</ScreenPosX><ScreenPosY>295</ScreenPosY><Windows><Window><Factory>QuickWatch</Factory></Window><Window><Factory>WATCH_1</Factory></Window></Windows></PreferedWindows></Auto><WATCH_1><PreferedWindows><Position>4</Position><ScreenPosX>639</ScreenPosX><ScreenPosY>295</ScreenPosY><Windows><Window><Factory>Auto</Factory></Window><Window><Factory>QuickWatch</Factory></Window></Windows></PreferedWindows></WATCH_1><Disassembly><PreferedWindows><Position>4</Position><ScreenPosX>742</ScreenPosX><ScreenPosY>128</ScreenPosY><Windows/></PreferedWindows></Disassembly><Register><PreferedWindows><Position>4</Position><ScreenPosX>522</ScreenPosX><ScreenPosY>103</ScreenPosY><Windows/></PreferedWindows></Register><QuickWatch><PreferedWindows><Position>4</Position><ScreenPosX>639</ScreenPosX><ScreenPosY>295</ScreenPosY><Windows><Window><Factory>Auto</Factory></Window><Window><Factory>WATCH_1</Factory></Window></Windows></PreferedWindows></QuickWatch></Static>
+    <Windows>
+      
+      
+    <Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-5567-6657</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>&lt;ws&gt;/test_k22fsh</ExpandedNode><ExpandedNode>&lt;ws&gt;/test_k22fsh/source</ExpandedNode><ExpandedNode>&lt;ws&gt;/throughput_demo_k22fsh</ExpandedNode><ExpandedNode>&lt;ws&gt;/throughput_demo_k22fsh/Source</ExpandedNode><ExpandedNode>&lt;ws&gt;/throughput_demo_k22fsh/Source/custom</ExpandedNode><ExpandedNode>&lt;ws&gt;/unit_test_k22fsh</ExpandedNode><ExpandedNode>&lt;ws&gt;/unit_test_k22fsh/source</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-14747-6690</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-23823-3215</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab><Tab><Identity>TabID-5328-11845</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab><Tab><Identity>TabID-18574-7648</Identity><TabName>Ambiguous Definitions</TabName><Factory>Select-Ambiguous-Definitions</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\source\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>592</YPos2><SelStart2>16110</SelStart2><SelEnd2>16110</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\source\main.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>18</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\demo\throughput_demo\custom\Tasks.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>18</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\mqx\source\psp\cortex_m\core\M4\boot.S</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>59</YPos2><SelStart2>1859</SelStart2><SelEnd2>1859</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\source\rda5876.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>354</YPos2><SelStart2>10354</SelStart2><SelEnd2>10354</SelEnd2></Tab><ActiveTab>4</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-00FB6780><key>iaridepm.enu1</key></Toolbar-00FB6780></Sizes></Row0></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>661</Bottom><Right>571</Right><x>-2</x><y>-2</y><xscreen>28739</xscreen><yscreen>1758</yscreen><sizeHorzCX>19957639</sizeHorzCX><sizeHorzCY>2149144</sizeHorzCY><sizeVertCX>397917</sizeVertCX><sizeVertCY>810513</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>112</Bottom><Right>1442</Right><x>-2</x><y>-2</y><xscreen>1444</xscreen><yscreen>114</yscreen><sizeHorzCX>1002778</sizeHorzCX><sizeHorzCY>139364</sizeHorzCY><sizeVertCX>19957639</sizeVertCX><sizeVertCY>2149144</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

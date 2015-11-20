@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\aj\allseen\services\base_tcl\sample_apps\ACServerSample\build\iar\k22fsh\ACServerSample_k22fsh.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\mqx\build\iar\bsp_k22fsh\bsp_k22fsh.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\mux\build\iar\mux_k22fsh\mux_k22fsh.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\mqx\build\iar\psp_k22fsh\psp_k22fsh.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\sensors\build\iar\sensors_k22fsh\sensors_k22fsh.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\aj\allseen\services\base_tcl\sample_apps\ServerSample\build\iar\k22fsh\ServerSample_k22fsh.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\aj\allseen\services\base_tcl\sample_apps\SmartSensor\build\iar\k22fsh\SmartSensor_k22fsh.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+
