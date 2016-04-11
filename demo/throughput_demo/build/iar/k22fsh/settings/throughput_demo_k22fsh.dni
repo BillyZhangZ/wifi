@@ -1,5 +1,5 @@
 [DebugChecksum]
-Checksum=-337638658
+Checksum=1719951140
 [CodeCoverage]
 Enabled=_ 0
 [Exceptions]
@@ -47,11 +47,15 @@ ShowTiming=1
 [Disassemble mode]
 mode=0
 [Breakpoints2]
-Bp0=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\custom\https.c}.761.9" 0 0 1 "" 0 "" 0
-Bp1=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\common\wmiconfig.c}.7075.8" 0 0 1 "" 0 "" 0
-Bp2=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\common\wmiconfig.c}.7107.8" 0 0 1 "" 0 "" 0
-Bp3=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\..\..\common\wmiconfig.c}.7050.2" 0 0 1 "" 0 "" 0
-Count=4
-[Aliases]
 Count=0
-SuppressDialog=0
+[Aliases]
+A0=_ "E:\QCA4002\QCA4002\mqx\source\bsp\k22fsh\mqx_main.c" ""
+A1=_ "E:\QCA4002\QCA4002\mqx\source\io\enet\enjoin.c" ""
+A2=_ "E:\QCA4002\QCA4002\mqx\source\io\enet\enleave.c" ""
+A3=_ "E:\QCA4002\QCA4002\mqx\source\io\hwtimer\hwtimer.c" ""
+A4=_ "E:\QCA4002\QCA4002\mqx\source\kernel\idletask.c" ""
+A5=_ "E:\QCA4002\QCA4002\mqx\source\kernel\inittask.c" ""
+A6=_ "E:\QCA4002\QCA4002\rtcs\source\media\proxyarp.c" ""
+A7=_ "E:\QCA4002\QCA4002\rtcs\source\tcpip\udp.c" ""
+Count=8
+SuppressDialog=1

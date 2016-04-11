@@ -39,11 +39,14 @@
 *END------------------------------------------------------------------*/
 
 #if DEMOCFG_ENABLE_SERIAL_SHELL
-
+#if 1
 MQX_FILE_PTR rs232_dev = NULL;
     
 #define SERIAL_CHANNEL "mttyb:"
 
+static char rec_buf[512 + 512 +512] = {0};
+static int rec_cnt = 0;
+    
 void Uart_Init(int baudrate)
 {   
     rs232_dev  = fopen( SERIAL_CHANNEL, (char const *)IO_SERIAL_NON_BLOCKING ); 
@@ -65,6 +68,8 @@ uint8_t Uart_Read_Ch(void)
     read( rs232_dev, &ch,1);
     return ch;
 }
+#endif
+
 void Shell_Task(uint_32 temp)
 { 
 #if 0
@@ -123,12 +128,11 @@ void Shell_Task(uint_32 temp)
     if(ret_val != 0) printf("access web page error\n");
 #endif
     printf("connected to hdigroup AP\n");
-
     Uart_Init(115200);
     printf("start\n");
-    char rec_buf[512+512+512] = {0};
-    int rec_cnt = 0;
+  
 #define AT_MIN_LEN 5// AT+ \r \n
+
     while(1)
     {
         
@@ -136,7 +140,7 @@ void Shell_Task(uint_32 temp)
         printf("%c",rec_buf[rec_cnt-1]);
         if(rec_cnt > AT_MIN_LEN)
         {
-          if(rec_buf[0] == 'A' && rec_buf[0] == 'T' && rec_buf[0] == '+' && rec_buf[rec_cnt - 1] == '\r' && rec_buf[rec_cnt - 2] == '\n')
+          if(rec_buf[0] == 'A' && rec_buf[1] == 'T' && rec_buf[2] == '+' && rec_buf[rec_cnt - 1] == '\n' && rec_buf[rec_cnt - 2] == '\r')
           {
               memcpy(argv[3], rec_buf + 3, rec_cnt - AT_MIN_LEN);
               

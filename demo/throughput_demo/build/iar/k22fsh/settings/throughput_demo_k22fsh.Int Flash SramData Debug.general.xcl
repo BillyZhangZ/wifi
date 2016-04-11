@@ -2,7 +2,7 @@
 
 "C:\Program Files\IAR Systems\Embedded Workbench 7.2\arm\bin\armjlink2.dll" 
 
-"E:\QCA4002\QCA4002\demo\throughput_demo\build\iar\k22fsh\Int Flash SramData Debug\throughput.out" 
+"E:\wifi\demo\throughput_demo\build\iar\k22fsh\Int Flash SramData Debug\throughput.out" 
 
 --plugin "C:\Program Files\IAR Systems\Embedded Workbench 7.2\arm\bin\armbat.dll" 
 

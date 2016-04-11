@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "E:\QCA4002\QCA4002\demo\throughput_demo\build\iar\k22fsh\settings\throughput_demo_k22fsh.Int Flash SramData Debug.general.xcl" --backend -f "E:\QCA4002\QCA4002\demo\throughput_demo\build\iar\k22fsh\settings\throughput_demo_k22fsh.Int Flash SramData Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "E:\wifi\demo\throughput_demo\build\iar\k22fsh\settings\throughput_demo_k22fsh.Int Flash SramData Debug.general.xcl" --backend -f "E:\wifi\demo\throughput_demo\build\iar\k22fsh\settings\throughput_demo_k22fsh.Int Flash SramData Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "E:\QCA4002\QCA4002\demo\throughput_demo\build\iar\k22fsh\settings\throughput_demo_k22fsh.Int Flash SramData Debug.general.xcl" "--debug_file=%~1" --backend -f "E:\QCA4002\QCA4002\demo\throughput_demo\build\iar\k22fsh\settings\throughput_demo_k22fsh.Int Flash SramData Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 7.2\common\bin\cspybat" -f "E:\wifi\demo\throughput_demo\build\iar\k22fsh\settings\throughput_demo_k22fsh.Int Flash SramData Debug.general.xcl" "--debug_file=%~1" --backend -f "E:\wifi\demo\throughput_demo\build\iar\k22fsh\settings\throughput_demo_k22fsh.Int Flash SramData Debug.driver.xcl" 
 
 @echo off 
 :end
